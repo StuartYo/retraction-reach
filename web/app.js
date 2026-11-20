@@ -90,7 +90,8 @@ async function buildReport(bib) {
     const top = d ? 100 : fs.length ? fs[0].severity : 0;
     let status = 'clear';
     if (d) status = 'retracted'; else if (fs.length && top >= CHECK_AT) status = 'check'; else if (fs.length) status = 'note';
-    else if (!row.in_crossref || !row.refs_with_doi) status = 'unknown';
+    else if (!row.in_crossref) status = 'notfound';
+    else if (!row.refs_with_doi) status = 'unknown';
     return { ...row, status, severity: top, retraction: d || null,
       layer1: [...new Set(fs.filter((f) => f.hops === 1).map((f) => f.retracted_doi))],
       layer2: [...new Set(fs.filter((f) => f.hops === 2).map((f) => f.retracted_doi))], paths: fs };
@@ -98,7 +99,7 @@ async function buildReport(bib) {
   const reached = new Set(fres.rows.map((f) => f.retracted_doi));
   const count = (s) => items.filter((i) => i.status === s).length;
   return { meta, items, findingsMs, summary: { listed: items.length, retracted: count('retracted'), check: count('check'), note: count('note'),
-    clear: count('clear'), unknown: count('unknown'), paths: fres.rows.length, reached: reached.size,
+    clear: count('clear'), unknown: count('unknown'), notfound: count('notfound'), paths: fres.rows.length, reached: reached.size,
     withL1: items.filter((i) => i.layer1.length).length, withL2: items.filter((i) => i.layer2.length).length } };
 }
 
@@ -107,7 +108,8 @@ const STATUS = {
   retracted: ['Retracted', 'This listed paper is itself retracted.'],
   check: ['Check', 'Cites a retracted paper directly, or leans on one for methods or results.'],
   note: ['Note', 'Reaches a retracted paper two citations away, as background.'],
-  unknown: ['Not visible', 'Crossref has no reference list for this paper, so its citations could not be followed.'],
+  unknown: ['Not visible', 'Crossref has this paper but no reference list for it, so its citations could not be followed.'],
+  notfound: ['Not found', 'Crossref has no record of this DOI. Check it for typos.'],
   clear: ['Clear', 'No retracted paper within two citation layers.'],
 };
 const INTENT = { methodology: 'method', result: 'result', background: 'background' };
@@ -130,7 +132,7 @@ function renderSummary(rep) {
       el('div', { class: 'cmp-num' }, String(s.retracted + s.check), el('span', { class: 'cmp-plus' }, ` + ${s.note} notes`)),
       el('div', { class: 'cmp-sub' }, `${s.retracted} retracted, ${s.check} to check before you rely on them. ${s.paths} citation paths reach ${s.reached} retracted papers.`)),
   );
-  $('#counts').replaceChildren(...['retracted', 'check', 'note', 'unknown', 'clear'].map((k) =>
+  $('#counts').replaceChildren(...['retracted', 'check', 'note', 'unknown', 'notfound', 'clear'].filter((k) => k !== 'notfound' || s.notfound).map((k) =>
     el('span', { class: `count s-${k}`, title: STATUS[k][1] }, el('b', {}, String(s[k])), ' ', STATUS[k][0])));
 }
 
@@ -160,7 +162,7 @@ function pathView(p) {
 }
 
 function renderTable(rep) {
-  const order = { retracted: 0, check: 1, note: 2, unknown: 3, clear: 4 };
+  const order = { retracted: 0, check: 1, note: 2, unknown: 3, notfound: 4, clear: 5 };
   const items = [...rep.items].sort((a, b) => order[a.status] - order[b.status] || b.severity - a.severity || a.position - b.position);
   const body = el('tbody');
   for (const it of items) {
@@ -169,6 +171,7 @@ function renderTable(rep) {
     if (it.status === 'retracted') why = `Retracted ${fmtDate(it.retraction.retracted_on)}. ${(it.retraction.reasons || []).slice(0, 2).join('; ')}`;
     else if (top) why = `${top.hops === 1 ? 'Cites' : 'Cites a paper that cites'} a paper retracted ${fmtDate(top.retracted_on)}${top.cited_after_retraction ? ', after it was retracted' : ''}`;
     else if (it.status === 'unknown') why = 'No reference list in Crossref';
+    else if (it.status === 'notfound') why = 'This DOI is not in Crossref. Check it for typos.';
     const row = el('tr', { class: `row s-${it.status}`, tabindex: it.paths.length ? '0' : null },
       el('td', { class: 'num' }, String(it.position)),
       el('td', {}, el('span', { class: `chip s-${it.status}` }, STATUS[it.status][0])),
@@ -310,9 +313,12 @@ function dateOf(m) { for (const k of ['published', 'issued']) { const p = (m[k] 
 async function crossref(dois, label) {
   const out = new Map();
   const todo = dois.filter((d) => !d.includes(','));
+  const tStart = performance.now();
   for (let i = 0; i < todo.length; i += 60) {
     const chunk = todo.slice(i, i + 60);
-    setStatus(`${label}: ${Math.min(i + 60, todo.length)} / ${todo.length} from Crossref…`);
+    const doneN = i, el0 = (performance.now() - tStart) / 1000;
+    const left = doneN ? (el0 / doneN) * (todo.length - doneN) : todo.length / 20;
+    setStatus(`${label}: ${Math.min(i + 60, todo.length)} / ${todo.length} from Crossref · about ${fmtLeft(left)} left`);
     const url = `https://api.crossref.org/works?rows=${chunk.length}&select=DOI,title,reference,published,issued,container-title,references-count&filter=${encodeURIComponent(chunk.map((d) => 'doi:' + d).join(','))}`;
     let j = null;
     for (let a = 0; a < 4 && !j; a++) { try { const r = await fetch(url); if (r.ok) j = await r.json(); else await new Promise((s) => setTimeout(s, 1500 * (a + 1))); } catch { await new Promise((s) => setTimeout(s, 1500 * (a + 1))); } }
@@ -326,13 +332,17 @@ async function crossref(dois, label) {
   }
   return out;
 }
+const fmtLeft = (sec) => (sec < 50 ? `${Math.max(5, Math.round(sec / 5) * 5)} seconds` : `${Math.max(1, Math.round(sec / 60))} minute${Math.round(sec / 60) > 1 ? 's' : ''}`);
 let pastedN = 0;
 async function checkPasted() {
   const text = $('#paste').value;
-  const dois = [...new Set((text.match(/10\.\d{4,9}\/[^\s"<>,;]+/g) || []).map(normDoi).filter(Boolean))];
-  if (!dois.length) { setPasteMsg('No DOIs found. Paste one DOI per line, for example 10.1056/NEJMoa2007621.', true); $('#paste').focus(); return; }
+  const tokens = text.split(/[\s,;]+/).map((t) => t.trim()).filter(Boolean);
+  const skipped = tokens.filter((t) => !normDoi((t.match(/10\.\d{4,9}\/\S+/) || [t])[0]));
+  const dois = [...new Set(tokens.map((t) => normDoi((t.match(/10\.\d{4,9}\/\S+/) || [t])[0])).filter(Boolean))];
+  const skippedNote = skipped.length ? ` Skipped ${skipped.length} ${skipped.length === 1 ? 'entry that is' : 'entries that are'} not a DOI: ${skipped.slice(0, 5).map((t) => `"${t.slice(0, 40)}"`).join(', ')}${skipped.length > 5 ? ', …' : ''}.` : '';
+  if (!dois.length) { setPasteMsg('No DOIs found. Paste one DOI per line, for example 10.1056/NEJMoa2007621.' + skippedNote, true); $('#paste').focus(); return; }
   if (dois.length > 150) { setPasteMsg(`That is ${dois.length} DOIs. The browser version takes up to 150; the command-line version has no limit.`, true); return; }
-  setPasteMsg(`Checking ${dois.length} DOIs. Progress is shown above the results.`);
+  setPasteMsg(`Checking ${dois.length} DOIs; this can take up to about 3 minutes. Progress is shown above the results.${skippedNote}`, !!skipped.length);
   $('#go').disabled = true; $('#go').textContent = 'Checking…';
   try {
     await loadRetractedIndex();
@@ -361,7 +371,7 @@ async function checkPasted() {
     $('#example').append(el('option', { value: id }, `Your pasted list ${pastedN} (${dois.length} DOIs)`));
     $('#example').value = id;
     await show(id);
-    setPasteMsg(`Done: ${dois.length} DOIs checked. The result is on the right${window.innerWidth < 900 ? ' (below)' : ''}.`);
+    setPasteMsg(`Done: ${dois.length} DOIs checked. The result is on the right${window.innerWidth < 900 ? ' (below)' : ''}.${skippedNote}`, !!skipped.length);
     if (window.innerWidth < 900) $('#report').scrollIntoView({ behavior: 'smooth' });
   } catch (e) {
     setStatus('');

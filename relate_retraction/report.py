@@ -31,7 +31,9 @@ def build_report(conn, bib_id: str) -> dict:
             status = "check"
         elif fs:
             status = "note"
-        elif not row["in_crossref"] or not row["refs_with_doi"]:
+        elif not row["in_crossref"]:
+            status = "notfound"
+        elif not row["refs_with_doi"]:
             status = "unknown"
         else:
             status = "clear"
@@ -54,6 +56,7 @@ def build_report(conn, bib_id: str) -> dict:
         "note": sum(i["status"] == "note" for i in items),
         "clear": sum(i["status"] == "clear" for i in items),
         "unknown": sum(i["status"] == "unknown" for i in items),
+        "notfound": sum(i["status"] == "notfound" for i in items),
         "with_layer1": sum(bool(i["layer1"]) for i in items),
         "with_layer2": sum(bool(i["layer2"]) for i in items),
         "retracted_papers_reached": len(reached),
@@ -68,6 +71,7 @@ LABEL = {
     "check": "CHECK",
     "note": "note",
     "unknown": "refs not visible",
+    "notfound": "not found in Crossref",
     "clear": "clear",
 }
 INTENT_WORD = {"methodology": "method", "result": "result", "background": "background"}
@@ -85,16 +89,16 @@ def to_markdown(rep: dict) -> str:
     out = [f"# Retraction exposure: {b['label']}", ""]
     out.append(
         f"{s['listed']} references. Retracted: {s['retracted']}. Check: {s['check']}. "
-        f"Note: {s['note']}. Clear: {s['clear']}. Reference list not visible in Crossref: {s['unknown']}."
+        f"Note: {s['note']}. Clear: {s['clear']}. Reference list not visible in Crossref: {s['unknown']}. DOI not found in Crossref: {s['notfound']}."
     )
     out.append(
         f"Paths to a retracted paper: {s['paths']} (reaching {s['retracted_papers_reached']} distinct retracted papers). "
         f"References citing a retracted paper directly: {s['with_layer1']}; through one intermediate paper: {s['with_layer2']}."
     )
     out.append("")
-    order = {"retracted": 0, "check": 1, "note": 2, "unknown": 3, "clear": 4}
+    order = {"retracted": 0, "check": 1, "note": 2, "unknown": 3, "notfound": 4, "clear": 5}
     for it in sorted(rep["items"], key=lambda i: (order[i["status"]], -i["severity"], i["position"])):
-        if it["status"] in ("clear", "unknown"):
+        if it["status"] in ("clear", "unknown", "notfound"):
             continue
         out.append(f"## [{it['position']}] {LABEL[it['status']]} ({it['severity']}) {it['title'] or it['doi']}")
         out.append(f"doi:{it['doi']}")

@@ -1,0 +1,156 @@
+{
+ "seed": 20261120,
+ "two_hop_paths_in_eval": 1503,
+ "checked": 5,
+ "confirmed": 5,
+ "checked_on": "2026-11-20",
+ "paths": [
+  {
+   "bib": "B04",
+   "position": 26,
+   "path": [
+    "10.1016/j.lfs.2020.118275",
+    "10.1016/j.vetmic.2020.108693",
+    "10.1128/jvi.02351-13"
+   ],
+   "retracted_on": "2022-10-31",
+   "notice_doi": "10.1128/jvi.01503-22",
+   "R_cites_B": {
+    "crossref_reference_label": "10.1016/j.lfs.2020.118275_bb0015",
+    "doi_as_deposited": "10.1016/j.vetmic.2020.108693"
+   },
+   "B_cites_C": {
+    "crossref_reference_label": "10.1016/j.vetmic.2020.108693_bib1215",
+    "doi_as_deposited": "10.1128/JVI.02351-13"
+   },
+   "C_crossref_retraction_notice": [
+    {
+     "doi": "10.1128/jvi.01503-22",
+     "source": "retraction-watch"
+    },
+    {
+     "doi": "10.1128/jvi.01503-22",
+     "source": "publisher"
+    }
+   ],
+   "C_title": "Discovery of a Novel Bottlenose Dolphin Coronavirus Reveals a Distinct Species of Marine Mammal Coronavirus in Gammacoronavirus",
+   "all_links_confirmed": true
+  },
+  {
+   "bib": "B05",
+   "position": 41,
+   "path": [
+    "10.1177/2515245918776632",
+    "10.1177/0956797613480366",
+    "10.1111/j.1467-9280.2009.02458.x"
+   ],
+   "retracted_on": "2012-07-30",
+   "notice_doi": "10.1177/0956797612457151",
+   "R_cites_B": {
+    "crossref_reference_label": "bibr37-2515245918776632",
+    "doi_as_deposited": "10.1177/0956797613480366"
+   },
+   "B_cites_C": {
+    "crossref_reference_label": "bibr31-0956797613480366",
+    "doi_as_deposited": "10.1111/j.1467-9280.2009.02458.x"
+   },
+   "C_crossref_retraction_notice": [
+    {
+     "doi": "10.1177/0956797612457151",
+     "source": "retraction-watch"
+    }
+   ],
+   "C_title": "Construing Collective Concerns",
+   "all_links_confirmed": true
+  },
+  {
+   "bib": "B04",
+   "position": 69,
+   "path": [
+    "10.3390/ph15050634",
+    "10.1016/j.tmaid.2020.101738",
+    "10.1016/j.ijantimicag.2020.105949"
+   ],
+   "retracted_on": "2024-12-16",
+   "notice_doi": "10.1016/j.ijantimicag.2024.107416",
+   "R_cites_B": {
+    "crossref_reference_label": "ref_216",
+    "doi_as_deposited": "10.1016/j.tmaid.2020.101738"
+   },
+   "B_cites_C": {
+    "crossref_reference_label": "10.1016/j.tmaid.2020.101738_bib13",
+    "doi_as_deposited": "10.1016/j.ijantimicag.2020.105949"
+   },
+   "C_crossref_retraction_notice": [
+    {
+     "doi": "10.1016/j.ijantimicag.2024.107416",
+     "source": "retraction-watch"
+    },
+    {
+     "doi": "10.1016/j.ijantimicag.2020.105949",
+     "source": "publisher"
+    }
+   ],
+   "C_title": "RETRACTED: Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial",
+   "all_links_confirmed": true
+  },
+  {
+   "bib": "B03",
+   "position": 64,
+   "path": [
+    "10.3390/ijms241512525",
+    "10.1177/00033197231153204",
+    "10.1016/s0140-6736(20)32656-8"
+   ],
+   "retracted_on": "2023-06-09",
+   "notice_doi": "10.1016/s0140-6736(23)01175-3",
+   "R_cites_B": {
+    "crossref_reference_label": "ref_1",
+    "doi_as_deposited": "10.1177/00033197231153204"
+   },
+   "B_cites_C": {
+    "crossref_reference_label": "bibr6-00033197231153204",
+    "doi_as_deposited": "10.1016/S0140-6736(20)32656-8"
+   },
+   "C_crossref_retraction_notice": [
+    {
+     "doi": "10.1016/s0140-6736(23)01175-3",
+     "source": "retraction-watch"
+    }
+   ],
+   "C_title": "RETRACTED: 6-month consequences of COVID-19 in patients discharged from hospital: a cohort study",
+   "all_links_confirmed": true
+  },
+  {
+   "bib": "B03",
+   "position": 11,
+   "path": [
+    "10.1016/j.bbadis.2021.166260",
+    "10.1523/jneurosci.6189-11.2012",
+    "10.1371/journal.pone.0009313"
+   ],
+   "retracted_on": "2024-11-13",
+   "notice_doi": "10.1371/journal.pone.0313935",
+   "R_cites_B": {
+    "crossref_reference_label": "10.1016/j.bbadis.2021.166260_bb0035",
+    "doi_as_deposited": "10.1523/JNEUROSCI.6189-11.2012"
+   },
+   "B_cites_C": {
+    "crossref_reference_label": "2023041303583136000_32.36.12396.10",
+    "doi_as_deposited": "10.1371/journal.pone.0009313"
+   },
+   "C_crossref_retraction_notice": [
+    {
+     "doi": "10.1371/journal.pone.0313935",
+     "source": "retraction-watch"
+    },
+    {
+     "doi": "10.1371/journal.pone.0313935",
+     "source": "publisher"
+    }
+   ],
+   "C_title": "Selective Molecular Alterations in the Autophagy Pathway in Patients with Lewy Body Disease and in Models of α-Synucleinopathy",
+   "all_links_confirmed": true
+  }
+ ]
+}

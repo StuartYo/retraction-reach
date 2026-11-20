@@ -1,6 +1,0 @@
-{
-  "version": "0.0.1",
-  "configurations": [
-    { "name": "relate-retraction-web", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "8765", "-d", "E:/projects/relate-retraction/web"], "port": 8765 }
-  ]
-}

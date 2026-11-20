@@ -25,13 +25,14 @@
       <label for="example" class="lbl">Bundled reference list</label>
       <select id="example"><option>Loading…</option></select>
       <p class="hint">Real reference lists of published papers, already expanded two citation layers and stored in a Relate graph.</p>
+      <a class="jump" href="#paste-panel">Check your own list instead</a>
     </section>
-    <section class="panel">
+    <section class="panel" id="paste-panel">
       <label for="paste" class="lbl">Or paste your own DOIs</label>
       <textarea id="paste" rows="7" spellcheck="false" placeholder="10.1056/NEJMoa2007621&#10;10.1136/bmj.327.7414.557&#10;one DOI per line, up to 150"></textarea>
       <button id="go" class="primary">Check these references</button>
       <p class="field-msg" id="paste-msg" role="status" aria-live="polite"></p>
-      <p class="hint">Your browser asks Crossref for each paper's reference list, then for the reference lists of those papers. A 40-item list takes about a minute. Nothing is sent anywhere else.</p>
+      <p class="hint">Your browser asks Crossref for each paper's reference list, then for the reference lists of those papers. In our tests a 16-DOI list took 16 s and a 31-DOI list 35 s; when Crossref is busy it can take 2 to 3 minutes. The DOIs go only to Crossref.</p>
     </section>
     <section class="panel sources">
       <div class="lbl">Where the data comes from</div>

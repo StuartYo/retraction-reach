@@ -28,7 +28,7 @@ for (const [w, h] of sizes) {
   await page.screenshot({ path: `${out}/${prefix}-${w}-first-screen.png` });
   await page.screenshot({ path: `${out}/${prefix}-${w}-full.png`, fullPage: true });
   const m = await page.evaluate(() => ({ scrollWidth: document.documentElement.scrollWidth, clientWidth: document.documentElement.clientWidth,
-    small_targets: [...document.querySelectorAll('button, select, summary, a, tr.row')].filter((e) => { const r = e.getBoundingClientRect(); return r.width > 0 && (r.height < 24); }).map((e) => `${e.tagName}.${e.className}:${Math.round(e.getBoundingClientRect().height)}`).slice(0, 10) }));
+    small_targets: [...document.querySelectorAll('button, select, summary, a, tr.row')].filter((e) => { const r = e.getBoundingClientRect(); const af = getComputedStyle(e, '::after'); const h = af.position === 'absolute' ? Math.max(r.height, parseFloat(af.height) || 0) : r.height; return r.width > 0 && h < (innerWidth < 500 ? 44 : 24); }).map((e) => `${e.tagName}.${e.className}:${Math.round(e.getBoundingClientRect().height)}`).slice(0, 10) }));
   if (w === 1440) {
     // error state: pressing the button with nothing pasted
     await page.fill('#paste', 'not a doi');

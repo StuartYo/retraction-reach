@@ -45,7 +45,7 @@ def test_report():
     # R2 reaches C through B (B published before the notice, background citations only): 30
     assert by[2]["status"] == "note" and by[2]["severity"] == 30 and by[2]["layer2"] == ["10.0000/c"]
     assert by[3]["status"] == "retracted"
-    assert by[4]["status"] == "unknown"
+    assert by[4]["status"] == "notfound"
     assert rep["summary"]["paths"] == 2
     conn.close()
 

@@ -1,0 +1,24 @@
+{
+ "store": "graph/retraction-graph.rl",
+ "lists": [
+  "A01",
+  "A02",
+  "A03",
+  "A04",
+  "A05",
+  "A06",
+  "A07",
+  "A08",
+  "B01",
+  "B02",
+  "B03",
+  "B04",
+  "B05",
+  "B06",
+  "B09",
+  "B10"
+ ],
+ "citations_to_retracted_on_paths": 1194,
+ "published_after_notice": 335,
+ "citing_date_missing": 1
+}

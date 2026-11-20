@@ -6,7 +6,7 @@ Paste a reference list of DOIs. Retraction Reach tells you which references are 
 
 ## Why
 
-Reference managers such as Zotero flag a reference when that paper itself is retracted. They do not look at what your references rely on. The Retraction Watch database, which Crossref publishes under CC0, lists 62,431 retracted papers with a DOI in the copy used here (downloaded 2026-11-20). Retracted papers also keep being cited after the notice: in the 16 evaluation lists below, 335 of the 1,194 citations that point at a retracted paper (on a path from a listed reference) were published after the retraction notice. If a review you cite took its main estimate from a retracted trial, a direct check says nothing.
+Reference managers such as Zotero flag a reference when that paper itself is retracted. They do not look at what your references rely on. The Retraction Watch database, which Crossref publishes under CC0, lists 62,431 retracted papers with a DOI in the copy used here (downloaded 2026-11-20). Retracted papers also keep being cited after the notice: in the 16 evaluation lists below, 335 of the 1,194 citations that point at a retracted paper (on a path from a listed reference) were published after the retraction notice (`python eval/post_notice.py`, from the committed `.rl` file; result in `eval/post_notice.json`). If a review you cite took its main estimate from a retracted trial, a direct check says nothing.
 
 Who this is for: authors checking a manuscript before submission, systematic-review teams, and journal editors or research-integrity staff screening submissions.
 
@@ -50,7 +50,7 @@ MATCH p = (r)-[:CITES*1..2]->(c:Retracted)-[:RETRACTED_BY]->(x:Retraction)
 RETURN l.position, [n IN nodes(p) | n.doi] AS path, x.date, x.reasons ...
 ```
 
-Three Relate surfaces run the same `.cypher` files in `queries/`:
+Four Relate surfaces run the same `.cypher` files in `queries/`:
 
 1. **Python, embedded** (`relate-db`): the CLI builds and queries `data/work.rl`.
 2. **Single-file store**: `graph/retraction-graph.rl` is committed. It holds all Retraction Watch retractions plus the bundled reference lists and their two-hop neighbourhood. Open it with `relate --database graph/retraction-graph.rl --read-only`.
@@ -81,7 +81,7 @@ python -m relate_retraction check --from-doi 10.1097/MJT.0000000000001402 --name
 python -m relate_retraction report my-paper
 ```
 
-A 40-reference list takes 1 to 4 minutes the first time (one Crossref request per 80 DOIs, about 1,500 DOIs for the second layer, then Semantic Scholar for the edges on a path); cached runs take seconds.
+Measured on the 20 evaluation and held-out lists (21 to 71 references, first run, no cache, without the Semantic Scholar step): 55 s to 6.3 min, median about 1.6 min (`seconds` in `eval/truth/*.json`). Most of the time is Crossref: one request per 80 DOIs, about 1,500 DOIs for the second layer. The Semantic Scholar step adds time; cached runs take seconds.
 
 Web demo, a static site in `web/` (no build step):
 
@@ -99,7 +99,7 @@ For pasted lists the page needs the Retraction Watch list. It is not shipped as 
 | Retraction list, hash index (250 KB) | 0.01 s | 0.28 s |
 | Page open to first report (WebAssembly engine 7.1 MB + bundled graph 1.4 MB) | 1.6 s | 8.8 s |
 
-A pasted 31-DOI list (eval case B01) took 35 s end to end, almost all of it Crossref requests; 13 shards were fetched (0.15 s). Its statuses matched the CLI's answer for the same list exactly (1 retracted, 2 check, 13 note, 6 not visible, 9 clear).
+A pasted 31-DOI list (eval case B01) took 35 s end to end and a 16-DOI list 16 s, almost all of it Crossref requests; a reviewer's 7-DOI list took 100 to 150 s while Crossref was slow, so the page shows an estimate of the time left while it waits. For B01, 13 shards were fetched (0.15 s) and its statuses matched the CLI's answer for the same list exactly (1 retracted, 2 check, 13 note, 6 not visible, 9 clear).
 
 Deploying: `vercel.json` serves `web/` as a static site with no build (`.vercelignore` uploads only `web/`). Any static host works; GitHub Pages can publish the `web/` folder.
 
@@ -112,25 +112,29 @@ python scripts/mcp_smoke.py demo   # scripted session, prints what an agent rece
 
 ## Does a model need this? The model-only baseline
 
-Same model, no tools, on 16 frozen cases (`eval/cases.json`: 8 random Crossref journal articles from 2019-2024, 8 papers that cite a well-known retracted paper; 4 more held out). Each case is the real reference list of a published paper. The graph's answer is the reference; the model is asked for the same three findings with paths.
+Same model, no tools, on 16 frozen cases (`eval/cases.json`: 8 random Crossref journal articles from 2019-2024, 8 papers that cite a well-known retracted paper; 4 more held out). Each case is the real reference list of a published paper. The model is asked for the same three findings with paths.
 
-| | Retracted references found | References citing a retracted paper (1 hop) | References 2 hops from one | Any 1- or 2-hop exposure |
+**How to read the tables.** The graph's output is the reference answer: it is computed from Crossref reference lists and Retraction Watch, so its row is 100% by definition, not a measured accuracy. What the tables measure is how much of that answer the model finds without the data. Each cell is "references the model also flagged / references the graph flagged", counted per listed reference. To check the reference answer itself, `eval/audit_paths.py` drew 5 two-hop paths at random (fixed seed) from the 1,503 in the evaluation lists and re-checked every link against Crossref live: 5 of 5 confirmed, each with a Crossref retraction notice on the retracted paper (`eval/path_audit.json`).
+
+Evaluation set, 16 lists:
+
+| | Retracted references | Cite a retracted paper (1 hop) | 2 hops from one | Any 1- or 2-hop exposure |
 |---|---|---|---|---|
-| Model alone (no tools) | 93% | 16% | 0.7% | 5.8% |
-| Model + direct retraction lookup | 100% | 27% | 2.5% | 8.9% |
-| Graph (this project, Relate) | 100% | 100% | 100% | 100% |
-| Count in the 16 lists (graph) | 14 | 55 | 285 | 292 of 727 |
+| Model alone (no tools) | 13/14 (93%) | 9/55 (16%) | 2/285 (0.7%) | 17/292 (5.8%) |
+| Model + direct retraction lookup | 14/14 (100%) | 15/55 (27%) | 7/285 (2.5%) | 26/292 (8.9%) |
+| Reference answer (graph, 100% by definition) | 14 | 55 | 285 | 292 of 727 references |
 
-The 4 held-out lists (A09, A10, B07, B08) were run once, after the code was frozen (`eval/results_holdout.json`):
+Held-out set, 4 lists, run once after the code was frozen (`eval/results_holdout.json`). n is small: 47 exposed references.
 
-| Held-out set | Retracted references found | 1 hop | 2 hops | Any 1- or 2-hop exposure |
+| | Retracted references | 1 hop | 2 hops | Any 1- or 2-hop exposure |
 |---|---|---|---|---|
-| Model alone (no tools) | 100% | 20% | 0% | 6.4% |
-| Model + direct retraction lookup | 100% | 30% | 0% | 8.5% |
-| Graph (this project, Relate) | 100% | 100% | 100% | 100% |
-| Count in the 4 lists (graph) | 3 | 10 | 44 | 47 of 175 |
+| Model alone (no tools) | 3/3 | 2/10 | 0/44 | 3/47 (6.4%) |
+| Model + direct retraction lookup | 3/3 | 3/10 | 0/44 | 4/47 (8.5%) |
+| Reference answer (graph, 100% by definition) | 3 | 10 | 44 | 47 of 175 references |
 
-The model knows which famous papers were retracted: every DOI it called retracted really is one. It does not know what your references cite. Of the layer-1 links it proposed, 9 of 21 (alone) and 14 of 28 (with the lookup) exist in the Crossref data. With the direct lookup it found 8.9% of the references that reach a retracted paper within two hops; the stop rule we froze before running (switch topic at 95%) was not triggered.
+The model knows which famous papers were retracted: every DOI it called retracted really is one. It does not know what your references cite. Of the layer-1 links it proposed, 9 of 21 (alone) and 14 of 28 (with the lookup) exist in the Crossref data. The stop rule we froze before running (switch topic if the lookup row reaches 95% exposure) was not triggered.
+
+What this comparison does not test: we did not give the model the reference lists themselves. With each listed paper's reference list pasted in, the one-hop question becomes a lookup the model could probably do; the two-hop question needs the reference lists of about 1,500 cited papers per case (about 60,000 references), which is the part the graph does. So the tables show that the answer depends on citation data, not that a model with that data could not match one hop.
 
 292 of the 727 listed references (40%) reach some retracted paper within two hops, most of them two hops away as background. That is why the report ranks findings: under the fixed scoring rule, 65 references (9%) are marked Check or Retracted.
 
@@ -138,7 +142,7 @@ The numbers come from `eval/results.json` (`python eval/score.py`). How the base
 
 ## Limits
 
-- Coverage follows Crossref. Some publishers deposit no reference lists; those references are marked Not visible. In the evaluation cases, 660 of 727 listed references (91%) had a visible reference list.
+- Coverage follows Crossref. Some publishers deposit no reference lists; those references are marked Not visible. A DOI Crossref has no record of is marked Not found. In the evaluation cases, 660 of 727 listed references (91%) had a visible reference list.
 - Two-hop edges are stored only when they reach a retracted paper; storing every reference of every reference would multiply the store size by about 40 for no change in the answer.
 - Citation intent comes from Semantic Scholar and is missing for many edges ("intent unknown"). Pasted lists in the browser skip the intent lookup.
 - Only Retraction Watch entries marked "Retraction" count; expressions of concern and corrections are ignored.
