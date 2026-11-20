@@ -1,0 +1,266 @@
+{
+ "id": "A01",
+ "split": "eval",
+ "source_doi": "10.1109/tmm.2022.3155927",
+ "summary": {
+  "listed": 40,
+  "retracted": 0,
+  "check": 0,
+  "note": 0,
+  "clear": 39,
+  "unknown": 1,
+  "with_layer1": 0,
+  "with_layer2": 0,
+  "retracted_papers_reached": 0,
+  "paths": 0,
+  "references_visible": 39
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1007/978-3-030-01231-1_33",
+   "title": "Integral Human Pose Regression",
+   "date": "2018-01-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/978-3-030-58452-8_44",
+   "title": "Learning Feature Descriptors Using Camera Pose Supervision",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/978-3-030-58580-8_37",
+   "title": "S2DNet: Learning Image Features for Accurate Sparse-to-Dense Matching",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1007/978-3-030-69525-5_30",
+   "title": "HDD-Net: Hybrid Detector Descriptor with Mutual Interactive Learning",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1007/978-3-030-69535-4_14",
+   "title": "D2D: Keypoint Extraction with Describe to Detect Approach",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1007/978-3-030-69535-4_25",
+   "title": "MLIFeat: Multi-level Information Fusion Based Deep Local Features",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1007/978-3-319-46466-4_28",
+   "title": "LIFT: Learned Invariant Feature Transform",
+   "date": "2016-01-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1007/s10791-009-9110-3",
+   "title": "Gradient descent optimization of smoothed information retrieval metrics",
+   "date": "2009-09-10"
+  },
+  {
+   "position": 9,
+   "doi": "10.1007/s11263-020-01385-0",
+   "title": "Image Matching Across Wide Baselines: From Paper to Practice",
+   "date": "2020-10-07"
+  },
+  {
+   "position": 10,
+   "doi": "10.1007/s11263-021-01469-5",
+   "title": "VPR-Bench: An Open-Source Visual Place Recognition Evaluation Framework with Quantifiable Viewpoint and Appearance Change",
+   "date": "2021-05-07"
+  },
+  {
+   "position": 11,
+   "doi": "10.1023/b:visi.0000029664.99615.94",
+   "title": "Distinctive Image Features from Scale-Invariant Keypoints",
+   "date": "2004-11-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1080/23307706.2019.1709989",
+   "title": "Dual-mode dynamic window approach to robot navigation with convergence guarantees",
+   "date": "2020-01-06"
+  },
+  {
+   "position": 13,
+   "doi": "10.1109/3dv.2019.00063",
+   "title": "Sparse-to-Dense Hypercolumn Matching for Long-Term Visual Localization",
+   "date": "2019-09-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1109/cvpr.2015.7299165",
+   "title": "TILDE: A Temporally Invariant Learned DEtector",
+   "date": "2015-06-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1109/cvpr.2016.445",
+   "title": "Structure-from-Motion Revisited",
+   "date": "2016-06-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1109/cvpr.2016.90",
+   "title": "Deep Residual Learning for Image Recognition",
+   "date": "2016-06-01"
+  },
+  {
+   "position": 17,
+   "doi": "10.1109/cvpr.2017.410",
+   "title": "HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors",
+   "date": "2017-07-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1109/cvpr.2017.418",
+   "title": "Quad-Networks: Unsupervised Learning to Rank for Interest Point Detection",
+   "date": "2017-07-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1109/cvpr.2017.649",
+   "title": "L2-Net: Deep Learning of Discriminative Patch Descriptor in Euclidean Space",
+   "date": "2017-07-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1109/cvpr.2018.00069",
+   "title": "Local Descriptors Optimized for Average Precision",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1109/cvpr.2018.00218",
+   "title": "MegaDepth: Learning Single-View Depth Prediction from Internet Photos",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1109/cvpr.2018.00897",
+   "title": "Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1109/cvpr.2019.00828",
+   "title": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features",
+   "date": "2019-06-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.1109/cvpr.2019.01127",
+   "title": "SOSNet: Second Order Similarity Regularization for Local Descriptor Learning",
+   "date": "2019-06-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1109/cvpr42600.2020.00500",
+   "title": "Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task",
+   "date": "2020-06-01"
+  },
+  {
+   "position": 26,
+   "doi": "10.1109/cvpr42600.2020.00662",
+   "title": "ASLFeat: Learning Local Features of Accurate Shape and Localization",
+   "date": "2020-06-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.1109/cvpr46437.2021.00048",
+   "title": "Neural Reprojection Error: Merging Feature Learning and Camera Pose Estimation",
+   "date": "2021-06-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1109/cvprw.2018.00060",
+   "title": "SuperPoint: Self-Supervised Interest Point Detection and Description",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.1109/iccv.2011.6126544",
+   "title": "ORB: An efficient alternative to SIFT or SURF",
+   "date": "2011-11-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1109/iccv48922.2021.01088",
+   "title": "Removing the Bias of Integral Pose Regression",
+   "date": "2021-10-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.1109/tip.2013.2283401",
+   "title": "Hybrid Patching for a Sequence of Differently Exposed Images With Moving Objects",
+   "date": "2013-12-01"
+  },
+  {
+   "position": 32,
+   "doi": "10.1109/tmm.2008.2001374",
+   "title": "Shot Change Detection via Local Keypoint Matching",
+   "date": "2008-10-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.1109/tmm.2016.2590305",
+   "title": "Keypoint Detection in RGBD Images Based on an Anisotropic Scale Space",
+   "date": "2016-09-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1109/tmm.2017.2743988",
+   "title": "Intelligent Detail Enhancement for Exposure Fusion",
+   "date": "2018-02-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1109/tmm.2018.2839885",
+   "title": "Learning-Based Tone Mapping Operator for Efficient Image Matching",
+   "date": "2019-01-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1109/tmm.2020.3038323",
+   "title": "Robust and Efficient RGB-D SLAM in Dynamic Environments",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 37,
+   "doi": "10.1109/tpami.2005.188",
+   "title": "A performance evaluation of local descriptors",
+   "date": "2005-10-01"
+  },
+  {
+   "position": 38,
+   "doi": "10.1109/tpami.2022.3145820",
+   "title": "Key.Net: Keypoint Detection by Handcrafted and Learned CNN Filters Revisited",
+   "date": "2023-01-01"
+  },
+  {
+   "position": 39,
+   "doi": "10.1109/tro.2017.2705103",
+   "title": "ORB-SLAM2: An Open-Source SLAM System for Monocular, Stereo, and RGB-D Cameras",
+   "date": "2017-10-01"
+  },
+  {
+   "position": 40,
+   "doi": "10.5244/c.30.119",
+   "title": "Learning local feature descriptors with triplets and shallow convolutional neural networks",
+   "date": "2016-01-01"
+  }
+ ],
+ "direct": [],
+ "layer1": [],
+ "layer2_items": [],
+ "layer2_pairs": [],
+ "check": [],
+ "seconds": 54.9
+}

@@ -1,0 +1,413 @@
+{
+ "id": "A02",
+ "split": "eval",
+ "source_doi": "10.1109/access.2022.3167393",
+ "summary": {
+  "listed": 59,
+  "retracted": 0,
+  "check": 1,
+  "note": 3,
+  "clear": 43,
+  "unknown": 12,
+  "with_layer1": 1,
+  "with_layer2": 4,
+  "retracted_papers_reached": 3,
+  "paths": 6,
+  "references_visible": 47
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1007/978-3-642-40686-7_4",
+   "title": "Three-Dimensional Thermography Mapping for Mobile Rescue Robots",
+   "date": "2013-12-31"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s11119-017-9536-3",
+   "title": "Registration of multispectral 3D points for plant inspection",
+   "date": "2017-09-20"
+  },
+  {
+   "position": 3,
+   "doi": "10.1016/j.inffus.2005.02.007",
+   "title": "Urban remote sensing using multiple data sets: Past, present, and future",
+   "date": "2005-12-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1016/j.infrared.2011.01.002",
+   "title": "Calibration and verification of thermographic cameras for geometric measurements",
+   "date": "2011-03-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/j.optlaseng.2006.12.007",
+   "title": "3D reconstruction of road surfaces using an integrated multi-sensory approach",
+   "date": "2007-07-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/s0963-8695(99)00058-4",
+   "title": "NDE reliability gains from combining eddy-current and ultrasonic testing",
+   "date": "2000-09-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1061/(asce)0887-3801(1999)13:4(270)",
+   "title": "Novel Approach to Pavement Cracking Detection Based on Fuzzy Set Theory",
+   "date": "1999-10-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1061/9780784412329.100",
+   "title": "Rapid 3D Energy Performance Modeling of Existing Buildings Using Thermal and Digital Imagery",
+   "date": "2012-05-17"
+  },
+  {
+   "position": 9,
+   "doi": "10.1080/01431160902882504",
+   "title": "Towards an intelligent multi-sensor satellite image analysis based on blind source separation using multi-source image fusion",
+   "date": "2010-01-05"
+  },
+  {
+   "position": 10,
+   "doi": "10.1080/17686733.2016.1229245",
+   "title": "Three-dimensional thermography for non-destructive testing and evaluation",
+   "date": "2016-12-02"
+  },
+  {
+   "position": 11,
+   "doi": "10.1080/17686733.2017.1319529",
+   "title": "Passive calibration board for alignment of VIS-NIR, SWIR and LWIR images",
+   "date": "2017-07-03"
+  },
+  {
+   "position": 12,
+   "doi": "10.1109/34.888718",
+   "title": "A flexible new technique for camera calibration",
+   "date": "2000-01-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1109/aero.2019.8741787",
+   "title": "Visual-Thermal Landmarks and Inertial Fusion for Navigation in Degraded Visual Environments",
+   "date": "2019-03-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1109/carpi.2010.5624430",
+   "title": "Power line inspection with a flying robot",
+   "date": "2010-10-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1109/cca.2006.285944",
+   "title": "A Mobile Mapping System for road data capture based on 3D road model",
+   "date": "2006-10-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1109/cvpr.2008.4587465",
+   "title": "Image partial blur detection and classification",
+   "date": "2008-06-01"
+  },
+  {
+   "position": 17,
+   "doi": "10.1109/icce.2018.8326228",
+   "title": "Detecting faulty solar panels based on thermal image processing",
+   "date": "2018-01-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1109/icia.2005.1635046",
+   "title": "Acquisition of 3D surface temperature distribution of a car body",
+   "date": null
+  },
+  {
+   "position": 19,
+   "doi": "10.1109/icip.2013.6738450",
+   "title": "A novel iterative calibration approach for thermal infrared cameras",
+   "date": "2013-09-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1109/icip.2015.7351702",
+   "title": "Improving calibration of thermal stereo cameras using heated calibration board",
+   "date": "2015-09-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1109/icivc.2018.8492895",
+   "title": "Color Correction Based on Histogram Matching and Polynomial Regression for Image Stitching",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1109/icra.2012.6224570",
+   "title": "Automatic camera and range sensor calibration using a single shot",
+   "date": "2012-05-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1109/icra.2013.6630890",
+   "title": "3D thermal mapping of building interiors using an RGB-D and thermal camera",
+   "date": "2013-05-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.1109/icra.2018.8461250",
+   "title": "LineDrone Technology: Landing an Unmanned Aerial Vehicle on a Power Line",
+   "date": "2018-05-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1109/icra40945.2020.9196831",
+   "title": "PST900: RGB-Thermal Calibration, Dataset and Segmentation Network",
+   "date": "2020-05-01"
+  },
+  {
+   "position": 26,
+   "doi": "10.1109/icsens.2012.6411591",
+   "title": "A comparison of IR stereo vision and LIDAR for use in fire environments",
+   "date": "2012-10-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.1109/iros.2013.6696776",
+   "title": "Autonomous landing of an UAV with a ground-based actuated infrared stereo vision system",
+   "date": "2013-11-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1109/isdea.2013.449",
+   "title": "Camera Calibration of Thermal-Infrared Stereo Vision System",
+   "date": "2013-11-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.1109/ivs.2011.5940515",
+   "title": "Infrared camera calibration for dense depth map construction",
+   "date": "2011-06-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1109/jlt.2011.2170812",
+   "title": "Geometric Calibration of IR Camera Using Trinocular Vision",
+   "date": "2011-12-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.1109/jsen.2021.3106057",
+   "title": "Multisensor Image Fusion for Automated Detection of Defects in Printed Circuit Boards",
+   "date": "2021-10-15"
+  },
+  {
+   "position": 32,
+   "doi": "10.1109/jstars.2014.2330352",
+   "title": "Unmixing-Based Fusion of Hyperspatial and Hyperspectral Airborne Imagery for Early Detection of Vegetation Stress",
+   "date": "2014-06-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.1109/jstsp.2012.2204036",
+   "title": "Multimodal Stereo Vision System: 3D Data Extraction and Algorithm Evaluation",
+   "date": "2012-09-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1109/jurse.2011.5764710",
+   "title": "Matching of 3D building models with IR images for texture extraction",
+   "date": "2011-04-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1109/lgrs.2012.2207944",
+   "title": "Evaluation of Spatial and Spectral Effectiveness of Pixel-Level Fusion Techniques",
+   "date": "2013-05-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1109/oceans.1995.528892",
+   "title": "Fusion of multiprobe NDT data for ROV inspection",
+   "date": null
+  },
+  {
+   "position": 37,
+   "doi": "10.1109/tgrs.2008.2001554",
+   "title": "Multiapproach System Based on Fusion of Multispectral Images for Land-Cover Classification",
+   "date": "2008-12-01"
+  },
+  {
+   "position": 38,
+   "doi": "10.1109/tgrs.2013.2272760",
+   "title": "Decision Fusion in Kernel-Induced Spaces for Hyperspectral Image Classification",
+   "date": "2014-06-01"
+  },
+  {
+   "position": 39,
+   "doi": "10.1109/tie.2018.2833051",
+   "title": "Robust and Fast Registration of Infrared and Visible Images for Electro-Optical Pod",
+   "date": "2019-02-01"
+  },
+  {
+   "position": 40,
+   "doi": "10.1109/tim.2012.2182851",
+   "title": "A Mask-Based Approach for the Geometric Calibration of Thermal-Infrared Cameras",
+   "date": "2012-06-01"
+  },
+  {
+   "position": 41,
+   "doi": "10.1109/tip.2011.2109730",
+   "title": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+   "date": "2011-08-01"
+  },
+  {
+   "position": 42,
+   "doi": "10.1109/wacv.2009.5403048",
+   "title": "Fused visible and infrared video for use in Wilderness Search and Rescue",
+   "date": "2009-12-01"
+  },
+  {
+   "position": 43,
+   "doi": "10.1115/1.2410024",
+   "title": "Multimodal Industrial Inspection and Analysis",
+   "date": "2006-09-05"
+  },
+  {
+   "position": 44,
+   "doi": "10.1117/12.2067061",
+   "title": "Geometric calibration of multi-sensor image fusion system with thermal infrared and low-light camera",
+   "date": "2014-10-13"
+  },
+  {
+   "position": 45,
+   "doi": "10.1117/12.2177535",
+   "title": "An infrared-visible image fusion scheme based on NSCT and compressed sensing",
+   "date": "2015-05-21"
+  },
+  {
+   "position": 46,
+   "doi": "10.1117/12.884349",
+   "title": "Unmanned ground vehicle perception using thermal infrared cameras",
+   "date": "2011-05-13"
+  },
+  {
+   "position": 47,
+   "doi": "10.1155/2015/450101",
+   "title": "Multimodal Registration and Fusion for 3D Thermal Imaging",
+   "date": "2015-01-01"
+  },
+  {
+   "position": 48,
+   "doi": "10.1615/hedhme.a.000207",
+   "title": "Radiation transfer between specular and imperfectlyDiffuse surfaces",
+   "date": null
+  },
+  {
+   "position": 49,
+   "doi": "10.21236/ada607968",
+   "title": "Infrared Stereo Calibration for Unmanned Ground Vehicle Navigation",
+   "date": "2014-05-01"
+  },
+  {
+   "position": 50,
+   "doi": "10.21611/qirt.2010.126",
+   "title": "Fast and accurate calibration-based thermal / colour sensors registration",
+   "date": "2010-01-01"
+  },
+  {
+   "position": 51,
+   "doi": "10.21611/qirt.2012.261",
+   "title": "Thermal / Visible Autonomous Stereo Visio System Calibration Methodology for Non-controlled Environments",
+   "date": "2012-01-01"
+  },
+  {
+   "position": 52,
+   "doi": "10.21611/qirt.2014.035",
+   "title": "3D Thermal Imaging: Fusion of Thermography and Depth Cameras",
+   "date": "2014-01-01"
+  },
+  {
+   "position": 53,
+   "doi": "10.2172/1341825",
+   "title": "Emissivity Measurements of Additively Manufactured Materials",
+   "date": "2017-01-25"
+  },
+  {
+   "position": 54,
+   "doi": "10.3182/20120905-3-hr-2030.00073",
+   "title": "Mutual Calibration for 3D Thermal Mapping",
+   "date": "2012-01-01"
+  },
+  {
+   "position": 55,
+   "doi": "10.3390/en11092252",
+   "title": "Unsupervised Fault Detection and Analysis for Large Photovoltaic Systems Using Drones and Machine Vision",
+   "date": "2018-08-27"
+  },
+  {
+   "position": 56,
+   "doi": "10.3390/jimaging6080076",
+   "title": "A Cost-Effective System for Aerial 3D Thermography of Buildings",
+   "date": "2020-08-02"
+  },
+  {
+   "position": 57,
+   "doi": "10.4271/2013-01-2171",
+   "title": "Fusion Framework for 3D Inspection and Thermal NDT",
+   "date": "2013-09-17"
+  },
+  {
+   "position": 58,
+   "doi": "10.5194/isprs-annals-v-1-2020-33-2020",
+   "title": "SUPER-RESOLUTION OF MULTISPECTRAL SATELLITE IMAGES USING CONVOLUTIONAL NEURAL NETWORKS",
+   "date": "2020-08-03"
+  },
+  {
+   "position": 59,
+   "doi": "10.5772/intechopen.75791",
+   "title": "Thermoelectric Cooling",
+   "date": "2018-07-11"
+  }
+ ],
+ "direct": [],
+ "layer1": [
+  {
+   "position": 18,
+   "retracted_doi": "10.1049/ip-b.1991.0010"
+  }
+ ],
+ "layer2_items": [
+  18,
+  20,
+  40,
+  59
+ ],
+ "layer2_pairs": [
+  {
+   "position": 18,
+   "retracted_doi": "10.1049/ip-b.1991.0010"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1049/ip-b.1991.0010"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1049/ip-b.1991.0010"
+  },
+  {
+   "position": 59,
+   "retracted_doi": "10.1016/j.applthermaleng.2005.10.026"
+  },
+  {
+   "position": 59,
+   "retracted_doi": "10.1243/09576509jpe683"
+  }
+ ],
+ "check": [
+  18
+ ],
+ "seconds": 72.4
+}

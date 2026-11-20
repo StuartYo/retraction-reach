@@ -1,0 +1,126 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1002/adfm.202101888 | Fluorination‐Enhanced Surface Stability of Cation‐Disordered Rocksalt Cathodes for Li‐Ion Batteries | 2021
+[2] doi:10.1002/aenm.201400478 | The Configurational Space of Rocksalt‐Type Oxides for High‐Capacity Lithium Battery Electrodes | 2014
+[3] doi:10.1002/aenm.201401814 | Disordered Lithium‐Rich Oxyfluoride as a Stable Host for Enhanced Li
+                    <sup>+</sup>
+                    Intercalation Storage | 2015
+[4] doi:10.1002/aenm.201701533 | Fluorination of Lithium‐Excess Transition Metal Oxide Cathode Materials | 2017
+[5] doi:10.1002/aenm.201702397 | Review on Challenges and Recent Advances in the Electrochemical Performance of High Capacity Li‐ and Mn‐Rich Cathode Materials for Li‐Ion Batteries | 2017
+[6] doi:10.1002/aenm.201901255 | Understanding Performance Degradation in Cation‐Disordered Rock‐Salt Oxide Cathodes | 2019
+[7] doi:10.1002/aenm.201903240 | Effect of Fluorination on Lithium Transport and Short‐Range Order in Disordered‐Rocksalt‐Type Lithium‐Ion Battery Cathodes | 2020
+[8] doi:10.1002/aenm.202001120 | Stabilized Co‐Free Li‐Rich Oxide Cathode Particles with An Artificial Surface Prereconstruction | 2020
+[9] doi:10.1002/aenm.202001500 | Anion Reactivity in Cation‐Disordered Rocksalt Cathode Materials: The Influence of Fluorine Substitution | 2020
+[10] doi:10.1002/aenm.202001671 | A Fluorination Method for Improving Cation‐Disordered Rocksalt Cathode Performance | 2020
+[11] doi:10.1016/0927-0256(96)00008-0 | Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set | 1996
+[12] doi:10.1016/j.chempr.2018.11.001 | Understanding the Nature of Ammonia Treatment to Synthesize Oxygen Vacancy-Enriched Transition Metal Oxides | 2019
+[13] doi:10.1016/j.chempr.2019.10.001 | Design Principles for High-Capacity Mn-Based Cation-Disordered Rocksalt Cathodes | 2020
+[14] doi:10.1016/j.commatsci.2012.10.028 | Python Materials Genomics (pymatgen): A robust, open-source python library for materials analysis | 2013
+[15] doi:10.1016/j.ensm.2020.07.012 | Fluorination effect for stabilizing cationic and anionic redox activities in cation-disordered cathode materials | 2020
+[16] doi:10.1016/j.joule.2017.08.019 | Lithium-Ion Battery Supply Chain Considerations: Analysis of Potential Bottlenecks in Critical Metals | 2017
+[17] doi:10.1016/j.joule.2018.11.014 | High Reversibility of Lattice Oxygen Redox Quantified by Direct Bulk Probes of Both Anionic and Cationic Redox Reactions | 2019
+[18] doi:10.1016/j.joule.2021.02.004 | Cycling mechanism of Li2MnO3: Li–CO2 batteries and commonality on oxygen redox in cathode materials | 2021
+[19] doi:10.1016/j.jpowsour.2012.05.061 | Direct synthesis of oxygen-deficient Li2MnO3−x for high capacity lithium battery electrodes | 2012
+[20] doi:10.1016/j.jpowsour.2018.04.018 | Anionic and cationic redox and interfaces in batteries: Advances from soft X-ray absorption spectroscopy to resonant inelastic scattering | 2018
+[21] doi:10.1016/j.jssc.2014.05.017 | Structural, magnetic, and oxygen storage properties of hexagonal Dy1−xYxMnO3+δ | 2014
+[22] doi:10.1021/acs.chemmater.0c04109 | Increasing Capacity in Disordered Rocksalt Cathodes by Mg Doping | 2020
+[23] doi:10.1021/acs.chemmater.7b02343 | Lithium-Excess Cation-Disordered Rocksalt-Type Oxide with Nanoscale Phase Segregation: Li
+                    <sub>1.25</sub>
+                    Nb
+                    <sub>0.25</sub>
+                    V
+                    <sub>0.5</sub>
+                    O
+                    <sub>2</sub> | 2017
+[24] doi:10.1021/acs.chemmater.8b03794 | Short-Range Order and Unusual Modes of Nickel Redox in a Fluorine-Substituted Disordered Rocksalt Oxide Lithium-Ion Cathode | 2018
+[25] doi:10.1021/acs.jpcc.8b09397 | Operando X-ray Absorption Spectroscopy and Emission Kβ<sub>1,3</sub> Study of the Manganese Redox Activity in High-Capacity Li<sub>4</sub>Mn<sub>2</sub>O<sub>5</sub> Cathode | 2018
+[26] doi:10.1021/acsami.9b12566 | Design and Tuning of the Electrochemical Properties of Vanadium-Based Cation-Disordered Rock-Salt Oxide Positive Electrode Material for Lithium-Ion Batteries | 2019
+[27] doi:10.1021/acsenergylett.9b02799 | Quantifying the Capacity Contributions during Activation of Li
+                    <sub>2</sub>
+                    MnO
+                    <sub>3</sub> | 2020
+[28] doi:10.1021/cm070435m | Mechanisms Associated with the “Plateau” Observed at High Voltage for the Overlithiated Li<sub>1.12</sub>(Ni<sub>0.425</sub>Mn<sub>0.425</sub>Co<sub>0.15</sub>)<sub>0.88</sub>O<sub>2</sub> System | 2008
+[29] doi:10.1021/cm2006956 | Synthesis and Oxygen Storage Capacities of Hexagonal Dy<sub>1–<i>x</i></sub>Y<sub><i>x</i></sub>MnO<sub>3+δ</sub> | 2011
+[30] doi:10.1021/ja062027 | (title not in Crossref) | 
+[31] doi:10.1038/nchem.2471 | Charge-compensation in 3d-transition-metal-oxide intercalation cathodes through the generation of localized electron holes on oxygen | 2016
+[32] doi:10.1038/nchem.2524 | The structural and chemical origin of the oxygen redox activity in layered and cation-disordered Li-excess cathode materials | 2016
+[33] doi:10.1038/ncomms12108 | Gas–solid interfacial modification of oxygen activity in layered oxide cathodes for lithium-ion batteries | 2016
+[34] doi:10.1038/ncomms13814 | Origin of stabilization and destabilization in solid-state redox reaction of oxide ions for lithium-ion batteries | 2016
+[35] doi:10.1038/nmat4479 | A new active Li–Mn–O compound for high energy density Li-ion batteries | 2015
+[36] doi:10.1038/s41467-017-01115-0 | Mitigating oxygen loss to improve the cycling performance of high capacity cation-disordered cathode materials | 2017
+[37] doi:10.1038/s41467-019-08490-w | Hidden structural and chemical order controls lithium transport in cation-disordered oxides for rechargeable batteries | 2019
+[38] doi:10.1038/s41560-018-0207-z | Evolution of redox couples in Li- and Mn-rich cathode materials and mitigation of voltage fade by reducing oxygen release | 2018
+[39] doi:10.1038/s41560-021-00780-2 | The role of O2 in O-redox cathodes for Li-ion batteries | 2021
+[40] doi:10.1038/s41560-021-00817-6 | Non-topotactic reactions enable high rate capability in Li-rich cathode materials | 2021
+[41] doi:10.1038/s41560-021-00832-7 | Persistent and partially mobile oxygen vacancies in Li-rich layered oxides | 2021
+[42] doi:10.1038/s41586-018-0015-4 | Reversible Mn2+/Mn4+ double redox in lithium-excess cathode materials | 2018
+[43] doi:10.1038/s41586-021-03509-z | Tomographic reconstruction of oxygen orbitals in lithium-rich battery materials | 2021
+[44] doi:10.1039/c5cc08034g | Synthesis and electrochemical properties of Li
+                    <sub>1.3</sub>
+                    Nb
+                    <sub>0.3</sub>
+                    V
+                    <sub>0.4</sub>
+                    O
+                    <sub>2</sub>
+                    as a positive electrode mate | 2016
+[45] doi:10.1039/c5ee02329g | A new class of high capacity cation-disordered oxides for rechargeable lithium batteries: Li–Ni–Ti–Mo oxides | 2015
+[46] doi:10.1039/c5ee03573b | Performance and design considerations for lithium excess layered oxide positive electrode materials for lithium ion batteries | 2016
+[47] doi:10.1039/c7ee01782k | Material design of high-capacity Li-rich layered-oxide electrodes: Li
+                    <sub>2</sub>
+                    MnO
+                    <sub>3</sub>
+                    and beyond | 2017
+[48] doi:10.1039/c7ee03195e | Lithium manganese oxyfluoride as a new cathode material exhibiting oxygen redox | 2018
+[49] doi:10.1039/c8ee00816g | Design principles for high transition metal capacity in disordered rocksalt Li-ion cathodes | 2018
+[50] doi:10.1039/c8ta00234g | Investigation of the exceptional charge performance of the 0.93Li
+                    <sub>4−x</sub>
+                    Mn
+                    <sub>2</sub>
+                    O
+                    <sub>5</sub>
+                    –0.07Li
+                    <sub>2</sub>
+                    O compo | 2018
+[51] doi:10.1039/c9ee02803j | Cation-disordered rocksalt transition metal oxides and oxyfluorides for high energy lithium-ion cathodes | 2020
+[52] doi:10.1063/1.4812323 | Commentary: The Materials Project: A materials genome approach to accelerating materials innovation | 2013
+[53] doi:10.1073/pnas.1504901112 | High-capacity electrode materials for rechargeable lithium batteries: Li
+                    <sub>3</sub>
+                    NbO
+                    <sub>4</sub>
+                    -based system with cation-disordered rocksalt structure | 2015
+[54] doi:10.1103/physrevb.58.2975 | First-principles investigation of phase stability in
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline">
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi mathvariant | 1998
+[55] doi:10.1103/physrevb.59.1758 | From ultrasoft pseudopotentials to the projector augmented-wave method | 1999
+[56] doi:10.1103/physrevb.87.035125 | Compressive sensing as a paradigm for building physics models | 2013
+[57] doi:10.1103/physrevb.93.045132 | Energetics of
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                      <mml:msub>
+                        <mml:mi>MnO</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                    </mml:math>
+                    p | 2016
+[58] doi:10.1103/physrevlett.115.036402 | Strongly Constrained and Appropriately Normed Semilocal Density Functional | 2015
+[59] doi:10.1107/s0909049505012719 | <i>ATHENA</i>
+                    ,
+                    <i>ARTEMIS</i>
+                    ,
+                    <i>HEPHAESTUS</i>
+                    : data analysis for X-ray absorption spectroscopy using
+                    <i>IFEFFIT</i> | 2005
+[60] doi:10.1126/science.1246432 | Unlocking the Potential of Cation-Disordered Oxides for Rechargeable Lithium Batteries | 2014
+[61] doi:10.1149/1.1407994 | Layered Cathode Materials Li[Ni[sub x]Li[sub (1/3−2x/3)]Mn[sub (2/3−x/3)]]O[sub 2] for Lithium-Ion Batteries | 2001
+[62] doi:10.1238/physica.topical.115a01007 | ATHENA and ARTEMIS Interactive Graphical Data Analysisusing IFEFFIT | 2005
+[63] doi:10.1361/105497102770331596 | Automating first-principles phase diagram calculations | 2002
+[64] doi:10.2138/am.2012.3903 | Determination of Mn valence states in mixed-valent manganates by XANES spectroscopy | 2012

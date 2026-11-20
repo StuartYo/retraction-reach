@@ -1,0 +1,215 @@
+{
+ "id": "A05",
+ "split": "eval",
+ "source_doi": "10.1007/s00192-020-04391-5",
+ "summary": {
+  "listed": 24,
+  "retracted": 0,
+  "check": 0,
+  "note": 7,
+  "clear": 12,
+  "unknown": 5,
+  "with_layer1": 0,
+  "with_layer2": 7,
+  "retracted_papers_reached": 4,
+  "paths": 9,
+  "references_visible": 19
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/cncr.28849",
+   "title": "Complications of pelvic radiation in patients treated for gynecologic malignancies",
+   "date": "2014-07-23"
+  },
+  {
+   "position": 2,
+   "doi": "10.1002/nau.20041",
+   "title": "ICIQ: A brief and robust measure for evaluating the symptoms and impact of urinary incontinence",
+   "date": "2004-01-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1002/nau.22533",
+   "title": "The minimum important difference for the International consultation on incontinence questionnaire-Urinary incontinence short form in women with stress urinary incontinence",
+   "date": "2013-11-23"
+  },
+  {
+   "position": 4,
+   "doi": "10.1007/s00192-017-3467-4",
+   "title": "Pelvic floor disorders in women with gynecologic malignancies: a systematic review",
+   "date": "2017-09-19"
+  },
+  {
+   "position": 5,
+   "doi": "10.1007/s00404-016-4099-5",
+   "title": "Sexual function and quality of life in gynecological cancer pre- and post-short-term brachytherapy: a prospective study",
+   "date": "2016-04-27"
+  },
+  {
+   "position": 6,
+   "doi": "10.1007/s00520-016-3394-9",
+   "title": "Experiences of incontinence and pelvic floor muscle training after gynaecologic cancer treatment",
+   "date": "2016-09-05"
+  },
+  {
+   "position": 7,
+   "doi": "10.1007/s11764-015-0481-8",
+   "title": "Effects of radiation therapy on the structure and function of the pelvic floor muscles of patients with cancer in the pelvic area: a systematic review",
+   "date": "2015-08-28"
+  },
+  {
+   "position": 8,
+   "doi": "10.1007/s11884-016-0354-7",
+   "title": "Incontinence, Voiding Dysfunction, and Other Urologic Complications After Radiotherapy for Gynecologic Malignancies",
+   "date": "2016-05-02"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.jphys.2015.08.005",
+   "title": "Strategies to enhance self-efficacy and adherence to home-based pelvic floor muscle exercises did not improve adherence in women with urinary incontinence: a randomised trial",
+   "date": "2015-10-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.maturitas.2010.08.004",
+   "title": "Pelvic floor exercise for urinary incontinence: A systematic literature review",
+   "date": "2010-12-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.rehab.2017.04.002",
+   "title": "Reliability of pelvic floor muscle electromyography tested on healthy women and women with pelvic floor muscle dysfunction",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/j.ygyno.2010.01.034",
+   "title": "Long-term cervical cancer survivors suffer from pelvic floor symptoms: A cross-sectional matched cohort study",
+   "date": "2010-05-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1016/j.ygyno.2012.03.045",
+   "title": "Effect of a pelvic floor muscle training program on gynecologic cancer survivors with pelvic floor dysfunction: A randomized controlled trial",
+   "date": "2012-06-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1016/j.ygyno.2013.10.024",
+   "title": "A pilot randomized control trial to evaluate pelvic floor muscle training for urinary incontinence among gynecologic cancer survivors",
+   "date": "2014-01-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1016/s0031-9406(05)61108-x",
+   "title": "Pelvic Floor Muscle Assessment: The PERFECT Scheme",
+   "date": "2001-12-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1080/00221309809595542",
+   "title": "Missing Data in Likert Ratings: A Comparison of Replacement Methods",
+   "date": "1998-04-01"
+  },
+  {
+   "position": 17,
+   "doi": "10.1093/ptj/pzx012",
+   "title": "Pelvic-Floor Properties in Women Reporting Urinary Incontinence After Surgery and Radiotherapy for Endometrial Cancer",
+   "date": "2017-02-15"
+  },
+  {
+   "position": 18,
+   "doi": "10.1111/j.1532-5415.1998.tb02721.x",
+   "title": "A Pelvic Muscle Precontraction Can Reduce Cough‐Related Urine Loss in Selected Women with Mild SUI",
+   "date": "1998-07-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1136/bmj.318.7182.487",
+   "title": "Single blind, randomised controlled trial of pelvic floor exercises, electrical stimulation, vaginal cones, and no treatment in management of genuine stress incontinence in women",
+   "date": "1999-02-20"
+  },
+  {
+   "position": 20,
+   "doi": "10.1590/s1677-5538.ibju.2013.01.07",
+   "title": "Treatments for invasive carcinoma of the cervix: what are their impacts on the pelvic floor functions?",
+   "date": "2013-01-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.2147/ppa.s163273",
+   "title": "Patients&amp;#39; perception and adherence to vaginal dilator therapy: a systematic review and synthesis employing symbolic interactionism",
+   "date": "2018-04-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.22543/7674.51.p4652",
+   "title": "Pelvic floor disorders in gynecological malignancies. An overlooked problem?",
+   "date": "2018-04-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.32635/2176-9745.rbc.2010v56n4.1472",
+   "title": "Fisioterapia nas Principais Disfunções Sexuais Pós-Tratamento do Câncer do Colo do Útero: Revisão Bibliográfica",
+   "date": "2010-12-31"
+  },
+  {
+   "position": 24,
+   "doi": "10.4067/s0034-98872012000300009",
+   "title": "Validación del cuestionario International Consultation on Incontinence Questionnaire Short-Form (ICIQ-SF) en una población chilena usuaria del Fondo Nacional de Salud (FONASA)",
+   "date": "2012-03-01"
+  }
+ ],
+ "direct": [],
+ "layer1": [],
+ "layer2_items": [
+  1,
+  4,
+  5,
+  7,
+  13,
+  17,
+  20
+ ],
+ "layer2_pairs": [
+  {
+   "position": 1,
+   "retracted_doi": "10.1080/713847128"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1002/14651858.cd008978.pub2"
+  },
+  {
+   "position": 5,
+   "retracted_doi": "10.1080/713847128"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1046/j.1525-1438.1992.02060281.x"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1046/j.1525-1438.1992.02060281.x"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1080/10532528.1992.10559878"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1080/713847128"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1046/j.1525-1438.1992.02060281.x"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1046/j.1525-1438.1992.02060281.x"
+  }
+ ],
+ "check": [],
+ "seconds": 158.7
+}

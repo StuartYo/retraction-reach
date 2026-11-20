@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retraction Reach: which of your references lean on retracted work</title>
+<meta name="description" content="Paste a DOI reference list. See which references are retracted, and which cite retracted papers one or two citations away, with the citation path as evidence. Runs on Relate in your browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <div class="brand">Retraction Reach</div>
+    <div class="tag">Which of your references lean on retracted work, two citations deep</div>
+    <a class="gh" href="https://github.com/" id="repo-link">Source</a>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <aside class="side">
+    <section class="panel">
+      <label for="example" class="lbl">Bundled reference list</label>
+      <select id="example"><option>Loading…</option></select>
+      <p class="hint">Real reference lists of published papers, already expanded two citation layers and stored in a Relate graph.</p>
+    </section>
+    <section class="panel">
+      <label for="paste" class="lbl">Or paste your own DOIs</label>
+      <textarea id="paste" rows="7" spellcheck="false" placeholder="10.1056/NEJMoa2007621&#10;10.1136/bmj.327.7414.557&#10;one DOI per line, up to 150"></textarea>
+      <button id="go" class="primary">Check these references</button>
+      <p class="hint">Your browser asks Crossref for each paper's reference list, then for the reference lists of those papers. A 40-item list takes about a minute. Nothing is sent anywhere else.</p>
+    </section>
+    <section class="panel sources">
+      <div class="lbl">Where the data comes from</div>
+      <ul>
+        <li>Retractions: <a href="https://gitlab.com/crossref/retraction-watch-data" target="_blank" rel="noopener">Retraction Watch database</a>, published by Crossref under CC0.</li>
+        <li>Who cites whom: <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/" target="_blank" rel="noopener">Crossref reference lists</a>.</li>
+        <li>Citation intent (method, result, background): <a href="https://www.semanticscholar.org/product/api" target="_blank" rel="noopener">Semantic Scholar</a>, bundled lists only.</li>
+      </ul>
+      <p class="hint">A retraction is not always misconduct; many are honest corrections. A citation to a retracted paper can also be a critique of it. Read the path before you judge.</p>
+    </section>
+  </aside>
+
+  <section class="main">
+    <div class="status" id="status" role="status" aria-live="polite">Starting…</div>
+    <div id="report" hidden>
+      <div class="bib-head">
+        <h1 id="bib-title"></h1>
+        <div class="bib-src" id="bib-src"></div>
+      </div>
+      <div class="compare" id="compare"></div>
+      <div class="counts" id="counts"></div>
+      <div id="results"></div>
+      <p class="hint legend">Click a row to see the citation path. Scores follow a fixed rule: a retracted reference is 100; citing a retracted paper directly starts at 70 (+20 if cited after the retraction notice, +10 if cited for its method or result); two citations away starts at 30. 60 and above is marked Check.</p>
+    </div>
+
+    <details class="console">
+      <summary>Query the graph yourself (Cypher, read in this page)</summary>
+      <textarea id="console-q" rows="6" spellcheck="false"></textarea>
+      <button id="run-q" class="secondary">Run query</button>
+      <div id="console-out"></div>
+    </details>
+    <footer class="engine" id="engine"></footer>
+  </section>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+  layer 0: 40 listed DOIs
+  layer 1: 857 cited DOIs, fetching their reference lists from Crossref
+    800/832
+    832/832
+  edges: 1443 (layer-2 edges kept because they reach a retracted paper: 0)
+  intents: 0 citing papers to look up on Semantic Scholar
+A01 eval: listed 40 retracted 0 L1 0 L2 0 check 0 (54.9s)
+  layer 0: 59 listed DOIs
+  layer 1: 906 cited DOIs, fetching their reference lists from Crossref
+    800/863
+    863/863
+  edges: 1000 (layer-2 edges kept because they reach a retracted paper: 4)
+  intents: 7 citing papers to look up on Semantic Scholar
+A02 eval: listed 59 retracted 0 L1 1 L2 4 check 1 (72.4s)
+  layer 0: 64 listed DOIs
+  layer 1: 1840 cited DOIs, fetching their reference lists from Crossref
+    800/1790
+    1600/1790
+    1790/1790
+  edges: 3370 (layer-2 edges kept because they reach a retracted paper: 10)
+  intents: 17 citing papers to look up on Semantic Scholar
+    10/17
+A03 eval: listed 64 retracted 0 L1 1 L2 7 check 1 (231.7s)
+  layer 0: 42 listed DOIs
+  layer 1: 524 cited DOIs, fetching their reference lists from Crossref
+    492/492
+  edges: 1051 (layer-2 edges kept because they reach a retracted paper: 0)
+  intents: 0 citing papers to look up on Semantic Scholar
+A04 eval: listed 42 retracted 0 L1 0 L2 0 check 0 (80.2s)
+  layer 0: 24 listed DOIs
+  layer 1: 518 cited DOIs, fetching their reference lists from Crossref
+    507/507
+  edges: 613 (layer-2 edges kept because they reach a retracted paper: 6)
+  intents: 13 citing papers to look up on Semantic Scholar
+    10/13
+A05 eval: listed 24 retracted 0 L1 0 L2 7 check 0 (158.7s)
+  layer 0: 45 listed DOIs
+  layer 1: 2177 cited DOIs, fetching their reference lists from Crossref

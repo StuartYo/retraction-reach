@@ -1,0 +1,34 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1002/cncr.28849 | Complications of pelvic radiation in patients treated for gynecologic malignancies | 2014
+[2] doi:10.1002/nau.20041 | ICIQ: A brief and robust measure for evaluating the symptoms and impact of urinary incontinence | 2004
+[3] doi:10.1002/nau.22533 | The minimum important difference for the International consultation on incontinence questionnaire-Urinary incontinence short form in women with stress urinary incontinence | 2013
+[4] doi:10.1007/s00192-017-3467-4 | Pelvic floor disorders in women with gynecologic malignancies: a systematic review | 2017
+[5] doi:10.1007/s00404-016-4099-5 | Sexual function and quality of life in gynecological cancer pre- and post-short-term brachytherapy: a prospective study | 2016
+[6] doi:10.1007/s00520-016-3394-9 | Experiences of incontinence and pelvic floor muscle training after gynaecologic cancer treatment | 2016
+[7] doi:10.1007/s11764-015-0481-8 | Effects of radiation therapy on the structure and function of the pelvic floor muscles of patients with cancer in the pelvic area: a systematic review | 2015
+[8] doi:10.1007/s11884-016-0354-7 | Incontinence, Voiding Dysfunction, and Other Urologic Complications After Radiotherapy for Gynecologic Malignancies | 2016
+[9] doi:10.1016/j.jphys.2015.08.005 | Strategies to enhance self-efficacy and adherence to home-based pelvic floor muscle exercises did not improve adherence in women with urinary incontinence: a randomised trial | 2015
+[10] doi:10.1016/j.maturitas.2010.08.004 | Pelvic floor exercise for urinary incontinence: A systematic literature review | 2010
+[11] doi:10.1016/j.rehab.2017.04.002 | Reliability of pelvic floor muscle electromyography tested on healthy women and women with pelvic floor muscle dysfunction | 2017
+[12] doi:10.1016/j.ygyno.2010.01.034 | Long-term cervical cancer survivors suffer from pelvic floor symptoms: A cross-sectional matched cohort study | 2010
+[13] doi:10.1016/j.ygyno.2012.03.045 | Effect of a pelvic floor muscle training program on gynecologic cancer survivors with pelvic floor dysfunction: A randomized controlled trial | 2012
+[14] doi:10.1016/j.ygyno.2013.10.024 | A pilot randomized control trial to evaluate pelvic floor muscle training for urinary incontinence among gynecologic cancer survivors | 2014
+[15] doi:10.1016/s0031-9406(05)61108-x | Pelvic Floor Muscle Assessment: The PERFECT Scheme | 2001
+[16] doi:10.1080/00221309809595542 | Missing Data in Likert Ratings: A Comparison of Replacement Methods | 1998
+[17] doi:10.1093/ptj/pzx012 | Pelvic-Floor Properties in Women Reporting Urinary Incontinence After Surgery and Radiotherapy for Endometrial Cancer | 2017
+[18] doi:10.1111/j.1532-5415.1998.tb02721.x | A Pelvic Muscle Precontraction Can Reduce Cough‐Related Urine Loss in Selected Women with Mild SUI | 1998
+[19] doi:10.1136/bmj.318.7182.487 | Single blind, randomised controlled trial of pelvic floor exercises, electrical stimulation, vaginal cones, and no treatment in management of genuine stress incontinence in women | 1999
+[20] doi:10.1590/s1677-5538.ibju.2013.01.07 | Treatments for invasive carcinoma of the cervix: what are their impacts on the pelvic floor functions? | 2013
+[21] doi:10.2147/ppa.s163273 | Patients&amp;#39; perception and adherence to vaginal dilator therapy: a systematic review and synthesis employing symbolic interactionism | 2018
+[22] doi:10.22543/7674.51.p4652 | Pelvic floor disorders in gynecological malignancies. An overlooked problem? | 2018
+[23] doi:10.32635/2176-9745.rbc.2010v56n4.1472 | Fisioterapia nas Principais Disfunções Sexuais Pós-Tratamento do Câncer do Colo do Útero: Revisão Bibliográfica | 2010
+[24] doi:10.4067/s0034-98872012000300009 | Validación del cuestionario International Consultation on Incontinence Questionnaire Short-Form (ICIQ-SF) en una población chilena usuaria del Fondo Nacional de Salud (FONASA) | 2012

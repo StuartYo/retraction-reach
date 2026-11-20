@@ -1,0 +1,50 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1007/s00586-005-0984-5 | Sagittal alignment of spine and pelvis regulated by pelvic incidence: standard values and prediction of lordosis | 2005
+[2] doi:10.1007/s00586-011-1937-9 | Hip–spine relations and sagittal balance clinical consequences | 2011
+[3] doi:10.1007/s00586-011-1940-1 | Pelvic parameters: origin and significance | 2011
+[4] doi:10.1007/s00586-013-3030-z | Compensatory mechanisms contributing to keep the sagittal balance of the spine | 2013
+[5] doi:10.1007/s00586-015-4217-2 | Importance of the spinopelvic factors on the pelvic inclination from standing to sitting before total hip arthroplasty | 2015
+[6] doi:10.1007/s00586-016-4444-1 | The effect of total hip arthroplasty on sagittal spinal–pelvic–leg alignment and low back pain in patients with severe hip osteoarthritis | 2016
+[7] doi:10.1007/s00586-017-5111-x | Classification of normal sagittal spine alignment: refounding the Roussouly classification | 2017
+[8] doi:10.1007/s00586-020-06589-z | Impact of spinal alignment and stiffness on impingement after total hip arthroplasty: a radiographic study of pre- and post-operative spinopelvic alignment | 2020
+[9] doi:10.1007/s005860050038 | Pelvic incidence: a fundamental pelvic parameter for three-dimensional regulation of spinal sagittal curves | 1998
+[10] doi:10.1007/s11999-010-1732-7 | Acetabular Anteversion with CT in Supine, Simulated Standing, and Sitting Positions in a THA Patient Population | 2011
+[11] doi:10.1007/s11999-016-4787-2 | Does Degenerative Lumbar Spine Disease Influence Femoroacetabular Flexion in Patients Undergoing Total Hip Arthroplasty? | 2016
+[12] doi:10.1016/j.artd.2020.05.010 | The Prevalence of Abnormal Spinopelvic Relationships in Patients Presenting for Primary Total Hip Arthroplasty | 2020
+[13] doi:10.1016/j.arth.2014.10.014 | Pelvic Tilt in Patients Undergoing Total Hip Arthroplasty: When Does it Matter? | 2015
+[14] doi:10.1016/j.arth.2015.11.035 | Effect of Spinal Deformity on Pelvic Orientation from Standing to Sitting Position | 2016
+[15] doi:10.1016/j.arth.2016.12.039 | Total Hip Arthroplasty in the Spinal Deformity Population: Does Degree of Sagittal Deformity Affect Rates of Safe Zone Placement, Instability, or Revision? | 2017
+[16] doi:10.1016/j.arth.2017.08.040 | Prior Lumbar Spinal Fusion is Associated With an Increased Risk of Dislocation and Revision in Total Hip Arthroplasty: A Meta-Analysis | 2018
+[17] doi:10.1016/j.arth.2017.10.041 | Total Hip Arthroplasty in Patients With Previous Lumbar Fusion Surgery: Are There More Dislocations and Revisions? | 2018
+[18] doi:10.1016/j.arth.2017.12.005 | Total Hip Arthroplasty Patients With Fixed Spinopelvic Alignment Are at Higher Risk of Hip Dislocation | 2018
+[19] doi:10.1016/j.arth.2019.01.012 | A Preoperative Workup of a “Hip-Spine” Total Hip Arthroplasty Patient: A Simplified Approach to a Complex Problem | 2019
+[20] doi:10.1016/j.arth.2019.06.036 | Effects of Sagittal Spinal Alignment on Postural Pelvic Mobility in Total Hip Arthroplasty Candidates | 2019
+[21] doi:10.1016/j.arth.2020.02.029 | How Can Patients With Mobile Hips and Stiff Lumbar Spines Be Identified Prior to Total Hip Arthroplasty? A Prospective, Diagnostic Cohort Study | 2020
+[22] doi:10.1016/j.arth.2020.03.035 | Can Flexed-Seated and Single-Leg Standing Radiographs Be Useful in Preoperative Evaluation of Lumbar Mobility in Total Hip Arthroplasty? | 2020
+[23] doi:10.1016/j.otsr.2017.02.014 | The influence of spine-hip relations on total hip replacement: A systematic review | 2017
+[24] doi:10.1016/j.otsr.2018.12.003 | Dual mobility device reduces the risk of prosthetic hip instability for patients with degenerated spine: A case-control study | 2019
+[25] doi:10.1016/s0883-5403(00)91155-0 | Primary total hip arthroplasty in patients with ankylosing spondylitis | 2000
+[26] doi:10.1097/brs.0000000000000844 | Recruitment of Compensatory Mechanisms in Sagittal Spinal Malalignment Is Age and Regional Deformity Dependent | 2015
+[27] doi:10.1097/brs.0b013e3181aad219 | Pelvic Tilt and Truncal Inclination | 2009
+[28] doi:10.1097/brs.0b013e31823e15e2 | Scoliosis Research Society—Schwab Adult Spinal Deformity Classification | 2012
+[29] doi:10.1176/appi.ajp.2011.11010050 | DSM-5: How Reliable Is Reliable Enough? | 2012
+[30] doi:10.1177/2192568217699405 | Beyond Pelvic Incidence–Lumbar Lordosis Mismatch: The Importance of Assessing the Entire Spine to Achieve Global Sagittal Alignment | 2017
+[31] doi:10.1302/0301-620x.100b7.bjj-2017-1599.r1 | Risk factors for increased sagittal pelvic motion causing unfavourable orientation of the acetabular component in patients undergoing total hip arthroplasty | 2018
+[32] doi:10.1302/0301-620x.101b2.bjj-2018-0754.r1 | Lumbar fusion involving the sacrum increases dislocation risk in primary total hip arthroplasty | 2019
+[33] doi:10.1302/0301-620x.96b3.32774 | Decision making regarding spinal osteotomy and total hip replacement for ankylosing spondylitis | 2014
+[34] doi:10.1302/0301-620x.97b8.35700 | The influence of sagittal spinal deformity on anteversion of the acetabular component in total hip arthroplasty | 2015
+[35] doi:10.1302/0301-620x.99b1.bjj-2016-0415.r1 | Spinopelvic mobility and acetabular component position for total hip arthroplasty | 2017
+[36] doi:10.1302/0301-620x.99b2.bjj-2016-0098.r1 | Variation in functional pelvic tilt in patients undergoing total hip arthroplasty | 2017
+[37] doi:10.1302/0301-620x.99b6.bjj-2016-0577.r2 | Lumbar surgery prior to total hip arthroplasty is associated with worse patient-reported outcomes | 2017
+[38] doi:10.2106/jbjs.17.00403 | Spine-Pelvis-Hip Relationship in the Functioning of a Total Hip Replacement | 2018
+[39] doi:10.2106/jbjs.19.00300 | The Effects of Pelvic Incidence in the Functional Anatomy of the Hip Joint | 2020
+[40] doi:10.2106/jbjs.m.00765 | Predictability of Acetabular Component Angular Change with Postural Shift from Standing to Sitting Position | 2014
+[41] doi:10.2106/jbjs.o.00276 | Acetabular Anteversion Changes Due to Spinal Deformity Correction: Bridging the Gap Between Hip and Spine Surgeons | 2015
+[42] doi:10.3390/jcm9082569 | The Impact of Spinopelvic Mobility on Arthroplasty: Implications for Hip and Spine Surgeons | 2020

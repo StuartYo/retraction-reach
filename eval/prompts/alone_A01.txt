@@ -1,0 +1,48 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1007/978-3-030-01231-1_33 | Integral Human Pose Regression | 2018
+[2] doi:10.1007/978-3-030-58452-8_44 | Learning Feature Descriptors Using Camera Pose Supervision | 2020
+[3] doi:10.1007/978-3-030-58580-8_37 | S2DNet: Learning Image Features for Accurate Sparse-to-Dense Matching | 2020
+[4] doi:10.1007/978-3-030-69525-5_30 | HDD-Net: Hybrid Detector Descriptor with Mutual Interactive Learning | 2021
+[5] doi:10.1007/978-3-030-69535-4_14 | D2D: Keypoint Extraction with Describe to Detect Approach | 2021
+[6] doi:10.1007/978-3-030-69535-4_25 | MLIFeat: Multi-level Information Fusion Based Deep Local Features | 2021
+[7] doi:10.1007/978-3-319-46466-4_28 | LIFT: Learned Invariant Feature Transform | 2016
+[8] doi:10.1007/s10791-009-9110-3 | Gradient descent optimization of smoothed information retrieval metrics | 2009
+[9] doi:10.1007/s11263-020-01385-0 | Image Matching Across Wide Baselines: From Paper to Practice | 2020
+[10] doi:10.1007/s11263-021-01469-5 | VPR-Bench: An Open-Source Visual Place Recognition Evaluation Framework with Quantifiable Viewpoint and Appearance Change | 2021
+[11] doi:10.1023/b:visi.0000029664.99615.94 | Distinctive Image Features from Scale-Invariant Keypoints | 2004
+[12] doi:10.1080/23307706.2019.1709989 | Dual-mode dynamic window approach to robot navigation with convergence guarantees | 2020
+[13] doi:10.1109/3dv.2019.00063 | Sparse-to-Dense Hypercolumn Matching for Long-Term Visual Localization | 2019
+[14] doi:10.1109/cvpr.2015.7299165 | TILDE: A Temporally Invariant Learned DEtector | 2015
+[15] doi:10.1109/cvpr.2016.445 | Structure-from-Motion Revisited | 2016
+[16] doi:10.1109/cvpr.2016.90 | Deep Residual Learning for Image Recognition | 2016
+[17] doi:10.1109/cvpr.2017.410 | HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors | 2017
+[18] doi:10.1109/cvpr.2017.418 | Quad-Networks: Unsupervised Learning to Rank for Interest Point Detection | 2017
+[19] doi:10.1109/cvpr.2017.649 | L2-Net: Deep Learning of Discriminative Patch Descriptor in Euclidean Space | 2017
+[20] doi:10.1109/cvpr.2018.00069 | Local Descriptors Optimized for Average Precision | 2018
+[21] doi:10.1109/cvpr.2018.00218 | MegaDepth: Learning Single-View Depth Prediction from Internet Photos | 2018
+[22] doi:10.1109/cvpr.2018.00897 | Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions | 2018
+[23] doi:10.1109/cvpr.2019.00828 | D2-Net: A Trainable CNN for Joint Description and Detection of Local Features | 2019
+[24] doi:10.1109/cvpr.2019.01127 | SOSNet: Second Order Similarity Regularization for Local Descriptor Learning | 2019
+[25] doi:10.1109/cvpr42600.2020.00500 | Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task | 2020
+[26] doi:10.1109/cvpr42600.2020.00662 | ASLFeat: Learning Local Features of Accurate Shape and Localization | 2020
+[27] doi:10.1109/cvpr46437.2021.00048 | Neural Reprojection Error: Merging Feature Learning and Camera Pose Estimation | 2021
+[28] doi:10.1109/cvprw.2018.00060 | SuperPoint: Self-Supervised Interest Point Detection and Description | 2018
+[29] doi:10.1109/iccv.2011.6126544 | ORB: An efficient alternative to SIFT or SURF | 2011
+[30] doi:10.1109/iccv48922.2021.01088 | Removing the Bias of Integral Pose Regression | 2021
+[31] doi:10.1109/tip.2013.2283401 | Hybrid Patching for a Sequence of Differently Exposed Images With Moving Objects | 2013
+[32] doi:10.1109/tmm.2008.2001374 | Shot Change Detection via Local Keypoint Matching | 2008
+[33] doi:10.1109/tmm.2016.2590305 | Keypoint Detection in RGBD Images Based on an Anisotropic Scale Space | 2016
+[34] doi:10.1109/tmm.2017.2743988 | Intelligent Detail Enhancement for Exposure Fusion | 2018
+[35] doi:10.1109/tmm.2018.2839885 | Learning-Based Tone Mapping Operator for Efficient Image Matching | 2019
+[36] doi:10.1109/tmm.2020.3038323 | Robust and Efficient RGB-D SLAM in Dynamic Environments | 2021
+[37] doi:10.1109/tpami.2005.188 | A performance evaluation of local descriptors | 2005
+[38] doi:10.1109/tpami.2022.3145820 | Key.Net: Keypoint Detection by Handcrafted and Learned CNN Filters Revisited | 2023
+[39] doi:10.1109/tro.2017.2705103 | ORB-SLAM2: An Open-Source SLAM System for Monocular, Stereo, and RGB-D Cameras | 2017
+[40] doi:10.5244/c.30.119 | Learning local feature descriptors with triplets and shallow convolutional neural networks | 2016

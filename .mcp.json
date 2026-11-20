@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "retraction-graph": {
+      "command": "relate",
+      "args": ["serve", "--mcp", "stdio", "--database", "graph/retraction-graph.rl", "--read-only"]
+    }
+  }
+}
