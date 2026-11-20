@@ -16,3 +16,7 @@ Expected tool calls per batch = 2 x files. Any batch with more calls than that w
 | 8 | direct | B03-B04 | 4 | 4 | yes |
 | 9 | alone | B05, B06, B09, B10 | 8 | 8 | yes |
 | 10 | direct | B05, B06, B09, B10 | 8 | 8 | yes |
+| 11 | alone | A09, A10, B07, B08 (held out) | 8 | 8 | yes |
+| 12 | direct | A09, A10, B07, B08 (held out) | 8 | 8 | yes |
+
+Held-out batches 11-12 were run once on 2026-11-20 after the code was frozen (`python eval/run_graph.py holdout`, then the two batches, then `python eval/score.py holdout` -> `eval/results_holdout.json`).

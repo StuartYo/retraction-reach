@@ -1,0 +1,59 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1002/2016ea000225 | Software and the Scientist: Coding and Citation Practices in Geodynamics | 2017
+[2] doi:10.1007/s10515-022-00358-6 | Self-admitted technical debt in R: detection and causes | 2022
+[3] doi:10.1007/s10796-019-09915-z | Citizen Science: An Information Quality Research Frontier | 2019
+[4] doi:10.1007/s12599-014-0315-7 | Social Media Analytics | 2014
+[5] doi:10.1007/s13162-020-00161-0 | Designing conceptual articles: four approaches | 2020
+[6] doi:10.1016/0167-9236(94)00041-2 | Design and natural science research on information technology | 1995
+[7] doi:10.1016/j.chemosphere.2017.03.026 | Integration of in silico methods and computational systems biology to explore endocrine-disrupting chemical binding with nuclear hormone receptors | 2017
+[8] doi:10.1016/j.dss.2007.04.007 | Evaluating the adoption potential of design science efforts: The case of APSARA | 2008
+[9] doi:10.1016/j.envsoft.2022.105323 | Thematic domain analysis for ocean modeling | 2022
+[10] doi:10.1016/j.ijproman.2015.02.001 | Managing collaborative research projects: A synthesis of project management literature and directives for future research | 2015
+[11] doi:10.1016/j.infsof.2014.05.006 | Testing scientific software: A systematic literature review | 2014
+[12] doi:10.1016/j.jss.2015.07.027 | Scientific software development viewed as knowledge acquisition: Towards understanding the development of risk-averse scientific software | 2015
+[13] doi:10.1016/j.procs.2017.05.288 | On Patterns of Multi-domain Interaction for Scientific Software Development focused on Separation of Concerns | 2017
+[14] doi:10.1021/acs.chemrestox.8b00393 | Advancing Computational Toxicology in the Big Data Era by Artificial Intelligence: Data-Driven and Mechanism-Driven Modeling for Chemical Toxicity | 2019
+[15] doi:10.1038/467775a | Computational science: ...Error | 2010
+[16] doi:10.1038/483531a | Raise standards for preclinical cancer research | 2012
+[17] doi:10.1038/nm1107-1276b | Microarrays: retracing steps | 2007
+[18] doi:10.1038/nm1491 | Genomic signatures to guide the use of chemotherapeutics | 2006
+[19] doi:10.1038/s41597-019-0277-1 | A simulated Northern Hemisphere terrestrial climate dataset for the past 60,000 years | 2019
+[20] doi:10.1038/s41597-022-01490-4 | A high-resolution climate simulation dataset for the past 540 million years | 2022
+[21] doi:10.1057/ejis.2014.36 | FEDS: a Framework for Evaluation in Design Science Research | 2016
+[22] doi:10.1080/07421222.2015.1099390 | A Taxonomy of Evaluation Methods for Information Systems Artifacts | 2015
+[23] doi:10.1080/0960085x.2017.1395545 | Aesthetics in design science research | 2018
+[24] doi:10.1093/bib/bbaa100 | Using conceptual modeling to improve genome data management | 2020
+[25] doi:10.1093/cje/bet075 | Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff | 2013
+[26] doi:10.1108/fs-06-2014-0040 | Rebooting science? Implications of science 2.0 main trends for scientific method and research institutions | 2016
+[27] doi:10.1109/mc.2006.145 | Verified Software: A Grand Challenge | 2006
+[28] doi:10.1109/mc.2020.2998235 | Open Source Research Software | 2020
+[29] doi:10.1109/mcse.2011.86 | Software Engineering for Scientists | 2011
+[30] doi:10.1109/mcse.2014.9 | Streamlining Development of a Multimillion-Line Computational Chemistry Code | 2014
+[31] doi:10.1109/mcse.2015.113 | Technical Debt in Computational Science | 2015
+[32] doi:10.1109/mcse.2018.021651343 | Software Engineering for Computational Science: Past, Present, Future | 2018
+[33] doi:10.1109/mcse.2023.3259259 | Good Practices for High-Quality Scientific Computing | 2022
+[34] doi:10.1111/j.1740-9713.2015.00827.x | The Reproducibility Crisis in Science: A Statistical Counterattack | 2015
+[35] doi:10.1126/scitranslmed.aaf5027 | What does research reproducibility mean? | 2016
+[36] doi:10.1145/2447976.2447988 | The science in computer science | 2013
+[37] doi:10.1177/0037549710375437 | Exploiting grid technologies for the simulation of clinical trials: the paradigm of
+                    <i>in silico</i>
+                    radiation oncology | 2010
+[38] doi:10.1177/02683962211006429 | Toward replication study types for design science research | 2021
+[39] doi:10.1200/jco.2011.41.4458 | Establishing a Framework for Improving the Quality of Clinical and Translational Research | 2012
+[40] doi:10.1257/aer.100.2.573 | Growth in a Time of Debt | 2010
+[41] doi:10.1287/isre.3.1.36 | Building an Information System Design Theory for Vigilant EIS | 1992
+[42] doi:10.1287/orsc.1110.0700 | Digital Science and Knowledge Boundaries in Complex Innovation | 2012
+[43] doi:10.1371/journal.pone.0118925 | Should We Have Blind Faith in Bioinformatics Software? Illustrations from the SNAP Web-Based Tool | 2015
+[44] doi:10.2307/25148742 | The Nature of Theory in Information Systems1 | 2006
+[45] doi:10.2307/25148869 | Design Science in the Information Systems Discipline: An Introduction to the Special Issue on Design Science Research | 2008
+[46] doi:10.25300/misq/2015/39.3.02 | Genres of Inquiry in Design-Science Research: Justification and Evaluation of Knowledge Production1 | 2015
+[47] doi:10.2753/mis0742-1222240302 | A Design Science Research Methodology for Information Systems Research | 2007
+[48] doi:10.4018/jdm.2017010103 | A Framework for Managing Complexity in Information Systems | 2017
+[49] doi:10.5194/hess-20-3739-2016 | HESS Opinions: Repeatable research: what hydrologists can learn from the Duke cancer research scandal | 2016

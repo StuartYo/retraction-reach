@@ -1,0 +1,160 @@
+{
+ "split": "holdout",
+ "cases": 4,
+ "graph_totals": {
+  "listed": 175,
+  "direct": 3,
+  "l1_items": 10,
+  "l2_items": 44,
+  "exp_items": 47,
+  "check": 13,
+  "paths": 123,
+  "visible": 156
+ },
+ "table": [
+  {
+   "condition": "Model alone (no tools)",
+   "key": "alone",
+   "cases_answered": "4/4",
+   "direct_recall": 1.0,
+   "layer1_recall": 0.2,
+   "layer2_recall": 0.0,
+   "exposure_recall": 0.064,
+   "layer1_pairs_claimed": 3,
+   "layer1_pairs_in_data": 2,
+   "retracted_dois_claimed": 2,
+   "claimed_dois_not_retracted": 0
+  },
+  {
+   "condition": "Model + direct retraction lookup",
+   "key": "direct",
+   "cases_answered": "4/4",
+   "direct_recall": 1.0,
+   "layer1_recall": 0.3,
+   "layer2_recall": 0.0,
+   "exposure_recall": 0.085,
+   "layer1_pairs_claimed": 4,
+   "layer1_pairs_in_data": 2,
+   "retracted_dois_claimed": 2,
+   "claimed_dois_not_retracted": 0
+  },
+  {
+   "condition": "Graph (this project, Relate)",
+   "key": "graph",
+   "cases_answered": "4/4",
+   "direct_recall": 1.0,
+   "layer1_recall": 1.0,
+   "layer2_recall": 1.0,
+   "exposure_recall": 1.0,
+   "note": "reference answer: computed from Crossref reference lists + Retraction Watch"
+  }
+ ],
+ "per_case": [
+  {
+   "id": "A09",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 2,
+    "l2_items": 24,
+    "check": 2
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A10",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 0,
+    "l2_items": 0,
+    "check": 0
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B07",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 2,
+    "l1_items": 5,
+    "l2_items": 13,
+    "check": 7
+   },
+   "alone": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 1,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 1,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B08",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 3,
+    "l2_items": 7,
+    "check": 4
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 1,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 2,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   }
+  }
+ ],
+ "stop_loss_rule": "switch topic if model + direct lookup reaches >= 95% of the graph's layer-1+2 exposure recall",
+ "stop_loss_triggered": false
+}

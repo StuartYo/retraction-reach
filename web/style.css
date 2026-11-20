@@ -24,13 +24,13 @@
 html, body { margin: 0; }
 body { font: 15px/1.5 var(--sans); color: var(--ink); background: var(--canvas); }
 a { color: inherit; }
-.wrap { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
+.wrap { max-width: 1680px; margin: 0 auto; padding: 0 24px; }
 
 .top { background: var(--ink); color: #fff; }
 .top-in { display: flex; align-items: baseline; gap: 20px; height: 56px; align-items: center; }
 .brand { font-weight: 700; font-size: 17px; letter-spacing: 0.01em; }
 .tag { color: #b9c1cc; font-size: 14px; flex: 1; }
-.gh { color: #b9c1cc; font-size: 14px; text-decoration: none; border-bottom: 1px solid #56606e; }
+.gh { color: #b9c1cc; font-size: 14px; text-decoration: none; border-bottom: 1px solid #56606e; padding: 10px 0 2px; }
 
 .layout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 24px; padding-top: 24px; padding-bottom: 48px; }
 .side { display: flex; flex-direction: column; gap: 16px; }
@@ -49,7 +49,12 @@ button.secondary { background: #fff; color: var(--ink); border: 1px solid #b8bec
 .sources li { margin-bottom: 4px; }
 
 .main { min-width: 0; }
-.status { font-size: 13px; color: var(--muted); margin-bottom: 12px; min-height: 20px; font-family: var(--mono); }
+.status { font-size: 14px; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: var(--r-md); padding: 10px 14px; margin-bottom: 16px; }
+.status[hidden] { display: none; }
+.timing { font-family: var(--mono); font-size: 12.5px; }
+.field-msg { font-size: 13.5px; color: var(--ink-2); margin: 8px 0 0; min-height: 0; }
+.field-msg:empty { display: none; }
+.field-msg.err { color: var(--retracted); font-weight: 500; }
 .bib-head h1 { font-size: 22px; line-height: 1.3; margin: 0 0 4px; font-weight: 600; }
 .bib-src { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
 .doi { font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); text-decoration: none; border-bottom: 1px dotted #9aa3ae; word-break: break-all; }
@@ -63,8 +68,10 @@ button.secondary { background: #fff; color: var(--ink); border: 1px solid #b8bec
 .cmp-plus { font-size: 18px; font-weight: 500; color: var(--note); }
 .cmp-sub { font-size: 13.5px; color: var(--ink-2); }
 
-.counts { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 10px; }
-.count { font-size: 13px; padding: 4px 10px; border-radius: 999px; background: #fff; border: 1px solid var(--line); }
+.counts-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 16px 0 10px; flex-wrap: wrap; }
+.counts { display: flex; flex-wrap: wrap; gap: 8px; }
+button.small { min-height: 36px; padding: 6px 12px; font-size: 13.5px; margin-top: 0; }
+.count { font-size: 13px; padding: 6px 10px; border-radius: 999px; background: #fff; border: 1px solid var(--line); }
 .count b { font-variant-numeric: tabular-nums; }
 
 .grid { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
@@ -116,9 +123,21 @@ tr.detail td { background: #f4f6f8; padding: 4px 12px 16px 60px; }
 
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
-  .tag { display: none; }
-  .compare { grid-template-columns: 1fr; }
-  .cmp.before { border-right: 0; border-bottom: 1px solid var(--line); }
+  /* phones: bundled list, then the result, then the paste box and sources */
+  .side { display: contents; }
+  .side .panel:nth-child(1) { order: 1; }
+  .main { order: 2; }
+  .side .panel:nth-child(2) { order: 3; }
+  .side .panel:nth-child(3) { order: 4; }
+  .top-in { height: auto; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; row-gap: 4px; }
+  .tag { order: 3; flex-basis: 100%; font-size: 13.5px; line-height: 1.4; }
+  .brand { flex: 1; }
+  .compare { grid-template-columns: 1fr 1fr; }
+  .cmp { padding: 12px 14px; }
+  .cmp-num { font-size: 32px; }
+  .cmp-plus { font-size: 15px; display: block; }
+  .cmp-sub { font-size: 12.5px; }
+  .bib-head h1 { font-size: 18px; }
   .grid th:nth-child(4), .grid td.why { display: none; }
   tr.detail td { padding-left: 12px; }
   .chain { flex-direction: column; }

@@ -1,0 +1,158 @@
+{
+ "id": "A10",
+ "split": "holdout",
+ "source_doi": "10.3390/ani11020525",
+ "summary": {
+  "listed": 22,
+  "retracted": 0,
+  "check": 0,
+  "note": 0,
+  "clear": 21,
+  "unknown": 1,
+  "with_layer1": 0,
+  "with_layer2": 0,
+  "retracted_papers_reached": 0,
+  "paths": 0,
+  "references_visible": 21
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1016/j.prevetmed.2015.10.001",
+   "title": "Applying participatory approaches in the evaluation of surveillance systems: A pilot study on African swine fever surveillance in Corsica",
+   "date": "2015-12-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1016/j.prevetmed.2018.10.001",
+   "title": "Epidemiological analysis of the 2015–2017 African swine fever outbreaks in Estonia",
+   "date": "2020-08-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1016/j.prevetmed.2020.105121",
+   "title": "Hunters’ Acceptance of Measures against African Swine Fever in Wild Boar in Estonia",
+   "date": "2020-09-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1016/j.prevetmed.2020.105178",
+   "title": "Application of the World Café method to discuss the efficiency of African swine fever control strategies in European wild boar (Sus scrofa) populations",
+   "date": "2020-12-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/j.prevetmed.2020.105229",
+   "title": "Hunters’ view on the control of African swine fever in wild boar. A participatory study in Latvia",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/j.rvsc.2016.01.006",
+   "title": "African swine fever virus introduction into the EU in 2014: Experience of Latvia",
+   "date": "2016-04-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.vetmic.2012.11.030",
+   "title": "African swine fever (ASF): Five years around Europe",
+   "date": "2013-07-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.virusres.2012.10.026",
+   "title": "Pathogenesis of African swine fever in domestic pigs and European wild boar",
+   "date": "2013-04-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.virusres.2012.10.030",
+   "title": "Epidemiology of African swine fever virus",
+   "date": "2013-04-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.virusres.2012.12.007",
+   "title": "African swine fever in the North Caucasus region and the Russian Federation in years 2007–2012",
+   "date": "2013-04-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1038/s41598-017-12952-w",
+   "title": "Development of African swine fever epidemic among wild boar in Estonia - two different areas in the epidemiological focus",
+   "date": "2017-10-02"
+  },
+  {
+   "position": 12,
+   "doi": "10.1038/s41598-019-40962-3",
+   "title": "Epidemiological evaluation of Latvian control measures for African swine fever in wild boar on the basis of surveillance data",
+   "date": "2019-03-12"
+  },
+  {
+   "position": 13,
+   "doi": "10.1038/s41598-020-66381-3",
+   "title": "Risk factors for African swine fever incursion in Romanian domestic farms during 2019",
+   "date": "2020-06-23"
+  },
+  {
+   "position": 14,
+   "doi": "10.1111/tbed.12254",
+   "title": "Attitudes and Beliefs of Pig Farmers and Wild Boar Hunters Towards Reporting of African Swine Fever in Bulgaria, Germany and the Western Part of the Russian Federation",
+   "date": "2014-08-06"
+  },
+  {
+   "position": 15,
+   "doi": "10.1136/vr.h699",
+   "title": "African swine fever in wild boar in Europe: a notable challenge",
+   "date": "2015-02-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1186/s12917-016-0822-5",
+   "title": "Hunters’ acceptability of the surveillance system and alternative surveillance strategies for classical swine fever in wild boar - a participatory approach",
+   "date": "2016-09-06"
+  },
+  {
+   "position": 17,
+   "doi": "10.1186/s13567-014-0093-8",
+   "title": "Dynamics of African swine fever virus shedding and excretion in domestic pigs infected by intramuscular inoculation and contact transmission",
+   "date": "2014-09-26"
+  },
+  {
+   "position": 18,
+   "doi": "10.1371/journal.pone.0161431",
+   "title": "English Pig Farmers’ Knowledge and Behaviour towards African Swine Fever Suspicion and Reporting",
+   "date": "2016-09-29"
+  },
+  {
+   "position": 19,
+   "doi": "10.1371/journal.pone.0169198",
+   "title": "Review of Participatory Epidemiology Practices in Animal Health (1980-2015) and Future Practice Directions",
+   "date": "2017-01-17"
+  },
+  {
+   "position": 20,
+   "doi": "10.2903/j.efsa.2018.5344",
+   "title": "African swine fever in wild boar",
+   "date": "2018-07-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.3389/fvets.2020.00296",
+   "title": "African Swine Fever: Lessons to Learn From Past Eradication Experiences. A Systematic Review",
+   "date": "2020-06-09"
+  },
+  {
+   "position": 22,
+   "doi": "10.9734/bjast/2015/14975",
+   "title": "Likert Scale: Explored and Explained",
+   "date": "2015-01-10"
+  }
+ ],
+ "direct": [],
+ "layer1": [],
+ "layer2_items": [],
+ "layer2_pairs": [],
+ "check": [],
+ "seconds": 57.6
+}

@@ -83,13 +83,25 @@ python -m relate_retraction report my-paper
 
 A 40-reference list takes 1 to 4 minutes the first time (one Crossref request per 80 DOIs, about 1,500 DOIs for the second layer, then Semantic Scholar for the edges on a path); cached runs take seconds.
 
-Web demo, no install beyond Python:
+Web demo, a static site in `web/` (no build step):
 
 ```bash
 python scripts/export_web.py     # refresh web/data from data/work.rl (already done for the bundled lists)
-python -m http.server 8000 -d web
-# open http://localhost:8000
+node scripts/serve.mjs           # or: python -m http.server 8765 -d web
+# open http://127.0.0.1:8765
 ```
+
+For pasted lists the page needs the Retraction Watch list. It is not shipped as one file: `web/data/rw/hashes.bin` holds a sorted 32-bit hash of each of the 62,431 retracted DOIs (250 KB, loaded once), and the records sit in 1,024 shards (`web/data/rw/shards/`) that the page fetches only for DOIs that hit the hash list. Measured in headless Chrome (`node scripts/measure_web.mjs`, results in `docs/web-measurements.json`):
+
+| | Local server | 10 Mbit/s, 40 ms |
+|---|---|---|
+| Retraction list, old single file (19.7 MB JSON) | 0.18 s | 15.6 s |
+| Retraction list, hash index (250 KB) | 0.01 s | 0.28 s |
+| Page open to first report (WebAssembly engine 7.1 MB + bundled graph 1.4 MB) | 1.6 s | 8.8 s |
+
+A pasted 31-DOI list (eval case B01) took 35 s end to end, almost all of it Crossref requests; 13 shards were fetched (0.15 s). Its statuses matched the CLI's answer for the same list exactly (1 retracted, 2 check, 13 note, 6 not visible, 9 clear).
+
+Deploying: `vercel.json` serves `web/` as a static site with no build (`.vercelignore` uploads only `web/`). Any static host works; GitHub Pages can publish the `web/` folder.
 
 MCP, for Claude Code or any MCP host:
 
@@ -108,6 +120,15 @@ Same model, no tools, on 16 frozen cases (`eval/cases.json`: 8 random Crossref j
 | Model + direct retraction lookup | 100% | 27% | 2.5% | 8.9% |
 | Graph (this project, Relate) | 100% | 100% | 100% | 100% |
 | Count in the 16 lists (graph) | 14 | 55 | 285 | 292 of 727 |
+
+The 4 held-out lists (A09, A10, B07, B08) were run once, after the code was frozen (`eval/results_holdout.json`):
+
+| Held-out set | Retracted references found | 1 hop | 2 hops | Any 1- or 2-hop exposure |
+|---|---|---|---|---|
+| Model alone (no tools) | 100% | 20% | 0% | 6.4% |
+| Model + direct retraction lookup | 100% | 30% | 0% | 8.5% |
+| Graph (this project, Relate) | 100% | 100% | 100% | 100% |
+| Count in the 4 lists (graph) | 3 | 10 | 44 | 47 of 175 |
 
 The model knows which famous papers were retracted: every DOI it called retracted really is one. It does not know what your references cite. Of the layer-1 links it proposed, 9 of 21 (alone) and 14 of 28 (with the lookup) exist in the Crossref data. With the direct lookup it found 8.9% of the references that reach a retracted paper within two hops; the stop rule we froze before running (switch topic at 95%) was not triggered.
 

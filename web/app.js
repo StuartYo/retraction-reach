@@ -187,7 +187,7 @@ function renderTable(rep) {
   }
   $('#results').replaceChildren(el('table', { class: 'grid' },
     el('thead', {}, el('tr', {}, el('th', { class: 'num' }, '#'), el('th', {}, 'Status'), el('th', {}, 'Reference'), el('th', {}, 'Strongest finding'), el('th', { class: 'num' }, 'Paths'))), body));
-  const first = body.querySelector('tr.row.s-retracted, tr.row.s-check');
+  const first = body.querySelector('tr.row.s-retracted[tabindex], tr.row.s-check[tabindex], tr.row.s-note[tabindex]');
   if (first) first.click();
 }
 
@@ -195,56 +195,115 @@ async function show(bib) {
   setStatus('Running the Cypher queries…');
   const rep = await buildReport(bib);
   $('#bib-title').textContent = rep.meta.label;
-  $('#bib-src').replaceChildren(rep.meta.source_doi ? el('span', {}, 'Reference list of ', doiLink(rep.meta.source_doi)) : 'Pasted list');
+  $('#bib-src').replaceChildren(rep.meta.source_doi ? el('span', {}, 'Reference list of ', doiLink(rep.meta.source_doi)) : 'Your pasted list, checked live against Crossref',
+    el('span', { class: 'timing' }, ` · findings query ${rep.findingsMs.toFixed(0)} ms, run by Relate in this page`));
+  lastReport = rep;
   renderSummary(rep);
   renderTable(rep);
   $('#report').hidden = false;
   $('#console-q').value = `// Paths from this list to retracted papers, as the report computes them\nMATCH (:Bibliography {id: '${bib}'})-[:LISTS]->(r:Paper)\nMATCH p = (r)-[:CITES*1..2]->(c:Retracted)\nRETURN r.doi AS listed, [n IN nodes(p) | n.doi] AS path, length(p) AS hops\nLIMIT 25`;
-  setStatus(`Findings query ran in ${rep.findingsMs.toFixed(0)} ms inside the page.`);
+  setStatus('');
+  document.body.dataset.state = 'done';
+}
+let lastReport = null;
+function downloadCsv() {
+  if (!lastReport) return;
+  const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+  const lines = [['position', 'status', 'doi', 'title', 'year', 'score', 'paths', 'strongest_path', 'retracted_on', 'cited_after_retraction'].join(',')];
+  for (const it of [...lastReport.items].sort((a, b) => a.position - b.position)) {
+    const top = it.paths[0];
+    lines.push([it.position, STATUS[it.status][0], q(it.doi), q(stripTags(it.title)), year(it.date), it.severity, it.paths.length,
+      q(top ? top.path.join(' -> ') : ''), top ? fmtDate(top.retracted_on) : it.retraction ? fmtDate(it.retraction.retracted_on) : '',
+      top ? (top.cited_after_retraction ? 'yes' : 'no') : ''].join(','));
+  }
+  const a = el('a', { href: URL.createObjectURL(new Blob([lines.join('\n') + '\n'], { type: 'text/csv' })), download: `retraction-reach-${lastReport.meta.id || 'report'}.csv` });
+  document.body.append(a); a.click(); a.remove();
 }
 
-function setStatus(t) { $('#status').textContent = t; }
+function setStatus(t) { $('#status').textContent = t; $('#status').hidden = !t; if (t) document.body.dataset.state = 'busy'; }
+function setPasteMsg(t, isError) { const m = $('#paste-msg'); m.textContent = t; m.classList.toggle('err', !!isError); }
 
 // ---------------------------------------------------------------- bundled examples
 let snapshot = null;
+const loadTiming = {};
+window.retractionReachLoad = loadTiming; // read by scripts/measure_web.mjs
 async function loadSnapshot() {
   const t0 = performance.now();
+  const mark = (k) => { loadTiming[k] = Math.round(performance.now() - t0); };
   setStatus('Loading the Relate engine (WebAssembly)…');
+  const snapP = fetch('data/graph.json').then((r) => { if (!r.ok) throw new Error('the bundled graph did not download'); return r.json(); });
   await loadQueries();
   await run('RETURN 1 AS ok');
+  mark('engine');
   setStatus('Loading the bundled citation graph…');
-  snapshot = await (await fetch('data/graph.json')).json();
+  snapshot = await snapP;
+  mark('graph_json');
   await ensureSchema();
   // Fresh store and a de-duplicated export, so plain CREATE is enough here (pasted lists use MERGE).
   for (const c of chunks(snapshot.papers)) {
     await run(`UNWIND $rows AS r CREATE (p:Paper {doi: r.doi}) SET p.title = r.title, p.journal = r.journal, p.date = r.date,
       p.in_crossref = r.in_crossref, p.references_count = r.references_count, p.refs_with_doi = r.refs_with_doi`, { rows: c });
   }
+  mark('papers');
   await writeRetractions(snapshot.retractions);
+  mark('retractions');
   for (const b of snapshot.bibliographies) await writeBibliography(b);
+  mark('bibliographies');
   for (const c of chunks(snapshot.cites)) {
     await run(`UNWIND $rows AS e MATCH (a:Paper {doi: e.a}), (c:Paper {doi: e.b})
       CREATE (a)-[:CITES {source: 'Crossref reference list', intents: e.intents, influential: e.influential, context: e.context,
         intent_found: e.intent_found, intent_source: e.intent_source}]->(c)`, { rows: c });
   }
+  mark('cites');
   const n = (await run('MATCH (p:Paper) RETURN count(p) AS n')).rows[0].n;
   const r = (await run('MATCH ()-[k:CITES]->() RETURN count(k) AS n')).rows[0].n;
   $('#engine').textContent = `Relate 1.1.0 (WebAssembly) · ${n.toLocaleString()} papers · ${r.toLocaleString()} citations · loaded in ${((performance.now() - t0) / 1000).toFixed(1)} s · Retraction Watch data as of ${snapshot.meta.rw_loaded}`;
   const sel = $('#example');
-  sel.replaceChildren(...snapshot.bibliographies.map((b) => el('option', { value: b.id }, `${b.id === 'demo' ? '★ ' : ''}${stripTags(b.label).replace(/^References of /, '').slice(0, 90)}`)));
+  sel.replaceChildren(...snapshot.bibliographies.map((b) => el('option', { value: b.id }, `${b.id === 'demo' ? 'Demo: ' : ''}${stripTags(b.label).replace(/^References of /, '').slice(0, 90)}`)));
   const start = snapshot.bibliographies.find((b) => b.id === 'demo') ? 'demo' : snapshot.bibliographies[0].id;
   sel.value = start;
   await show(start);
+  loadTiming.report_since_navigation = Math.round(performance.now());
 }
 
 // ---------------------------------------------------------------- live check of pasted DOIs (Crossref from the browser)
-let retracted = null;
-async function loadRetracted() {
-  if (retracted) return retracted;
-  setStatus('Downloading the Retraction Watch list (CC0)…');
-  const j = await (await fetch('data/retracted.json')).json();
-  retracted = new Map(j.rows.map((r) => [r[0], { doi: r[0], date: r[1], record_id: r[2], title: r[3], reasons: r[4] ? r[4].split(';') : [], notice_doi: r[5] }]));
-  return retracted;
+// The Retraction Watch list is split in two (scripts/export_web.py): a sorted list of 32-bit hashes of every
+// retracted DOI (about 250 KB, loaded once), and the records themselves in 1,024 shards keyed by the top
+// 10 bits of the hash. A pasted list loads the hash list, then only the shards its DOIs hit.
+const enc = new TextEncoder();
+function fnv1a(s) { let h = 0x811c9dc5; for (const b of enc.encode(s)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; } return h >>> 0; }
+let rwHashes = null;
+const rwTiming = { indexMs: null, shardMs: null, shards: 0 };
+window.retractionReachTiming = rwTiming; // read by scripts/measure_web.mjs
+async function loadRetractedIndex() {
+  if (rwHashes) return rwHashes;
+  setStatus('Loading the Retraction Watch index (62,431 retracted DOIs, 250 KB)…');
+  const t0 = performance.now();
+  const r = await fetch('data/rw/hashes.bin');
+  if (!r.ok) throw new Error('The retraction index did not load. Reload the page and try again.');
+  rwHashes = new Uint32Array(await r.arrayBuffer());
+  rwTiming.indexMs = performance.now() - t0;
+  return rwHashes;
+}
+function hashListed(h) {
+  let lo = 0, hi = rwHashes.length - 1;
+  while (lo <= hi) { const m = (lo + hi) >>> 1; const v = rwHashes[m]; if (v === h) return true; if (v < h) lo = m + 1; else hi = m - 1; }
+  return false;
+}
+// Returns Map doi -> retraction record, for the DOIs that are retracted.
+async function lookupRetracted(dois) {
+  await loadRetractedIndex();
+  const byShard = new Map();
+  for (const d of dois) { const h = fnv1a(d); if (hashListed(h)) { const k = h >>> 22; if (!byShard.has(k)) byShard.set(k, new Set()); byShard.get(k).add(d); } }
+  const t0 = performance.now();
+  const out = new Map();
+  await Promise.all([...byShard].map(async ([k, want]) => {
+    const r = await fetch(`data/rw/shards/${k.toString(16).padStart(3, '0')}.json`);
+    if (!r.ok) throw new Error('Part of the retraction index did not load. Reload the page and try again.');
+    for (const row of (await r.json()).rows) if (want.has(row[0])) out.set(row[0], { doi: row[0], date: row[1], record_id: row[2], title: row[3], reasons: row[4] ? row[4].split(';') : [], notice_doi: row[5] });
+  }));
+  rwTiming.shardMs = performance.now() - t0; rwTiming.shards = byShard.size;
+  return out;
 }
 const normDoi = (s) => { if (!s) return null; let d = s.trim().toLowerCase().replace(/^(https?:\/\/(dx\.)?doi\.org\/|doi:)/, '').replace(/[.)\]]+$/, ''); return d.startsWith('10.') && d.includes('/') ? d : null; };
 function dateOf(m) { for (const k of ['published', 'issued']) { const p = (m[k] && m[k]['date-parts'] && m[k]['date-parts'][0]) || []; if (p[0]) return `${String(p[0]).padStart(4, '0')}-${String(p[1] || 1).padStart(2, '0')}-${String(p[2] || 1).padStart(2, '0')}`; } return null; }
@@ -271,14 +330,18 @@ let pastedN = 0;
 async function checkPasted() {
   const text = $('#paste').value;
   const dois = [...new Set((text.match(/10\.\d{4,9}\/[^\s"<>,;]+/g) || []).map(normDoi).filter(Boolean))];
-  if (!dois.length) { setStatus('No DOIs found. Paste one DOI per line, for example 10.1056/NEJMoa2007621.'); return; }
-  if (dois.length > 150) { setStatus(`That is ${dois.length} DOIs. The browser version takes up to 150; the CLI has no limit.`); return; }
-  $('#go').disabled = true;
+  if (!dois.length) { setPasteMsg('No DOIs found. Paste one DOI per line, for example 10.1056/NEJMoa2007621.', true); $('#paste').focus(); return; }
+  if (dois.length > 150) { setPasteMsg(`That is ${dois.length} DOIs. The browser version takes up to 150; the command-line version has no limit.`, true); return; }
+  setPasteMsg(`Checking ${dois.length} DOIs. Progress is shown above the results.`);
+  $('#go').disabled = true; $('#go').textContent = 'Checking…';
   try {
-    const rw = await loadRetracted();
-    const w0 = await crossref(dois, 'Your references');
+    await loadRetractedIndex();
+    const w0 = await crossref(dois, 'Step 1 of 3 · your references');
     const bset = new Set(); for (const w of w0.values()) w.refs.forEach((d) => bset.add(d));
-    const w1 = await crossref([...bset], 'Their reference lists');
+    const w1 = await crossref([...bset], 'Step 2 of 3 · the reference lists behind them');
+    setStatus('Step 3 of 3 · matching against Retraction Watch…');
+    const all = new Set([...dois, ...bset]); for (const w of w1.values()) w.refs.forEach((d) => all.add(d));
+    const rw = await lookupRetracted(all);
     setStatus('Writing the graph into Relate…');
     const papers = new Map();
     const add = (d, w) => papers.set(d, { doi: d, title: w ? w.title : null, journal: w ? w.journal : null, date: w ? w.date : null,
@@ -298,9 +361,12 @@ async function checkPasted() {
     $('#example').append(el('option', { value: id }, `Your pasted list ${pastedN} (${dois.length} DOIs)`));
     $('#example').value = id;
     await show(id);
+    setPasteMsg(`Done: ${dois.length} DOIs checked. The result is on the right${window.innerWidth < 900 ? ' (below)' : ''}.`);
+    if (window.innerWidth < 900) $('#report').scrollIntoView({ behavior: 'smooth' });
   } catch (e) {
-    setStatus(`Stopped: ${e.message}`);
-  } finally { $('#go').disabled = false; }
+    setStatus('');
+    setPasteMsg(`Stopped: ${e.message}`, true);
+  } finally { $('#go').disabled = false; $('#go').textContent = 'Check these references'; }
 }
 
 // ---------------------------------------------------------------- console
@@ -320,4 +386,5 @@ async function runConsole() {
 $('#example').addEventListener('change', (e) => show(e.target.value));
 $('#go').addEventListener('click', checkPasted);
 $('#run-q').addEventListener('click', runConsole);
+$('#csv').addEventListener('click', downloadCsv);
 loadSnapshot().catch((e) => setStatus(`Could not start: ${e.message}`));

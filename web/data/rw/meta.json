@@ -1,0 +1,1 @@
+{"rw_loaded": "2026-11-20", "rw_retractions": 62431, "columns": ["doi", "date", "record_id", "title", "reasons", "notice_doi"], "hash": "fnv1a32(utf-8 lower-case DOI)", "shard_bits": 10, "dois": 62431, "hashes": 62431}

@@ -1,0 +1,521 @@
+{
+ "id": "B07",
+ "split": "holdout",
+ "source_doi": "10.1098/rsos.240313",
+ "summary": {
+  "listed": 44,
+  "retracted": 2,
+  "check": 5,
+  "note": 8,
+  "clear": 18,
+  "unknown": 11,
+  "with_layer1": 5,
+  "with_layer2": 13,
+  "retracted_papers_reached": 32,
+  "paths": 62,
+  "references_visible": 33
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/jcpy.1208",
+   "title": "Pre‐registration: Why and How",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1002/polq.13241",
+   "title": "The Geopolitical Consequences of COVID-19: Assessing Hawkish Mass Opinion in China",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/978-1-0716-1418-1",
+   "title": "An Introduction to Statistical Learning",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1017/9781108233590",
+   "title": "Robustness Tests for Quantitative Research",
+   "date": "2017-08-11"
+  },
+  {
+   "position": 5,
+   "doi": "10.1017/cbo9780511801389",
+   "title": "An Introduction to Support Vector Machines and Other Kernel-based Learning Methods",
+   "date": "2000-03-23"
+  },
+  {
+   "position": 6,
+   "doi": "10.1017/pan.2020.31",
+   "title": "Achieving Statistical Significance with Control Variables and Without Transparency",
+   "date": "2020-11-16"
+  },
+  {
+   "position": 7,
+   "doi": "10.1017/psrm.2015.44",
+   "title": "Data Access and Research Transparency (DA-RT): A Joint Statement by Political Science Journal Editors",
+   "date": "2015-08-18"
+  },
+  {
+   "position": 8,
+   "doi": "10.1017/s1049096513001716",
+   "title": "Openness in Political Science: Data Access and Research Transparency",
+   "date": "2013-12-29"
+  },
+  {
+   "position": 9,
+   "doi": "10.1017/s1049096516000184",
+   "title": "How Are We Doing? Data Access and Replication in Political Science",
+   "date": "2016-04-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1017/s1049096518000926",
+   "title": "Data Access, Transparency, and Replication: New Insights from the Political Behavior Literature",
+   "date": "2018-07-03"
+  },
+  {
+   "position": 11,
+   "doi": "10.1017/s153759271700336x",
+   "title": "The Rush to Transparency: DA-RT and the Potential Dangers for Qualitative Research",
+   "date": "2018-02-07"
+  },
+  {
+   "position": 12,
+   "doi": "10.1017/s1537592720001206",
+   "title": "Can We Do Better? Replication and Online Appendices in Political Science",
+   "date": "2020-05-25"
+  },
+  {
+   "position": 13,
+   "doi": "10.1027/1864-9335/a000178",
+   "title": "Investigating Variation in Replicability",
+   "date": "2014-05-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1073/pnas.1209746109",
+   "title": "RETRACTED: Signing at the beginning makes ethics salient and decreases dishonest                    self-reports in comparison to signing at the end",
+   "date": "2012-08-27"
+  },
+  {
+   "position": 15,
+   "doi": "10.1073/pnas.1708274114",
+   "title": "The preregistration revolution",
+   "date": "2018-03-12"
+  },
+  {
+   "position": 16,
+   "doi": "10.1073/pnas.1911695117",
+   "title": "Signing at the beginning versus at the end does not decrease dishonesty",
+   "date": "2020-03-16"
+  },
+  {
+   "position": 17,
+   "doi": "10.1080/00031305.2018.1518264",
+   "title": "Statistical Inference Enables Bad Science; Statistical Thinking Enables Good Science",
+   "date": "2019-03-20"
+  },
+  {
+   "position": 18,
+   "doi": "10.1093/pan/2.1.1",
+   "title": "On Political Methodology",
+   "date": "1990-01-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1098/rsos.201494",
+   "title": "Analytic reproducibility in articles receiving open data badges at the journal\n                    <i>Psychological Science</i>\n                    : an observational study",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1098/rsos.211037",
+   "title": "Comparing dream to reality: an assessment of adherence of the first generation of preregistered studies",
+   "date": "2021-10-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1126/science.1255484",
+   "title": "Publication bias in the social sciences: Unlocking the file drawer",
+   "date": "2014-09-19"
+  },
+  {
+   "position": 22,
+   "doi": "10.1126/science.1256151",
+   "title": "When contact changes minds: An experiment on transmission of support for gay equality",
+   "date": "2014-12-12"
+  },
+  {
+   "position": 23,
+   "doi": "10.1126/science.aac4716",
+   "title": "Estimating the reproducibility of psychological science",
+   "date": "2015-08-28"
+  },
+  {
+   "position": 24,
+   "doi": "10.1177/0044118x19892168",
+   "title": "Retraction Notice",
+   "date": "2019-12-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1177/0956797611417632",
+   "title": "False-Positive Psychology",
+   "date": "2011-10-17"
+  },
+  {
+   "position": 26,
+   "doi": "10.1177/0956797611430953",
+   "title": "Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling",
+   "date": "2012-04-16"
+  },
+  {
+   "position": 27,
+   "doi": "10.1177/0956797613480366",
+   "title": "Just Post It",
+   "date": "2013-08-27"
+  },
+  {
+   "position": 28,
+   "doi": "10.1177/0956797616658563",
+   "title": "Power Posing:\n                    <i>P-</i>\n                    Curving the Evidence",
+   "date": "2017-03-20"
+  },
+  {
+   "position": 29,
+   "doi": "10.1177/1745691614553988",
+   "title": "<i>p</i>\n                    -Curve and Effect Size",
+   "date": "2014-11-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1177/1745691620979806",
+   "title": "Estimating the Prevalence of Transparency and Reproducibility-Related Research Practices in Psychology (2014–2017)",
+   "date": "2021-03-08"
+  },
+  {
+   "position": 31,
+   "doi": "10.1177/2515245918810225",
+   "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "date": "2018-12-01"
+  },
+  {
+   "position": 32,
+   "doi": "10.1177/2515245920918872",
+   "title": "Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology",
+   "date": "2020-05-22"
+  },
+  {
+   "position": 33,
+   "doi": "10.1214/09-aoas291",
+   "title": "Deriving chemosensitivity from cell lines: Forensic bioinformatics and reproducible research in high-throughput biology",
+   "date": "2009-12-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1257/aer.20190687",
+   "title": "Methods Matter: p-Hacking and Publication Bias in Causal Analysis in Economics",
+   "date": "2020-11-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1371/journal.pbio.3000691",
+   "title": "What is replication?",
+   "date": "2020-03-27"
+  },
+  {
+   "position": 36,
+   "doi": "10.1371/journal.pbio.3000763",
+   "title": "Low availability of code in ecology: A call for urgent action",
+   "date": "2020-07-28"
+  },
+  {
+   "position": 37,
+   "doi": "10.1371/journal.pone.0132382",
+   "title": "Likelihood of Null Effects of Large NHLBI Clinical Trials Has Increased over Time",
+   "date": "2015-08-05"
+  },
+  {
+   "position": 38,
+   "doi": "10.1511/2014.111.460",
+   "title": "The Statistical Crisis in Science",
+   "date": "2014-01-01"
+  },
+  {
+   "position": 39,
+   "doi": "10.2307/420301",
+   "title": "Replication, Replication",
+   "date": "1995-09-01"
+  },
+  {
+   "position": 40,
+   "doi": "10.31234/osf.io/urgtn",
+   "title": "Z-Curve 2.0: Estimating Replication Rates and Discovery Rates",
+   "date": "2020-01-10"
+  },
+  {
+   "position": 41,
+   "doi": "10.31235/osf.io/bwm7s",
+   "title": "Questionable Research Practices and Open Science in Quantitative Criminology",
+   "date": "2021-01-18"
+  },
+  {
+   "position": 42,
+   "doi": "10.3758/s13428-015-0664-2",
+   "title": "The prevalence of statistical reporting errors in psychology (1985–2013)",
+   "date": "2015-10-23"
+  },
+  {
+   "position": 43,
+   "doi": "10.7208/chicago/9780226398488.001.0001",
+   "title": "The Scientific Revolution",
+   "date": "2018-01-01"
+  },
+  {
+   "position": 44,
+   "doi": "10.7554/elife.67995",
+   "title": "Challenges for assessing replicability in preclinical cancer biology",
+   "date": "2021-12-07"
+  }
+ ],
+ "direct": [
+  14,
+  22
+ ],
+ "layer1": [
+  {
+   "position": 9,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1073/pnas.1209746109"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/j.jesp.2010.12.013"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/j.jesp.2011.02.010"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1037/1089-2699.7.1.26"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1086/662139"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1111/j.1467-9280.2009.02458.x"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1016/s1470-2045(07)70345-5"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1200/jco.2007.11.0593"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1371/journal.pone.0001908"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1038/nature10167"
+  }
+ ],
+ "layer2_items": [
+  1,
+  14,
+  15,
+  16,
+  19,
+  27,
+  30,
+  31,
+  33,
+  34,
+  35,
+  42,
+  44
+ ],
+ "layer2_pairs": [
+  {
+   "position": 1,
+   "retracted_doi": "10.1016/j.jesp.2010.12.013"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1016/j.jesp.2011.02.010"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1037/1089-2699.7.1.26"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1073/pnas.1209746109"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1086/662139"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1111/j.1467-9280.2009.02458.x"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1037/0022-3514.87.4.468"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1073/pnas.1113421108"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1073/pnas.1209746109"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/j.jacc.2011.04.026"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1002/14651858.cd004125.pub2"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/0140-6736(92)93151-c"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/s0271-5317(01)00366-9"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/s0271-5317(01)00369-4"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/s0899-9007(01)00610-4"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1037/1089-2699.7.1.26"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1037/a0014484"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1086/648688"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1111/j.1467-9280.2009.02458.x"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1509/jmkr.47.2.251"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1126/science.1201068"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1016/s1470-2045(07)70345-5"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1056/nejmoa060467"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1200/jco.2006.06.3743"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1200/jco.2007.11.0593"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1371/journal.pone.0001908"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1002/ejsp.569"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1257/000282802762024656"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1126/science.1201068"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1016/j.jacc.2011.04.026"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/j.lungcan.2010.06.005"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1073/pnas.0806674105"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1158/1535-7163.mct-13-0338"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.3727/096504017x15123838050075"
+  }
+ ],
+ "check": [
+  9,
+  14,
+  16,
+  22,
+  27,
+  33,
+  44
+ ],
+ "seconds": 73.0
+}

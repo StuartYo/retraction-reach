@@ -1,0 +1,25 @@
+  layer 0: 60 listed DOIs
+  layer 1: 3244 cited DOIs, fetching their reference lists from Crossref
+    800/3184
+    1600/3184
+    2400/3184
+    3184/3184
+  edges: 4119 (layer-2 edges kept because they reach a retracted paper: 21)
+A09 holdout: listed 60 retracted 0 L1 2 L2 24 check 2 (274.5s)
+  layer 0: 22 listed DOIs
+  layer 1: 438 cited DOIs, fetching their reference lists from Crossref
+    421/421
+  edges: 580 (layer-2 edges kept because they reach a retracted paper: 0)
+A10 holdout: listed 22 retracted 0 L1 0 L2 0 check 0 (57.6s)
+  layer 0: 44 listed DOIs
+  layer 1: 928 cited DOIs, fetching their reference lists from Crossref
+    800/841
+    841/841
+  edges: 1181 (layer-2 edges kept because they reach a retracted paper: 47)
+B07 holdout: listed 44 retracted 2 L1 5 L2 13 check 5 (73.0s)
+  layer 0: 49 listed DOIs
+  layer 1: 1297 cited DOIs, fetching their reference lists from Crossref
+    800/1235
+    1235/1235
+  edges: 1419 (layer-2 edges kept because they reach a retracted paper: 17)
+B08 holdout: listed 49 retracted 1 L1 3 L2 7 check 3 (111.9s)

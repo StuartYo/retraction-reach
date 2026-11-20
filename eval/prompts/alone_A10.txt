@@ -1,0 +1,30 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1016/j.prevetmed.2015.10.001 | Applying participatory approaches in the evaluation of surveillance systems: A pilot study on African swine fever surveillance in Corsica | 2015
+[2] doi:10.1016/j.prevetmed.2018.10.001 | Epidemiological analysis of the 2015–2017 African swine fever outbreaks in Estonia | 2020
+[3] doi:10.1016/j.prevetmed.2020.105121 | Hunters’ Acceptance of Measures against African Swine Fever in Wild Boar in Estonia | 2020
+[4] doi:10.1016/j.prevetmed.2020.105178 | Application of the World Café method to discuss the efficiency of African swine fever control strategies in European wild boar (Sus scrofa) populations | 2020
+[5] doi:10.1016/j.prevetmed.2020.105229 | Hunters’ view on the control of African swine fever in wild boar. A participatory study in Latvia | 2021
+[6] doi:10.1016/j.rvsc.2016.01.006 | African swine fever virus introduction into the EU in 2014: Experience of Latvia | 2016
+[7] doi:10.1016/j.vetmic.2012.11.030 | African swine fever (ASF): Five years around Europe | 2013
+[8] doi:10.1016/j.virusres.2012.10.026 | Pathogenesis of African swine fever in domestic pigs and European wild boar | 2013
+[9] doi:10.1016/j.virusres.2012.10.030 | Epidemiology of African swine fever virus | 2013
+[10] doi:10.1016/j.virusres.2012.12.007 | African swine fever in the North Caucasus region and the Russian Federation in years 2007–2012 | 2013
+[11] doi:10.1038/s41598-017-12952-w | Development of African swine fever epidemic among wild boar in Estonia - two different areas in the epidemiological focus | 2017
+[12] doi:10.1038/s41598-019-40962-3 | Epidemiological evaluation of Latvian control measures for African swine fever in wild boar on the basis of surveillance data | 2019
+[13] doi:10.1038/s41598-020-66381-3 | Risk factors for African swine fever incursion in Romanian domestic farms during 2019 | 2020
+[14] doi:10.1111/tbed.12254 | Attitudes and Beliefs of Pig Farmers and Wild Boar Hunters Towards Reporting of African Swine Fever in Bulgaria, Germany and the Western Part of the Russian Federation | 2014
+[15] doi:10.1136/vr.h699 | African swine fever in wild boar in Europe: a notable challenge | 2015
+[16] doi:10.1186/s12917-016-0822-5 | Hunters’ acceptability of the surveillance system and alternative surveillance strategies for classical swine fever in wild boar - a participatory approach | 2016
+[17] doi:10.1186/s13567-014-0093-8 | Dynamics of African swine fever virus shedding and excretion in domestic pigs infected by intramuscular inoculation and contact transmission | 2014
+[18] doi:10.1371/journal.pone.0161431 | English Pig Farmers’ Knowledge and Behaviour towards African Swine Fever Suspicion and Reporting | 2016
+[19] doi:10.1371/journal.pone.0169198 | Review of Participatory Epidemiology Practices in Animal Health (1980-2015) and Future Practice Directions | 2017
+[20] doi:10.2903/j.efsa.2018.5344 | African swine fever in wild boar | 2018
+[21] doi:10.3389/fvets.2020.00296 | African Swine Fever: Lessons to Learn From Past Eradication Experiences. A Systematic Review | 2020
+[22] doi:10.9734/bjast/2015/14975 | Likert Scale: Explored and Explained | 2015

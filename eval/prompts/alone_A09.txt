@@ -1,0 +1,87 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1002/1521-3773(20010601)40:11<2004::aid-anie2004>3.0.co;2-5 | Click Chemistry: Diverse Chemical Function from a Few Good Reactions | 2001
+[2] doi:10.1002/adsc.201700103 | Recent Advances in Reactions of Azides | 2017
+[3] doi:10.1002/anie.200401744 | The Staudinger Ligation—A Gift to Chemical Biology | 2004
+[4] doi:10.1002/anie.201003325 | Azidohomoalanine: A Conformationally Sensitive IR Probe of Protein Folding, Protein Structure, and Electrostatics | 2010
+[5] doi:10.1002/asia.201100340 | Sulfonyl and Phosphoryl Azides: Going Further Beyond the Click Realm of Alkyl and Aryl Azides | 2011
+[6] doi:10.1002/ejoc.200600587 | Direct Asymmetric α‐Sulfamidation of α‐Branched Aldehydes: A Novel Approach to Enamine Catalysis | 2006
+[7] doi:10.1002/ejoc.201900956 | On the Basicity of Organic Bases in Different Media | 2019
+[8] doi:10.1002/ejoc.202001649 | Strengths of Acids in Acetonitrile | 2021
+[9] doi:10.1002/jlcr.3220 | Toward hyperpolarized molecular imaging of HIV: synthesis and longitudinal relaxation properties of <sup>15</sup>N‐Azidothymidine | 2014
+[10] doi:10.1016/0040-4039(96)01307-x | Metal catalyzed diazo transfer for the synthesis of azides from amines | 1996
+[11] doi:10.1016/j.chemphys.2011.04.024 | Ultrafast internal rotational dynamics of the azido group in (4S)-azidoproline: Chemical exchange 2DIR spectroscopic investigations | 2012
+[12] doi:10.1016/j.tetlet.2014.03.057 | Mechanistic studies on the diazo transfer reaction | 2014
+[13] doi:10.1016/j.tetlet.2017.10.063 | Enantioselective organocatalytic α-sulfamidation of aldehydes using sulfonyl azides | 2017
+[14] doi:10.1021/acs.chemrev.6b00625 | Transparent Window Vibrational Probes for the Characterization of Proteins With High Structural and Temporal Resolution | 2017
+[15] doi:10.1021/acs.chemrev.9b00813 | Vibrational Spectroscopic Map, Vibrational Spectroscopy,
+and Intermolecular Interaction | 2020
+[16] doi:10.1021/acs.joc.6b00177 | An Updated Synthesis
+of the Diazo-Transfer Reagent
+Imidazole-1-sulfonyl Azide Hydrogen Sulfate | 2016
+[17] doi:10.1021/acs.joc.8b01587 | Intrinsically Safe and Shelf-Stable Diazo-Transfer Reagent for Fast Synthesis of Diazo Compounds | 2018
+[18] doi:10.1021/acs.joc.8b03046 | Regiospecific Cleavage of S–N Bonds in Sulfonyl Azides: Sulfonyl Donors | 2019
+[19] doi:10.1021/acs.joc.9b00269 | Diazo-Transfer Reagent 2-Azido-4,6-dimethoxy-1,3,5-triazine Displays Highly Exothermic Decomposition Comparable to Tosyl Azide | 2019
+[20] doi:10.1021/acs.jpcb.8b03887 | Identifying and Modulating Accidental Fermi Resonance: 2D IR and DFT Study of 4-Azido-<scp>l</scp>-phenylalanine | 2018
+[21] doi:10.1021/acs.oprd.9b00422 | Thermal Stability
+and Explosive Hazard Assessment
+of Diazo Compounds and Diazo Transfer Reagents | 2019
+[22] doi:10.1021/acsomega.1c04679 | TfNN<sup>15</sup>N: A γ-<sup>15</sup>N-Labeled Diazo-Transfer Reagent for the Synthesis of β-<sup>15</sup>N-Labeled Azides | 2021
+[23] doi:10.1021/acssensors.2c01720 | Design and Characterization of Hyperpolarized <sup>15</sup>N-BBCP as a H<sub>2</sub>O<sub>2</sub>-Sensing Probe | 2022
+[24] doi:10.1021/cr00084a001 | Azides: their preparation and synthetic uses | 1988
+[25] doi:10.1021/ja0264605 | The Chemistry of Amine−Azide Interconversion:  Catalytic Diazotransfer and Regioselective Azide Reduction | 2002
+[26] doi:10.1021/ja3000936 | Reactivity of Biarylazacyclooctynones in Copper-Free Click Chemistry | 2012
+[27] doi:10.1021/jo026505k | Preparation of Unsymmetrical Sulfonylureas from <i>N</i>,<i>N</i>‘-Sulfuryldiimidazoles | 2002
+[28] doi:10.1021/jo048252w | Extension of the Self-Consistent Spectrophotometric Basicity Scale in Acetonitrile to a Full Span of 28 p
+                    <i>K</i>
+                    <sub>a</sub>
+                    Units:  Unification of Different Basicity Scales | 2005
+[29] doi:10.1021/jo202264r | Sensitivities of Some Imidazole-1-sulfonyl Azide Salts | 2012
+[30] doi:10.1021/jo500553q | Synthesis of Sulfonyl Azides via Diazotransfer using an Imidazole-1-sulfonyl Azide Salt: Scope and <sup>15</sup>N NMR Labeling Experiments | 2014
+[31] doi:10.1021/jp101367s | A Sensitive Multispectroscopic Probe for Nucleic Acids | 2010
+[32] doi:10.1021/jp107359m | Azido Gauche Effect on the Backbone Conformation of β-Azidoalanine Peptides | 2010
+[33] doi:10.1021/jp1085119 | Infrared Probing of 4-Azidoproline Conformations Modulated by Azido Configurations | 2012
+[34] doi:10.1021/jp801558k | β-Azidoalanine as an IR Probe: Application to Amyloid Aβ(16-22) Aggregation | 2008
+[35] doi:10.1021/jz2006447 | Modulating Accidental Fermi Resonance: What a Difference a Neutron Makes | 2011
+[36] doi:10.1021/ol3028708 | A Safe and Facile Route to Imidazole-1-sulfonyl Azide as a Diazotransfer Reagent | 2012
+[37] doi:10.1021/ol701581g | An Efficient, Inexpensive, and Shelf-Stable Diazotransfer Reagent:  Imidazole-1-sulfonyl Azide Hydrochloride | 2007
+[38] doi:10.1038/nature08948 | Tracking G-protein-coupled receptor activation using genetically encoded infrared probes | 2010
+[39] doi:10.1038/s41586-019-1589-1 | Modular click chemistry libraries for functional screens using a diazotizing reagent | 2019
+[40] doi:10.1038/s41592-020-0883-z | Mid-infrared metabolic imaging with vibrational probes | 2020
+[41] doi:10.1039/b004337k | Crystallographic characterisation of arenesulfonyl azides. Structural and kinetic effects induced by ortho- and para-substituents | 2000
+[42] doi:10.1039/c4cc03016h | Organic azides: “
+                    <i>energetic reagents</i>
+                    ” for the
+                    <i>inter</i>
+                    molecular amination of C–H bonds | 2014
+[43] doi:10.1039/c5cs00693g | Stimulated Raman scattering microscopy: an emerging tool for drug discovery | 2016
+[44] doi:10.1039/c6ob01965j | Recent advances in the tandem reaction of azides with alkynes or alkynols | 2016
+[45] doi:10.1039/d0cp02693j | Two-dimensional IR spectroscopy reveals a hidden Fermi resonance band in the azido stretch spectrum of β-azidoalanine | 2020
+[46] doi:10.1039/d0cp02814b | Extending the vibrational lifetime of azides with heavy atoms | 2020
+[47] doi:10.1039/d1sc04647k | <sup>15</sup>
+                    N-Azides as practical and effective tags for developing long-lived hyperpolarized agents | 2021
+[48] doi:10.1039/d2sc01264b | State-of-the-art accounts of hyperpolarized
+                    <sup>15</sup>
+                    N-labeled molecular imaging probes for magnetic resonance spectroscopy and imaging | 2022
+[49] doi:10.1055/s-0035-1561626 | Synthesis of Sulfonyl Azides via Lewis Base Activation of Sulfonyl Fluorides and Trimethylsilyl Azide | 2016
+[50] doi:10.1063/1.3483688 | Two-dimensional infrared study of 3-azidopyridine as a potential spectroscopic reporter of protonation state | 2010
+[51] doi:10.1063/1.464913 | Density-functional thermochemistry. III. The role of exact exchange | 1993
+[52] doi:10.1063/1.4917032 | Vibrational dynamics of azide-derivatized amino acids studied by nonlinear infrared spectroscopy | 2015
+[53] doi:10.1063/5.0025289 | Effect of isotope substitution on the Fermi resonance and vibrational lifetime of unnatural amino acids modified with IR probe: A 2D-IR and pump-probe study of 4-azido-L-phenyl alanine | 2020
+[54] doi:10.1073/pnas.0707090104 | Copper-free click chemistry for dynamic
+                    <i>in vivo</i>
+                    imaging | 2007
+[55] doi:10.1103/physrevb.37.785 | Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density | 1988
+[56] doi:10.1126/scitranslmed.3006070 | Metabolic Imaging of Patients with Prostate Cancer Using Hyperpolarized [1-
+                    <sup>13</sup>
+                    C]Pyruvate | 2013
+[57] doi:10.1146/annurev-physchem-040214-121802 | Site-Specific Infrared Probes of Proteins | 2015
+[58] doi:10.2174/138527209788167231 | Developments in the Photochemistry of Diazo Compounds | 2009
+[59] doi:10.3390/catal10101173 | Transition Metal Catalyzed Azidation Reactions | 2020
+[60] doi:10.3390/molecules21030352 | Azidation in the Difunctionalization of Olefins | 2016

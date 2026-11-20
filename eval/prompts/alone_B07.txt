@@ -1,0 +1,57 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1002/jcpy.1208 | Pre‐registration: Why and How | 2021
+[2] doi:10.1002/polq.13241 | The Geopolitical Consequences of COVID-19: Assessing Hawkish Mass Opinion in China | 2021
+[3] doi:10.1007/978-1-0716-1418-1 | An Introduction to Statistical Learning | 2021
+[4] doi:10.1017/9781108233590 | Robustness Tests for Quantitative Research | 2017
+[5] doi:10.1017/cbo9780511801389 | An Introduction to Support Vector Machines and Other Kernel-based Learning Methods | 2000
+[6] doi:10.1017/pan.2020.31 | Achieving Statistical Significance with Control Variables and Without Transparency | 2020
+[7] doi:10.1017/psrm.2015.44 | Data Access and Research Transparency (DA-RT): A Joint Statement by Political Science Journal Editors | 2015
+[8] doi:10.1017/s1049096513001716 | Openness in Political Science: Data Access and Research Transparency | 2013
+[9] doi:10.1017/s1049096516000184 | How Are We Doing? Data Access and Replication in Political Science | 2016
+[10] doi:10.1017/s1049096518000926 | Data Access, Transparency, and Replication: New Insights from the Political Behavior Literature | 2018
+[11] doi:10.1017/s153759271700336x | The Rush to Transparency: DA-RT and the Potential Dangers for Qualitative Research | 2018
+[12] doi:10.1017/s1537592720001206 | Can We Do Better? Replication and Online Appendices in Political Science | 2020
+[13] doi:10.1027/1864-9335/a000178 | Investigating Variation in Replicability | 2014
+[14] doi:10.1073/pnas.1209746109 | RETRACTED: Signing at the beginning makes ethics salient and decreases dishonest                    self-reports in comparison to signing at the end | 2012
+[15] doi:10.1073/pnas.1708274114 | The preregistration revolution | 2018
+[16] doi:10.1073/pnas.1911695117 | Signing at the beginning versus at the end does not decrease dishonesty | 2020
+[17] doi:10.1080/00031305.2018.1518264 | Statistical Inference Enables Bad Science; Statistical Thinking Enables Good Science | 2019
+[18] doi:10.1093/pan/2.1.1 | On Political Methodology | 1990
+[19] doi:10.1098/rsos.201494 | Analytic reproducibility in articles receiving open data badges at the journal
+                    <i>Psychological Science</i>
+                    : an observational study | 2021
+[20] doi:10.1098/rsos.211037 | Comparing dream to reality: an assessment of adherence of the first generation of preregistered studies | 2021
+[21] doi:10.1126/science.1255484 | Publication bias in the social sciences: Unlocking the file drawer | 2014
+[22] doi:10.1126/science.1256151 | When contact changes minds: An experiment on transmission of support for gay equality | 2014
+[23] doi:10.1126/science.aac4716 | Estimating the reproducibility of psychological science | 2015
+[24] doi:10.1177/0044118x19892168 | Retraction Notice | 2019
+[25] doi:10.1177/0956797611417632 | False-Positive Psychology | 2011
+[26] doi:10.1177/0956797611430953 | Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling | 2012
+[27] doi:10.1177/0956797613480366 | Just Post It | 2013
+[28] doi:10.1177/0956797616658563 | Power Posing:
+                    <i>P-</i>
+                    Curving the Evidence | 2017
+[29] doi:10.1177/1745691614553988 | <i>p</i>
+                    -Curve and Effect Size | 2014
+[30] doi:10.1177/1745691620979806 | Estimating the Prevalence of Transparency and Reproducibility-Related Research Practices in Psychology (2014–2017) | 2021
+[31] doi:10.1177/2515245918810225 | Many Labs 2: Investigating Variation in Replicability Across Samples and Settings | 2018
+[32] doi:10.1177/2515245920918872 | Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology | 2020
+[33] doi:10.1214/09-aoas291 | Deriving chemosensitivity from cell lines: Forensic bioinformatics and reproducible research in high-throughput biology | 2009
+[34] doi:10.1257/aer.20190687 | Methods Matter: p-Hacking and Publication Bias in Causal Analysis in Economics | 2020
+[35] doi:10.1371/journal.pbio.3000691 | What is replication? | 2020
+[36] doi:10.1371/journal.pbio.3000763 | Low availability of code in ecology: A call for urgent action | 2020
+[37] doi:10.1371/journal.pone.0132382 | Likelihood of Null Effects of Large NHLBI Clinical Trials Has Increased over Time | 2015
+[38] doi:10.1511/2014.111.460 | The Statistical Crisis in Science | 2014
+[39] doi:10.2307/420301 | Replication, Replication | 1995
+[40] doi:10.31234/osf.io/urgtn | Z-Curve 2.0: Estimating Replication Rates and Discovery Rates | 2020
+[41] doi:10.31235/osf.io/bwm7s | Questionable Research Practices and Open Science in Quantitative Criminology | 2021
+[42] doi:10.3758/s13428-015-0664-2 | The prevalence of statistical reporting errors in psychology (1985–2013) | 2015
+[43] doi:10.7208/chicago/9780226398488.001.0001 | The Scientific Revolution | 2018
+[44] doi:10.7554/elife.67995 | Challenges for assessing replicability in preclinical cancer biology | 2021

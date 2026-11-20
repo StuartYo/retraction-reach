@@ -1,7 +1,13 @@
 """Export what the browser demo needs from the Relate store.
 
 web/data/graph.json      the bundled reference lists and their two-layer neighbourhood (read by the WASM engine)
-web/data/retracted.json  every Retraction Watch retraction (DOI, date, reasons) for checking pasted lists live
+web/data/rw/             every Retraction Watch retraction, for checking pasted lists live:
+                         hashes.bin = sorted 32-bit FNV-1a hashes of the DOIs (about 250 KB, loaded once),
+                         shards/NNN.json = the records themselves, split by the top 10 bits of the hash and
+                         fetched only for the DOIs that hit the hash list.
+
+    python scripts/export_web.py                      # from data/work.rl
+    python scripts/export_web.py --index-from FILE    # rebuild only web/data/rw/ from an old retracted.json
 """
 import json
 import sys
@@ -12,6 +18,37 @@ sys.path.insert(0, str(ROOT))
 from relate_retraction import graph  # noqa: E402
 
 OUT = ROOT / "web" / "data"
+
+
+SHARD_BITS = 10
+COLUMNS = ["doi", "date", "record_id", "title", "reasons", "notice_doi"]
+
+
+def fnv1a32(s):
+    h = 0x811C9DC5
+    for b in s.encode("utf-8"):
+        h = ((h ^ b) * 0x01000193) & 0xFFFFFFFF
+    return h
+
+
+def write_rw_index(slim, meta):
+    """Membership list the page loads once, plus the records split into shards fetched on demand."""
+    import shutil
+    import struct
+    rw = OUT / "rw"
+    if rw.exists():
+        shutil.rmtree(rw)
+    (rw / "shards").mkdir(parents=True)
+    hashes = sorted({fnv1a32(r[0]) for r in slim})
+    (rw / "hashes.bin").write_bytes(struct.pack(f"<{len(hashes)}I", *hashes))
+    shards = {}
+    for r in slim:
+        shards.setdefault(fnv1a32(r[0]) >> (32 - SHARD_BITS), []).append(r)
+    for k in range(1 << SHARD_BITS):
+        (rw / "shards" / f"{k:03x}.json").write_text(json.dumps({"rows": shards.get(k, [])}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (rw / "meta.json").write_text(json.dumps({**meta, "columns": COLUMNS, "hash": "fnv1a32(utf-8 lower-case DOI)", "shard_bits": SHARD_BITS,
+                                              "dois": len(slim), "hashes": len(hashes)}), encoding="utf-8")
+    print(f"rw index: {len(slim)} retractions, {len(hashes)} hashes, {len(shards)} shards")
 
 
 def rows(conn, stmt, params=None):
@@ -63,10 +100,15 @@ def main():
     snap = {"meta": meta, "bibliographies": bibs, "papers": papers, "cites": cites, "retractions": near}
     (OUT / "graph.json").write_text(json.dumps(snap, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     slim = [[r["doi"], r["date"], r["record_id"], (r["title"] or "")[:160], ";".join(r["reasons"] or [])[:300], r["notice_doi"]] for r in retractions]
-    (OUT / "retracted.json").write_text(json.dumps({"meta": meta, "columns": ["doi", "date", "record_id", "title", "reasons", "notice_doi"], "rows": slim}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write_rw_index(slim, meta)
     conn.close()
     print(f"bibliographies {len(bibs)}, papers {len(papers)}, cites {len(cites)}, retractions near {len(near)} / all {len(retractions)}")
 
+
+if __name__ == "__main__" and "--index-from" in sys.argv:
+    src = json.loads(Path(sys.argv[sys.argv.index("--index-from") + 1]).read_text(encoding="utf-8"))
+    write_rw_index(src["rows"], src["meta"])
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()

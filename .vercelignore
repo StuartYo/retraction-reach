@@ -1,0 +1,4 @@
+# Only the static demo in web/ is deployed (vercel.json sets outputDirectory to web).
+/*
+!/web
+!/vercel.json

@@ -1,0 +1,77 @@
+{
+ "local_unthrottled": {
+  "page": {
+   "seconds_navigation_to_report": 1.59,
+   "steps_ms_since_app_start": {
+    "engine": 169,
+    "graph_json": 169,
+    "papers": 453,
+    "retractions": 570,
+    "bibliographies": 746,
+    "cites": 1014,
+    "report_since_navigation": 1590
+   },
+   "wall_seconds_incl_browser": 1.675
+  },
+  "new_index": {
+   "seconds": 0.014200000002980231,
+   "bytes": 249724
+  },
+  "old_index": {
+   "seconds": 0.17940000000596046,
+   "rows": 62431
+  }
+ },
+ "throttled_10mbit_40ms": {
+  "page": {
+   "seconds_navigation_to_report": 8.752,
+   "steps_ms_since_app_start": {
+    "engine": 6943,
+    "graph_json": 6943,
+    "papers": 7520,
+    "retractions": 7743,
+    "bibliographies": 7981,
+    "cites": 8373,
+    "report_since_navigation": 8752
+   },
+   "wall_seconds_incl_browser": 8.885
+  },
+  "new_index": {
+   "seconds": 0.2773999999910593,
+   "bytes": 249724
+  },
+  "old_index": {
+   "seconds": 15.61230000001192,
+   "rows": 62431
+  }
+ },
+ "pasted": {
+  "case": "B01",
+  "dois": 31,
+  "seconds_total": 34.806,
+  "index_seconds": 0.011600000008940696,
+  "shard_seconds": 0.147,
+  "shards_fetched": 13,
+  "retracted_match_cli": true,
+  "exposed_match_cli": true,
+  "web": {
+   "retracted": [
+    3
+   ],
+   "exposed": 15
+  },
+  "cli": {
+   "retracted": [
+    3
+   ],
+   "exposed": 15
+  },
+  "statuses": {
+   "Retracted": 1,
+   "Check": 2,
+   "Note": 13,
+   "Not visible": 6,
+   "Clear": 9
+  }
+ }
+}

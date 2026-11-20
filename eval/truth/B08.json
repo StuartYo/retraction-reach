@@ -1,0 +1,413 @@
+{
+ "id": "B08",
+ "split": "holdout",
+ "source_doi": "10.1016/j.dss.2024.114368",
+ "summary": {
+  "listed": 49,
+  "retracted": 1,
+  "check": 3,
+  "note": 5,
+  "clear": 37,
+  "unknown": 3,
+  "with_layer1": 3,
+  "with_layer2": 7,
+  "retracted_papers_reached": 10,
+  "paths": 23,
+  "references_visible": 46
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/2016ea000225",
+   "title": "Software and the Scientist: Coding and Citation Practices in Geodynamics",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s10515-022-00358-6",
+   "title": "Self-admitted technical debt in R: detection and causes",
+   "date": "2022-08-25"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/s10796-019-09915-z",
+   "title": "Citizen Science: An Information Quality Research Frontier",
+   "date": "2019-04-10"
+  },
+  {
+   "position": 4,
+   "doi": "10.1007/s12599-014-0315-7",
+   "title": "Social Media Analytics",
+   "date": "2014-02-15"
+  },
+  {
+   "position": 5,
+   "doi": "10.1007/s13162-020-00161-0",
+   "title": "Designing conceptual articles: four approaches",
+   "date": "2020-03-09"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/0167-9236(94)00041-2",
+   "title": "Design and natural science research on information technology",
+   "date": "1995-12-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.chemosphere.2017.03.026",
+   "title": "Integration of in silico methods and computational systems biology to explore endocrine-disrupting chemical binding with nuclear hormone receptors",
+   "date": "2017-07-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.dss.2007.04.007",
+   "title": "Evaluating the adoption potential of design science efforts: The case of APSARA",
+   "date": "2008-01-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.envsoft.2022.105323",
+   "title": "Thematic domain analysis for ocean modeling",
+   "date": "2022-04-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.ijproman.2015.02.001",
+   "title": "Managing collaborative research projects: A synthesis of project management literature and directives for future research",
+   "date": "2015-07-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.infsof.2014.05.006",
+   "title": "Testing scientific software: A systematic literature review",
+   "date": "2014-10-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/j.jss.2015.07.027",
+   "title": "Scientific software development viewed as knowledge acquisition: Towards understanding the development of risk-averse scientific software",
+   "date": "2015-11-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1016/j.procs.2017.05.288",
+   "title": "On Patterns of Multi-domain Interaction for Scientific Software Development focused on Separation of Concerns",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1021/acs.chemrestox.8b00393",
+   "title": "Advancing Computational Toxicology in the Big Data Era by Artificial Intelligence: Data-Driven and Mechanism-Driven Modeling for Chemical Toxicity",
+   "date": "2019-03-14"
+  },
+  {
+   "position": 15,
+   "doi": "10.1038/467775a",
+   "title": "Computational science: ...Error",
+   "date": "2010-10-13"
+  },
+  {
+   "position": 16,
+   "doi": "10.1038/483531a",
+   "title": "Raise standards for preclinical cancer research",
+   "date": "2012-03-28"
+  },
+  {
+   "position": 17,
+   "doi": "10.1038/nm1107-1276b",
+   "title": "Microarrays: retracing steps",
+   "date": "2007-11-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1038/nm1491",
+   "title": "Genomic signatures to guide the use of chemotherapeutics",
+   "date": "2006-10-22"
+  },
+  {
+   "position": 19,
+   "doi": "10.1038/s41597-019-0277-1",
+   "title": "A simulated Northern Hemisphere terrestrial climate dataset for the past 60,000 years",
+   "date": "2019-11-07"
+  },
+  {
+   "position": 20,
+   "doi": "10.1038/s41597-022-01490-4",
+   "title": "A high-resolution climate simulation dataset for the past 540 million years",
+   "date": "2022-06-28"
+  },
+  {
+   "position": 21,
+   "doi": "10.1057/ejis.2014.36",
+   "title": "FEDS: a Framework for Evaluation in Design Science Research",
+   "date": "2016-01-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1080/07421222.2015.1099390",
+   "title": "A Taxonomy of Evaluation Methods for Information Systems Artifacts",
+   "date": "2015-07-03"
+  },
+  {
+   "position": 23,
+   "doi": "10.1080/0960085x.2017.1395545",
+   "title": "Aesthetics in design science research",
+   "date": "2018-01-29"
+  },
+  {
+   "position": 24,
+   "doi": "10.1093/bib/bbaa100",
+   "title": "Using conceptual modeling to improve genome data management",
+   "date": "2020-06-12"
+  },
+  {
+   "position": 25,
+   "doi": "10.1093/cje/bet075",
+   "title": "Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff",
+   "date": "2013-12-24"
+  },
+  {
+   "position": 26,
+   "doi": "10.1108/fs-06-2014-0040",
+   "title": "Rebooting science? Implications of science 2.0 main trends for scientific method and research institutions",
+   "date": "2016-06-13"
+  },
+  {
+   "position": 27,
+   "doi": "10.1109/mc.2006.145",
+   "title": "Verified Software: A Grand Challenge",
+   "date": "2006-04-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1109/mc.2020.2998235",
+   "title": "Open Source Research Software",
+   "date": "2020-08-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.1109/mcse.2011.86",
+   "title": "Software Engineering for Scientists",
+   "date": "2011-09-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1109/mcse.2014.9",
+   "title": "Streamlining Development of a Multimillion-Line Computational Chemistry Code",
+   "date": "2014-05-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.1109/mcse.2015.113",
+   "title": "Technical Debt in Computational Science",
+   "date": "2015-11-01"
+  },
+  {
+   "position": 32,
+   "doi": "10.1109/mcse.2018.021651343",
+   "title": "Software Engineering for Computational Science: Past, Present, Future",
+   "date": "2018-03-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.1109/mcse.2023.3259259",
+   "title": "Good Practices for High-Quality Scientific Computing",
+   "date": "2022-11-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1111/j.1740-9713.2015.00827.x",
+   "title": "The Reproducibility Crisis in Science: A Statistical Counterattack",
+   "date": "2015-06-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1126/scitranslmed.aaf5027",
+   "title": "What does research reproducibility mean?",
+   "date": "2016-06-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1145/2447976.2447988",
+   "title": "The science in computer science",
+   "date": "2013-05-01"
+  },
+  {
+   "position": 37,
+   "doi": "10.1177/0037549710375437",
+   "title": "Exploiting grid technologies for the simulation of clinical trials: the paradigm of\n                    <i>in silico</i>\n                    radiation oncology",
+   "date": "2010-07-09"
+  },
+  {
+   "position": 38,
+   "doi": "10.1177/02683962211006429",
+   "title": "Toward replication study types for design science research",
+   "date": "2021-04-28"
+  },
+  {
+   "position": 39,
+   "doi": "10.1200/jco.2011.41.4458",
+   "title": "Establishing a Framework for Improving the Quality of Clinical and Translational Research",
+   "date": "2012-05-10"
+  },
+  {
+   "position": 40,
+   "doi": "10.1257/aer.100.2.573",
+   "title": "Growth in a Time of Debt",
+   "date": "2010-05-01"
+  },
+  {
+   "position": 41,
+   "doi": "10.1287/isre.3.1.36",
+   "title": "Building an Information System Design Theory for Vigilant EIS",
+   "date": "1992-03-01"
+  },
+  {
+   "position": 42,
+   "doi": "10.1287/orsc.1110.0700",
+   "title": "Digital Science and Knowledge Boundaries in Complex Innovation",
+   "date": "2012-10-01"
+  },
+  {
+   "position": 43,
+   "doi": "10.1371/journal.pone.0118925",
+   "title": "Should We Have Blind Faith in Bioinformatics Software? Illustrations from the SNAP Web-Based Tool",
+   "date": "2015-03-05"
+  },
+  {
+   "position": 44,
+   "doi": "10.2307/25148742",
+   "title": "The Nature of Theory in Information Systems1",
+   "date": "2006-09-01"
+  },
+  {
+   "position": 45,
+   "doi": "10.2307/25148869",
+   "title": "Design Science in the Information Systems Discipline: An Introduction to the Special Issue on Design Science Research",
+   "date": "2008-12-01"
+  },
+  {
+   "position": 46,
+   "doi": "10.25300/misq/2015/39.3.02",
+   "title": "Genres of Inquiry in Design-Science Research: Justification and Evaluation of Knowledge Production1",
+   "date": "2015-09-01"
+  },
+  {
+   "position": 47,
+   "doi": "10.2753/mis0742-1222240302",
+   "title": "A Design Science Research Methodology for Information Systems Research",
+   "date": "2007-12-01"
+  },
+  {
+   "position": 48,
+   "doi": "10.4018/jdm.2017010103",
+   "title": "A Framework for Managing Complexity in Information Systems",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 49,
+   "doi": "10.5194/hess-20-3739-2016",
+   "title": "HESS Opinions: Repeatable research: what hydrologists can learn from the Duke cancer research scandal",
+   "date": "2016-09-12"
+  }
+ ],
+ "direct": [
+  18
+ ],
+ "layer1": [
+  {
+   "position": 17,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1200/jco.2006.06.3743"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1200/jco.2007.11.0593"
+  }
+ ],
+ "layer2_items": [
+  11,
+  16,
+  29,
+  34,
+  35,
+  39,
+  49
+ ],
+ "layer2_pairs": [
+  {
+   "position": 11,
+   "retracted_doi": "10.1371/journal.pcbi.0030051"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1158/1078-0432.ccr-10-0089"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1371/journal.pcbi.0030051"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1016/s1470-2045(07)70345-5"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1200/jco.2007.11.0593"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1371/journal.pone.0001908"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1038/nature12968"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1038/nature12969"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1056/nejmoa060467"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1200/jco.2006.06.3743"
+  },
+  {
+   "position": 49,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 49,
+   "retracted_doi": "10.1200/jco.2006.06.3743"
+  },
+  {
+   "position": 49,
+   "retracted_doi": "10.1200/jco.2007.11.0593"
+  }
+ ],
+ "check": [
+  17,
+  18,
+  34,
+  39
+ ],
+ "seconds": 111.9
+}
