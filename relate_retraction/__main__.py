@@ -33,13 +33,14 @@ def cmd_init(a):
     conn.close()
 
 
-def add_bibliography(conn, bib_id, label, dois, source_doi=None, retracted=None):
+def add_bibliography(conn, bib_id, label, dois, source_doi=None, retracted=None, intents=True):
     retracted = retracted if retracted is not None else {
         r["doi"] for r in conn.execute("MATCH (p:Retracted) RETURN p.doi AS doi")
     }
     exp = graph.expand_bibliography(dois, retracted)
     graph.write_bibliography(conn, bib_id, label, exp, source_doi)
-    graph.enrich_intents(conn, bib_id)
+    if intents:
+        graph.enrich_intents(conn, bib_id)
     return exp
 
 

@@ -1,0 +1,586 @@
+{
+ "id": "B10",
+ "split": "eval",
+ "source_doi": "10.1089/cell.2019.0038",
+ "summary": {
+  "listed": 33,
+  "retracted": 1,
+  "check": 3,
+  "note": 20,
+  "clear": 8,
+  "unknown": 1,
+  "with_layer1": 4,
+  "with_layer2": 24,
+  "retracted_papers_reached": 26,
+  "paths": 115,
+  "references_visible": 32
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/aja.1002010103",
+   "title": "Abnormal development of embryonic and extraembryonic cell lineages in parthenogenetic mouse embryos",
+   "date": "1994-09-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1002/mrd.20728",
+   "title": "In vitro development and cell allocation of porcine blastocysts derived by aggregation of in vitro fertilized embryos",
+   "date": "2007-04-17"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/s11626-014-9863-x",
+   "title": "Derivation of embryonic stem cells from Kunming mice IVF blastocyst in feeder- and serum-free condition",
+   "date": "2015-01-16"
+  },
+  {
+   "position": 4,
+   "doi": "10.1016/0092-8674(84)90313-1",
+   "title": "Completion of mouse embryogenesis requires both the maternal and paternal genomes",
+   "date": "1984-05-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/0925-4773(94)90037-x",
+   "title": "The non-viability of uniparental mouse conceptuses correlates with the loss of the products of imprinted genes",
+   "date": "1994-04-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/j.bbrc.2005.11.164",
+   "title": "Significant improvement of mouse cloning technique by treatment with trichostatin A after somatic nuclear transfer",
+   "date": "2006-02-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.bbrc.2014.11.051",
+   "title": "PXD101 significantly improves nuclear reprogramming and the in vitro developmental competence of porcine SCNT embryos",
+   "date": "2015-01-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.fertnstert.2006.11.203",
+   "title": "Establishment of stem cell lines from nuclear transferred and parthenogenetically activated mouse oocytes for therapeutic cloning",
+   "date": "2008-05-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.pnpbp.2016.09.002",
+   "title": "Histone deacetylases inhibitors (HDACis) as novel therapeutic application in various clinical diseases",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.theriogenology.2013.07.013",
+   "title": "Treatment of donor cells with trichostatin A improves in vitro development and reprogramming of buffalo (Bubalus bubalis) nucleus transfer embryos",
+   "date": "2013-11-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.theriogenology.2013.09.032",
+   "title": "The histone deacetylase inhibitor Scriptaid improves in vitro developmental competence of ovine somatic cell nuclear transferred embryos",
+   "date": "2014-01-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/s0960-9822(03)00419-6",
+   "title": "Epigenetic Marking Correlates with Developmental Potential in Cloned Bovine Preimplantation Embryos",
+   "date": "2003-07-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1038/308548a0",
+   "title": "Development of reconstituted mouse eggs suggests imprinting of the genome during gametogenesis",
+   "date": "1984-04-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1071/an17621",
+   "title": "Strategies for improvement of cloning by somatic cell nuclear transfer",
+   "date": "2018-09-03"
+  },
+  {
+   "position": 15,
+   "doi": "10.1071/rd12243",
+   "title": "Production of viable cloned miniature pigs by aggregation of handmade cloned embryos at the 4-cell stage",
+   "date": "2013-04-02"
+  },
+  {
+   "position": 16,
+   "doi": "10.1071/rdv26n1ab24",
+   "title": "24 IMPROVEMENT OF PORCINE CLONED EMBRYONIC STEM-LIKE CELLS DERIVATION BY ZONA-MEDIATED EMBRYO AGGREGATION",
+   "date": "2013-12-05"
+  },
+  {
+   "position": 17,
+   "doi": "10.1074/jbc.m511340200",
+   "title": "Inheritable Histone H4 Acetylation of Somatic Chromatins in Cloned Embryos",
+   "date": "2006-03-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1089/cell.2009.0108",
+   "title": "Comparison between the Effects of Valproic Acid and Trichostatin A on the\n                    <i>In Vitro</i>\n                    Development, Blastocyst Quality, and Full-Term Development of Mouse Somatic Cell Nuclear Transfer Embryos",
+   "date": "2010-08-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1089/cell.2011.0084",
+   "title": "Valproic Acid Improves the\n                    <i>In Vitro</i>\n                    Development Competence of Bovine Somatic Cell Nuclear Transfer Embryos",
+   "date": "2012-04-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1089/cell.2013.0027",
+   "title": "Effects of Histone Deacetylase Inhibitors on the Early Development of Bovine Androgenetic Embryos",
+   "date": "2014-01-04"
+  },
+  {
+   "position": 21,
+   "doi": "10.1089/cell.2014.0041",
+   "title": "Effects of Histone Acetylation Status on the Early Development of\n                    <i>In Vitro</i>\n                    Porcine Transgenic Cloned Embryos",
+   "date": "2015-02-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1089/cell.2016.0030",
+   "title": "Effects of Trichostatin A and PXD101 on the\n                    <i>In Vitro</i>\n                    Development of Mouse Somatic Cell Nuclear Transfer Embryos",
+   "date": "2017-02-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1089/cell.2017.0027",
+   "title": "Effects of Embryo Aggregation and PXD101 on the\n                    <i>In Vitro</i>\n                    Development of Mouse Somatic Cell Nuclear Transfer Embryos",
+   "date": "2017-12-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.1095/biolreprod.110.085282",
+   "title": "Inhibition of Class IIb Histone Deacetylase Significantly Improves Cloning Efficiency in Mice1",
+   "date": "2010-12-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1111/asj.12059",
+   "title": "Effects of trichostatin<scp>A</scp>on histone acetylation and methylation characteristics in early porcine embryos after somatic cell nuclear transfer",
+   "date": "2013-04-12"
+  },
+  {
+   "position": 26,
+   "doi": "10.1111/dgd.12215",
+   "title": "Blastomeres aggregation as an efficient alternative for trophoblast culture from porcine parthenogenetic embryos",
+   "date": "2015-05-19"
+  },
+  {
+   "position": 27,
+   "doi": "10.1111/j.1439-0531.2010.01614.x",
+   "title": "Improving the Quality of Miniature Pig Somatic Cell Nuclear Transfer Blastocysts: Aggregation of SCNT Embryos at the Four‐cell Stage",
+   "date": "2011-03-13"
+  },
+  {
+   "position": 28,
+   "doi": "10.1126/science.1065637",
+   "title": "Parthenogenetic Stem Cells in Nonhuman Primates",
+   "date": "2002-02-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.1126/science.1112286",
+   "title": "Patient-Specific Embryonic Stem Cells Derived from Human SCNT Blastocysts",
+   "date": "2005-06-17"
+  },
+  {
+   "position": 30,
+   "doi": "10.1262/jrd.18098",
+   "title": "Successful Mouse Cloning of an Outbred Strain by Trichostatin A Treatment after Somatic Nuclear Transfer",
+   "date": "2007-01-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.1530/rep-15-0180",
+   "title": "Epigenetic dynamics during preimplantation development",
+   "date": "2015-09-01"
+  },
+  {
+   "position": 32,
+   "doi": "10.3906/biy-1612-30",
+   "title": "Aggregation of a parthenogenetic diploid embryo and a male embryo improves the blastocyst development and parthenogenetic embryonic stem cell derivation",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.3923/javaa.2012.1812.1818",
+   "title": "Trichostatin A Treatment on Two Types of Donor Cells for Somatic Cell Nuclear Transfer",
+   "date": "2012-11-01"
+  }
+ ],
+ "direct": [
+  29
+ ],
+ "layer1": [
+  {
+   "position": 6,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1126/science.1094515"
+  }
+ ],
+ "layer2_items": [
+  3,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  14,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  29,
+  30,
+  31,
+  32,
+  33
+ ],
+ "layer2_pairs": [
+  {
+   "position": 3,
+   "retracted_doi": "10.1074/jbc.m100194200"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1038/nature01126"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1002/jcb.22451"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/nature04533"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/nbt.1610"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/sj.leu.2403868"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m109.095208"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m308225200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1128/mcb.25.2.751-766.2005"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1158/0008-5472.can-06-3996"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1158/1535-7163.mct-10-1108"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1371/journal.pone.0014460"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1124/jpet.104.074195"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/0092-8674(91)90265-z"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1038/nature01126"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1038/nature01126"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1095001"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1016/s0899-9007(01)00610-4"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1038/nature07404"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1126/science.1120925"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1038/35044106"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1124/jpet.104.074195"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1016/j.molcel.2004.06.043"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1038/nature08456"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1101/gad.14.3.313"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1126/science.1120925"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1158/0008-5472.can-05-1455"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1126/science.1112286"
+  }
+ ],
+ "check": [
+  6,
+  22,
+  23,
+  29
+ ],
+ "seconds": 85.2
+}

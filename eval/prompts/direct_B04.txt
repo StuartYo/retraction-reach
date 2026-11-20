@@ -1,0 +1,79 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1001/jamacardio.2020.1096 | Cardiac Involvement in a Patient With Coronavirus Disease 2019 (COVID-19) | 2020
+[2] doi:10.1002/aris.2007.1440410120 | Citation analysis | 2007
+[3] doi:10.1002/asi.20677 | Impact of data sources on citation counts and rankings of LIS faculty: Web of science versus scopus and google scholar | 2007
+[4] doi:10.1002/asi.24248 | Survival analysis of author keywords: An application to the library and information sciences area | 2019
+[5] doi:10.1002/jmv.25898 | Virological and clinical cure in COVID‐19 patients treated with hydroxychloroquine: A systematic review and meta‐analysis | 2020
+[6] doi:10.1002/meet.14504301185 | Citation Analysis: A Comparison of Google Scholar, Scopus, and Web of Science | 2006
+[7] doi:10.1007/s00134-020-06062-x | High risk of thrombosis in patients with severe SARS-CoV-2 infection: a multicenter prospective cohort study | 2020
+[8] doi:10.1007/s00296-020-04695-1 | Insights into the knowledge, attitude and practices for the treatment of idiopathic inflammatory myopathy from a cross-sectional cohort survey of physicians | 2020
+[9] doi:10.1007/s00296-020-04759-2 | COVID-19, hydroxychloroquine and sudden cardiac death: implications for clinical practice in patients with rheumatic diseases | 2021
+[10] doi:10.1007/s10916-020-01633-3 | A Systematic Review of Smartphone Applications Available for Corona Virus Disease 2019 (COVID19) and the Assessment of their Quality Using the Mobile Application Rating Scale (MARS) | 2020
+[11] doi:10.1007/s11192-009-0146-3 | Software survey: VOSviewer, a computer program for bibliometric mapping | 2009
+[12] doi:10.1007/s11192-019-03007-0 | Comprehensive evaluation of h-index and its extensions in the domain of mathematics | 2019
+[13] doi:10.1007/s11192-020-03690-4 | Google Scholar, Microsoft Academic, Scopus, Dimensions, Web of Science, and OpenCitations’ COCI: a multidisciplinary comparison of coverage via citations | 2020
+[14] doi:10.1007/s42399-020-00610-8 | Dexamethasone for the Treatment of Coronavirus Disease (COVID-19): a Review | 2020
+[15] doi:10.1016/j.diagmicrobio.2020.115094 | Clinical, molecular, and epidemiological characterization of the SARS-CoV-2 virus and the Coronavirus Disease 2019 (COVID-19), a comprehensive literature review | 2020
+[16] doi:10.1016/j.drudis.2015.05.001 | Drug repositioning and repurposing: terminology and definitions in literature | 2015
+[17] doi:10.1016/j.drudis.2021.12.017 | Applications of density functional theory in COVID-19 drug modeling | 2022
+[18] doi:10.1016/j.ejim.2020.08.019 | Use of hydroxychloroquine in hospitalised COVID-19 patients is associated with reduced mortality: Findings from the observational multicentre Italian CORIST study | 2020
+[19] doi:10.1016/j.ijantimicag.2020.105923 | Chloroquine for the 2019 novel coronavirus SARS-CoV-2 | 2020
+[20] doi:10.1016/j.ijantimicag.2020.105938 | New insights on the antiviral effects of chloroquine against coronavirus: what to expect for COVID-19? | 2020
+[21] doi:10.1016/j.ijantimicag.2020.105949 | RETRACTED: Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial | 2020 | RETRACTED
+[22] doi:10.1016/j.ijantimicag.2020.106054 | Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2): a global pandemic and treatment strategies | 2020
+[23] doi:10.1016/j.jclepro.2020.124033 | Management research and the UN sustainable development goals (SDGs): A bibliometric investigation and systematic review | 2020
+[24] doi:10.1016/j.jksus.2020.101334 | Quantum chemical studies on molecular structure, AIM, ELF, RDG and antiviral activities of hybrid hydroxychloroquine in the treatment of COVID-19: Molecular docking and DFT calculations | 2021
+[25] doi:10.1016/j.joi.2017.08.007 | bibliometrix : An R-tool for comprehensive science mapping analysis | 2017
+[26] doi:10.1016/j.lfs.2020.118275 | Utilizing drug repurposing against COVID-19 – Efficacy, limitations, and challenges | 2020
+[27] doi:10.1016/j.medcli.2013.02.014 | Tratamiento del lupus eritematoso sistémico: mitos, certezas y dudas | 2013
+[28] doi:10.1016/j.medmal.2020.03.006 | No evidence of rapid antiviral clearance or clinical benefit with the combination of hydroxychloroquine and azithromycin in patients with severe COVID-19 infection | 2020
+[29] doi:10.1016/j.mex.2023.102339 | A method for analyzing text using VOSviewer | 2023
+[30] doi:10.1016/j.micpath.2020.104228 | In vitro testing of combined hydroxychloroquine and azithromycin on SARS-CoV-2 shows synergistic effect | 2020
+[31] doi:10.1016/j.molliq.2021.116185 | Structurally modified compounds of hydroxychloroquine, remdesivir and tetrahydrocannabinol against main protease of SARS-CoV-2, a possible hope for COVID-19: Docking and molecular dynamics simulation studies | 2021
+[32] doi:10.1016/j.molstruc.2021.129979 | Molecular docking identification for the efficacy of some zinc complexes with chloroquine and hydroxychloroquine against main protease of COVID-19 | 2021
+[33] doi:10.1016/j.procs.2016.07.140 | Mapping the Research Trends by Co-word Analysis Based on Keywords from Funded Project | 2016
+[34] doi:10.1016/j.saa.2023.123155 | Interaction mechanism between hydroxychloroquine sulfate and collagen: Insights from multi-spectroscopy, molecular docking, and molecular dynamic simulation methods | 2023
+[35] doi:10.1016/j.tmaid.2020.101663 | Clinical and microbiological effect of a combination of hydroxychloroquine and azithromycin in 80 COVID-19 patients with at least a six-day follow up: A pilot observational study | 2020
+[36] doi:10.1016/j.tmaid.2020.101735 | Therapeutic use of chloroquine and hydroxychloroquine in COVID-19 and other viral infections: A narrative review | 2020
+[37] doi:10.1016/j.tmaid.2020.101738 | Early treatment of COVID-19 patients with hydroxychloroquine and azithromycin: A retrospective analysis of 1061 cases in Marseille, France | 2020
+[38] doi:10.1016/j.tmaid.2020.101791 | Outcomes of 3,737 COVID-19 patients treated with hydroxychloroquine/azithromycin and other regimens in Marseille, France: A retrospective analysis | 2020
+[39] doi:10.1016/j.trsl.2020.04.007 | Complement associated microvascular injury and thrombosis in the pathogenesis of severe COVID-19 infection: A report of five cases | 2020
+[40] doi:10.1016/s0140-6736(20)31187-9 | Clinical impact of COVID-19 on patients with cancer (CCC19): a cohort study | 2020
+[41] doi:10.1016/s0140-6736(20)32656-8 | RETRACTED: 6-month consequences of COVID-19 in patients discharged from hospital: a cohort study | 2021 | RETRACTED
+[42] doi:10.1016/s1473-3099(21)00163-8 | Bin Cao—a leader in respiratory medicine | 2021
+[43] doi:10.1016/s2213-2600(20)30076-x | Pathological findings of COVID-19 associated with acute respiratory distress syndrome | 2020
+[44] doi:10.1016/s2213-2600(22)00169-2 | A core outcome set for post-COVID-19 condition in adults for use in clinical practice and research: an international Delphi consensus study | 2022
+[45] doi:10.1016/s2665-9913(20)30173-9 | Tocilizumab in patients with severe COVID-19: a retrospective cohort study | 2020
+[46] doi:10.1017/dmp.2020.219 | COVID-19 and Psychological Disaster Preparedness – An Unmet Need | 2020
+[47] doi:10.1038/s41467-021-22446-z | Mortality outcomes with hydroxychloroquine and chloroquine in COVID-19 from an international collaborative meta-analysis of randomized trials | 2021
+[48] doi:10.1038/s41586-020-2286-9 | A SARS-CoV-2 protein interaction map reveals targets for drug repurposing | 2020
+[49] doi:10.1038/s41586-020-2558-4 | Hydroxychloroquine use against SARS-CoV-2 infection in non-human primates | 2020
+[50] doi:10.1038/s41591-020-1051-9 | An inflammatory cytokine signature predicts COVID-19 severity and survival | 2020
+[51] doi:10.1056/nejmoa2012410 | Observational Study of Hydroxychloroquine in Hospitalized Patients with Covid-19 | 2020
+[52] doi:10.1056/nejmoa2023184 | Repurposed Antiviral Drugs for Covid-19 — Interim WHO Solidarity Trial Results | 2021
+[53] doi:10.1080/1744666x.2021.1847640 | Natural history of COVID-19 and therapeutic options | 2020
+[54] doi:10.1093/femsle/fny059 | What are we measuring? Refocusing on some fundamentals in the age of desktop bibliometrics | 2018
+[55] doi:10.1097/md.0000000000029768 | Global research on vitamin D and coronavirus disease 2019: A bibliometric and visualized study | 2022
+[56] doi:10.1108/00220410810858010 | Data sources for performing citation analysis: an overview | 2008
+[57] doi:10.1111/bjet.13191 | Academia's responses to crisis: A bibliometric analysis of literature on online learning in higher education during COVID‐19 | 2022
+[58] doi:10.1136/annrheumdis-2020-218272 | Update οn the diagnosis and management of systemic lupus erythematosus | 2021
+[59] doi:10.1136/postgradmedj-2020-137935 | ACE2 and COVID-19 and the resulting ARDS | 2020
+[60] doi:10.1155/2021/5556207 | Disentangling the Association of Hydroxychloroquine Treatment with Mortality in Covid-19 Hospitalized Patients through Hierarchical Clustering | 2021
+[61] doi:10.1186/s12916-023-02784-z | Assessing the impacts of COVID-19 vaccination programme’s timing and speed on health benefits, cost-effectiveness, and relative affordability in 27 African countries | 2023
+[62] doi:10.21203/rs.3.rs-966611/v1 | DFT study adsorption of Hydroxychloroquine for treatment COVID-19 by Al, Si and Si-C doping on carbon nanotube surface: A drug delivery simulation | 2021
+[63] doi:10.3163/1536-5050.98.1.008 | Beyond citation analysis: a model for assessment of research impact | 2010
+[64] doi:10.3201/eid2608.201161 | Abdominal Visceral Infarction in 3 Patients with COVID-19 | 2020
+[65] doi:10.3389/fpubh.2022.811885 | Spotlight on Early COVID-19 Research Productivity: A 1-Year Bibliometric Analysis | 2022
+[66] doi:10.3390/ijerph19031220 | Research on Health Disparities Related to the COVID-19 Pandemic: A Bibliometric Analysis | 2022
+[67] doi:10.3390/ijms21113922 | Investigation of Some Antiviral N-Heterocycles as COVID 19 Drug: Molecular Docking and DFT Calculations | 2020
+[68] doi:10.3390/jcm9041225 | The COVID-19 Pandemic: A Comprehensive Review of Taxonomy, Genetics, Epidemiology, Diagnosis, Treatment, and Control | 2020
+[69] doi:10.3390/ph15050634 | Safety of Short-Term Treatments with Oral Chloroquine and Hydroxychloroquine in Patients with and without COVID-19: A Systematic Review | 2022

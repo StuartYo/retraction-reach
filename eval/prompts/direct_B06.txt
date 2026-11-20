@@ -1,0 +1,31 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1002/cpt.2785 | A Data Driven Approach to Support Tailored Clinical Programs for Biosimilar Monoclonal Antibodies | 2022
+[2] doi:10.1016/j.jacc.2023.07.027 | LDL-C Reduction With Lipid-Lowering Therapy for Primary Prevention of Major Vascular Events Among Older Individuals | 2023
+[3] doi:10.1016/j.jacl.2023.06.001 | Incident CHD and ischemic stroke associated with lipoprotein(a) by levels of Factor VIII and inflammation | 2023
+[4] doi:10.1016/j.jacl.2023.06.002 | Lipoprotein(a) and coronary artery calcium in comparison with other lipid biomarkers: The multi-ethnic study of atherosclerosis | 2023
+[5] doi:10.1016/j.jacl.2023.06.003 | Possible explanations for the common clinical familial hypercholesterolemia phenotypes in the Faroe Islands | 2023
+[6] doi:10.1016/j.jacl.2023.06.004 | Plasma lipoprotein subclass variation in middle-aged and older adults: Sex-stratified distributions and associations with health status and cardiometabolic risk factors | 2023
+[7] doi:10.1038/s41569-023-00847-5 | Obesity and the risk of cardiometabolic diseases | 2023
+[8] doi:10.1038/s41746-023-00856-1 | Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours | 2023
+[9] doi:10.1056/nejmoa040583 | Intensive versus Moderate Lipid Lowering with Statins after Acute Coronary Syndromes | 2004
+[10] doi:10.1056/nejmoa1200303 | RETRACTED: Primary Prevention of Cardiovascular Disease with a Mediterranean Diet | 2013 | RETRACTED
+[11] doi:10.1056/nejmoa2210645 | Triglyceride Lowering with Pemafibrate to Reduce Cardiovascular Risk | 2022
+[12] doi:10.1056/nejmoa2215024 | Bempedoic Acid and Cardiovascular Outcomes in Statin-Intolerant Patients | 2023
+[13] doi:10.1093/eurheartj/ehz123 | How should treated hypertensive patients with systolic blood pressure below 120 mmHg be managed? | 2019
+[14] doi:10.1093/eurheartj/ehz124 | Mode-of-action of the PROPELLA concept in fulminant myocarditis | 2019
+[15] doi:10.1093/eurheartj/ehz125 | Concerning the degradation of β-blocker use in the 2018 ESC/ESH hypertension guidelines | 2019
+[16] doi:10.1093/eurheartj/ehz126 | Comment on 2018 ESC/ESH Guidelines for the management of arterial hypertension | 2019
+[17] doi:10.1093/eurheartj/ehz127 | First-in-man experience with real-time holographic mixed reality display of three-dimensional echocardiography during structural intervention: balloon mitral commissurotomy | 2019
+[18] doi:10.1111/jgs.18123 | Development of telehealth principles and guidelines for older adults: A modified Delphi approach | 2022
+[19] doi:10.1136/bmjopen-2023-072134 | Intravenous immunoglobulin treatment in childhood encephalitis (IgNiTE): a randomised controlled trial | 2023
+[20] doi:10.1161/circulationaha.122.061620 | Long-Term Evolocumab in Patients With Established Atherosclerotic Cardiovascular Disease | 2022
+[21] doi:10.1161/circulationaha.122.062833 | Titin Missense Variants as a Cause of Familial Dilated Cardiomyopathy | 2023

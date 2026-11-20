@@ -144,10 +144,18 @@ def write_bibliography(conn, bib_id: str, label: str, expansion: dict, source_do
         )
 
 
-def enrich_intents(conn, bib_id: str, progress=print) -> int:
-    """Look up Semantic Scholar citation intents for the edges that lie on a path to a retracted paper."""
+def enrich_intents(conn, bib_id: str, progress=print, max_citing: int = 60) -> int:
+    """Look up Semantic Scholar citation intents for the edges that lie on a path to a retracted paper.
+    The unauthenticated S2 API is slow, so at most max_citing citing papers are looked up per list:
+    listed papers first (their edges decide one-hop scores), then the intermediate papers. Edges not
+    looked up keep intent_found = null and are shown as "intent not looked up"."""
     rows = list(conn.execute(q("path_edges"), {"bib": bib_id}))
-    citing = sorted({r["citing"] for r in rows if r.get("checked") is None})
+    listed = {r["doi"] for r in conn.execute(q("listed"), {"bib": bib_id})}
+    todo = {r["citing"] for r in rows if r.get("checked") is None}
+    citing = sorted(todo & listed) + sorted(todo - listed)
+    if len(citing) > max_citing:
+        progress(f"  intents: {len(citing)} citing papers, looking up the first {max_citing}")
+        citing = citing[:max_citing]
     progress(f"  intents: {len(citing)} citing papers to look up on Semantic Scholar")
     updates = []
     for i, a in enumerate(citing, 1):

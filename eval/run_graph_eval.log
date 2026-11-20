@@ -36,3 +36,80 @@ A04 eval: listed 42 retracted 0 L1 0 L2 0 check 0 (80.2s)
 A05 eval: listed 24 retracted 0 L1 0 L2 7 check 0 (158.7s)
   layer 0: 45 listed DOIs
   layer 1: 2177 cited DOIs, fetching their reference lists from Crossref
+    800/2153
+    1600/2153
+    2153/2153
+  edges: 2694 (layer-2 edges kept because they reach a retracted paper: 232)
+  intents: 215 citing papers to look up on Semantic Scholar
+    10/215
+  layer 0: 45 listed DOIs
+  layer 1: 2177 cited DOIs, fetching their reference lists from Crossref
+  edges: 2694 (layer-2 edges kept because they reach a retracted paper: 232)
+A06 eval: listed 45 retracted 0 L1 5 L2 31 check 5 (330.1s)
+  layer 0: 45 listed DOIs
+  layer 1: 2123 cited DOIs, fetching their reference lists from Crossref
+    800/2097
+    1600/2097
+    2097/2097
+  edges: 2430 (layer-2 edges kept because they reach a retracted paper: 52)
+A07 eval: listed 45 retracted 0 L1 2 L2 21 check 2 (198.1s)
+  layer 0: 27 listed DOIs
+  layer 1: 805 cited DOIs, fetching their reference lists from Crossref
+    791/791
+  edges: 1039 (layer-2 edges kept because they reach a retracted paper: 4)
+A08 eval: listed 27 retracted 0 L1 0 L2 4 check 0 (88.1s)
+  layer 0: 31 listed DOIs
+  layer 1: 1135 cited DOIs, fetching their reference lists from Crossref
+    800/1125
+    1125/1125
+  edges: 1233 (layer-2 edges kept because they reach a retracted paper: 32)
+B01 eval: listed 31 retracted 1 L1 2 L2 14 check 2 (108.2s)
+  layer 0: 43 listed DOIs
+  layer 1: 1149 cited DOIs, fetching their reference lists from Crossref
+    800/1085
+    1085/1085
+  edges: 1391 (layer-2 edges kept because they reach a retracted paper: 122)
+B02 eval: listed 43 retracted 5 L1 5 L2 19 check 4 (115.1s)
+  layer 0: 69 listed DOIs
+  layer 1: 4235 cited DOIs, fetching their reference lists from Crossref
+    800/4122
+    1600/4122
+    2400/4122
+    3200/4122
+    4000/4122
+    4122/4122
+  edges: 5009 (layer-2 edges kept because they reach a retracted paper: 259)
+B03 eval: listed 69 retracted 1 L1 9 L2 51 check 9 (379.7s)
+  layer 0: 69 listed DOIs
+  layer 1: 2741 cited DOIs, fetching their reference lists from Crossref
+    800/2462
+    1600/2462
+    2400/2462
+    2462/2462
+  edges: 3480 (layer-2 edges kept because they reach a retracted paper: 210)
+B04 eval: listed 69 retracted 2 L1 17 L2 41 check 17 (194.5s)
+  layer 0: 44 listed DOIs
+  layer 1: 1069 cited DOIs, fetching their reference lists from Crossref
+    800/975
+    975/975
+  edges: 1300 (layer-2 edges kept because they reach a retracted paper: 100)
+B05 eval: listed 44 retracted 2 L1 3 L2 13 check 2 (81.5s)
+  layer 0: 21 listed DOIs
+  layer 1: 793 cited DOIs, fetching their reference lists from Crossref
+    790/790
+  edges: 826 (layer-2 edges kept because they reach a retracted paper: 22)
+B06 eval: listed 21 retracted 1 L1 1 L2 11 check 1 (56.4s)
+  layer 0: 71 listed DOIs
+  layer 1: 3078 cited DOIs, fetching their reference lists from Crossref
+    800/3029
+    1600/3029
+    2400/3029
+    3029/3029
+  edges: 3420 (layer-2 edges kept because they reach a retracted paper: 127)
+B09 eval: listed 71 retracted 1 L1 5 L2 38 check 4 (193.9s)
+  layer 0: 33 listed DOIs
+  layer 1: 1068 cited DOIs, fetching their reference lists from Crossref
+    800/1021
+    1021/1021
+  edges: 1545 (layer-2 edges kept because they reach a retracted paper: 51)
+B10 eval: listed 33 retracted 1 L1 4 L2 24 check 3 (85.2s)

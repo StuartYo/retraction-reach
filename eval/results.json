@@ -1,0 +1,472 @@
+{
+ "split": "eval",
+ "cases": 16,
+ "graph_totals": {
+  "listed": 727,
+  "direct": 14,
+  "l1_items": 55,
+  "l2_items": 285,
+  "exp_items": 292,
+  "check": 65,
+  "paths": 1564,
+  "visible": 660
+ },
+ "table": [
+  {
+   "condition": "Model alone (no tools)",
+   "key": "alone",
+   "cases_answered": "16/16",
+   "direct_recall": 0.929,
+   "layer1_recall": 0.164,
+   "layer2_recall": 0.007,
+   "exposure_recall": 0.058,
+   "layer1_pairs_claimed": 21,
+   "layer1_pairs_in_data": 9,
+   "retracted_dois_claimed": 4,
+   "claimed_dois_not_retracted": 0
+  },
+  {
+   "condition": "Model + direct retraction lookup",
+   "key": "direct",
+   "cases_answered": "16/16",
+   "direct_recall": 1.0,
+   "layer1_recall": 0.273,
+   "layer2_recall": 0.025,
+   "exposure_recall": 0.089,
+   "layer1_pairs_claimed": 28,
+   "layer1_pairs_in_data": 14,
+   "retracted_dois_claimed": 7,
+   "claimed_dois_not_retracted": 0
+  },
+  {
+   "condition": "Graph (this project, Relate)",
+   "key": "graph",
+   "cases_answered": "16/16",
+   "direct_recall": 1.0,
+   "layer1_recall": 1.0,
+   "layer2_recall": 1.0,
+   "exposure_recall": 1.0,
+   "note": "reference answer: computed from Crossref reference lists + Retraction Watch"
+  }
+ ],
+ "per_case": [
+  {
+   "id": "A01",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 0,
+    "l2_items": 0,
+    "check": 0
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A02",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 1,
+    "l2_items": 4,
+    "check": 1
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A03",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 1,
+    "l2_items": 7,
+    "check": 1
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A04",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 0,
+    "l2_items": 0,
+    "check": 0
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A05",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 0,
+    "l2_items": 7,
+    "check": 0
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A06",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 5,
+    "l2_items": 31,
+    "check": 5
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A07",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 2,
+    "l2_items": 21,
+    "check": 2
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "A08",
+   "stratum": "random",
+   "graph": {
+    "direct": 0,
+    "l1_items": 0,
+    "l2_items": 4,
+    "check": 0
+   },
+   "alone": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 0,
+    "direct_hit": 0,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B01",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 2,
+    "l2_items": 14,
+    "check": 3
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 1,
+    "l2_items_hit": 2,
+    "claims": 1,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 1,
+    "l2_items_hit": 2,
+    "claims": 1,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B02",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 5,
+    "l1_items": 5,
+    "l2_items": 19,
+    "check": 9
+   },
+   "alone": {
+    "direct": 5,
+    "direct_hit": 4,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 2,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 5,
+    "direct_hit": 5,
+    "l1_items_hit": 1,
+    "l2_items_hit": 0,
+    "claims": 2,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B03",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 9,
+    "l2_items": 51,
+    "check": 10
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 1,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B04",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 2,
+    "l1_items": 17,
+    "l2_items": 41,
+    "check": 19
+   },
+   "alone": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 8,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 12,
+    "l2_items_hit": 5,
+    "claims": 2,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B05",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 2,
+    "l1_items": 3,
+    "l2_items": 13,
+    "check": 4
+   },
+   "alone": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 2,
+    "direct_hit": 2,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B06",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 1,
+    "l2_items": 11,
+    "check": 2
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B09",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 5,
+    "l2_items": 38,
+    "check": 5
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   }
+  },
+  {
+   "id": "B10",
+   "stratum": "cites-famous-retraction",
+   "graph": {
+    "direct": 1,
+    "l1_items": 4,
+    "l2_items": 24,
+    "check": 4
+   },
+   "alone": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 0,
+    "claims_not_retracted": 0
+   },
+   "direct": {
+    "direct": 1,
+    "direct_hit": 1,
+    "l1_items_hit": 0,
+    "l2_items_hit": 0,
+    "claims": 1,
+    "claims_not_retracted": 0
+   }
+  }
+ ],
+ "stop_loss_rule": "switch topic if model + direct lookup reaches >= 95% of the graph's layer-1+2 exposure recall",
+ "stop_loss_triggered": false
+}

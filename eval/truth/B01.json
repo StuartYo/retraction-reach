@@ -1,0 +1,323 @@
+{
+ "id": "B01",
+ "split": "eval",
+ "source_doi": "10.1016/j.ydbio.2024.12.015",
+ "summary": {
+  "listed": 31,
+  "retracted": 1,
+  "check": 2,
+  "note": 13,
+  "clear": 9,
+  "unknown": 6,
+  "with_layer1": 2,
+  "with_layer2": 14,
+  "retracted_papers_reached": 13,
+  "paths": 34,
+  "references_visible": 25
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1001/journalofethics.2015.17.4.msoc1-1504",
+   "title": "The Myth of the Normal Brain: Embracing Neurodiversity",
+   "date": "2015-04-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s10803-014-2095-9",
+   "title": "Relationships Between Feeding Problems, Behavioral Characteristics and Nutritional Quality in Children with ASD",
+   "date": "2014-03-25"
+  },
+  {
+   "position": 3,
+   "doi": "10.1016/s0140-6736(97)11096-0",
+   "title": "RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+   "date": "1998-02-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1037/a0028353",
+   "title": "Deficit, difference, or both? Autism and neurodiversity.",
+   "date": "2013-01-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1038/479033a",
+   "title": "The power of autism",
+   "date": "2011-11-02"
+  },
+  {
+   "position": 6,
+   "doi": "10.1038/nature13772",
+   "title": "Synaptic, transcriptional and chromatin genes disrupted in autism",
+   "date": "2014-10-29"
+  },
+  {
+   "position": 7,
+   "doi": "10.1038/nrn3992",
+   "title": "From the genetic architecture to synaptic plasticity in autism spectrum disorder",
+   "date": "2015-08-20"
+  },
+  {
+   "position": 8,
+   "doi": "10.1038/s41398-023-02317-5",
+   "title": "Excitatory/inhibitory imbalance in autism: the role of glutamate and GABA gene-sets in symptoms and cortical brain structure",
+   "date": "2023-01-21"
+  },
+  {
+   "position": 9,
+   "doi": "10.1073/pnas.1319030111",
+   "title": "Active learning increases student performance in science, engineering, and mathematics",
+   "date": "2014-05-12"
+  },
+  {
+   "position": 10,
+   "doi": "10.1080/00219266.2021.2006270",
+   "title": "Interactive socio-scientific inquiry for promoting scientific literacy, enhancing biological knowledge, and developing critical thinking",
+   "date": "2021-12-02"
+  },
+  {
+   "position": 11,
+   "doi": "10.1080/03057260802681839",
+   "title": "Situated learning in science education: socio‐scientific issues as contexts for practice",
+   "date": "2009-03-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1080/09500693.2012.667582",
+   "title": "Contextualizing Nature of Science Instruction in Socioscientific Issues",
+   "date": "2012-10-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1080/23752696.2020.1750306",
+   "title": "Fostering student engagement through a real-world, collaborative project across disciplines and institutions",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1097/wco.0000000000000301",
+   "title": "Brain connectivity in autism spectrum disorder",
+   "date": "2016-04-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1098/rstb.2013.0433",
+   "title": "The contribution of vaccination to global health: past, present and future",
+   "date": "2014-06-19"
+  },
+  {
+   "position": 16,
+   "doi": "10.1126/science.1240487",
+   "title": "Increasing Persistence of College Students in STEM",
+   "date": "2013-09-27"
+  },
+  {
+   "position": 17,
+   "doi": "10.1126/science.adk3451",
+   "title": "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook",
+   "date": "2024-05-31"
+  },
+  {
+   "position": 18,
+   "doi": "10.1136/bmj.c5258",
+   "title": "How the vaccine crisis was meant to make money",
+   "date": "2011-01-11"
+  },
+  {
+   "position": 19,
+   "doi": "10.1136/bmj.c5347",
+   "title": "How the case against the MMR vaccine was fixed",
+   "date": "2011-01-05"
+  },
+  {
+   "position": 20,
+   "doi": "10.1177/1362361314529627",
+   "title": "What should autism research focus upon? Community views and priorities from the United Kingdom",
+   "date": "2014-04-30"
+  },
+  {
+   "position": 21,
+   "doi": "10.1177/1469787408095849",
+   "title": "The importance of establishing relevance in motivating student learning",
+   "date": "2008-11-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1187/cbe.22-06-0108",
+   "title": "Biology Instructors See Value in Discussing Controversial Topics but Fear Personal and Professional Consequences",
+   "date": "2023-09-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1371/journal.pone.0256395",
+   "title": "Quantifying the effect of Wakefield et al. (1998) on skepticism about MMR vaccine safety in the U.S.",
+   "date": "2021-08-19"
+  },
+  {
+   "position": 24,
+   "doi": "10.1503/cmaj.109-3179",
+   "title": "Lancet retracts 12-year-old article linking autism to MMR vaccines",
+   "date": "2010-02-08"
+  },
+  {
+   "position": 25,
+   "doi": "10.1523/jneurosci.1712-06.2006",
+   "title": "The Developmental Neurobiology of Autism Spectrum Disorder",
+   "date": "2006-06-28"
+  },
+  {
+   "position": 26,
+   "doi": "10.15585/mmwr.ss7202a1",
+   "title": "Prevalence and Characteristics of Autism Spectrum Disorder Among Children Aged 8 Years — Autism and Developmental Disabilities Monitoring Network, 11 Sites, United States, 2020",
+   "date": "2023-03-24"
+  },
+  {
+   "position": 27,
+   "doi": "10.3102/00346543069001021",
+   "title": "Effects of Small-Group Learning on Undergraduates in Science, Mathematics, Engineering, and Technology: A Meta-Analysis",
+   "date": "1999-03-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.3389/fnmol.2013.00019",
+   "title": "Autism spectrum disorder causes, mechanisms, and treatments: focus on neuronal synapses",
+   "date": "2013-01-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.3389/fpsyg.2023.1184804",
+   "title": "“Why is this relevant for me?”: increasing content relevance enhances student motivation and vitality",
+   "date": "2023-09-28"
+  },
+  {
+   "position": 30,
+   "doi": "10.4103/0019-5545.82529",
+   "title": "The MMR vaccine and autism: Sensation, refutation, retraction, and fraud",
+   "date": "2011-01-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.4161/hv.7.4.14120",
+   "title": "Development of a survey to identify vaccine-hesitant parents",
+   "date": "2011-04-01"
+  }
+ ],
+ "direct": [
+  3
+ ],
+ "layer1": [
+  {
+   "position": 15,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  }
+ ],
+ "layer2_items": [
+  2,
+  6,
+  7,
+  8,
+  10,
+  14,
+  17,
+  20,
+  23,
+  25,
+  26,
+  29,
+  30,
+  31
+ ],
+ "layer2_pairs": [
+  {
+   "position": 2,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1038/nature07954"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/j.cell.2010.09.025"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/j.cell.2011.03.052"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1038/nature07767"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1073/pnas.0812470106"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1001/jamapsychiatry.2016.3990"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1207/s15326934crj1801_10"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1001/jamapsychiatry.2014.763"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1038/s41562-017-0132"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1016/s1567-133x(02)00058-3"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1111/j.1572-0241.2000.03248.x"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.15585/mmwr.ss6513a1"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1207/s15326934crj1801_10"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  }
+ ],
+ "check": [
+  3,
+  15,
+  30
+ ],
+ "seconds": 108.2
+}

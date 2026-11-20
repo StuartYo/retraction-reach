@@ -215,10 +215,18 @@ async function loadSnapshot() {
   setStatus('Loading the bundled citation graph…');
   snapshot = await (await fetch('data/graph.json')).json();
   await ensureSchema();
-  await writePapers(snapshot.papers);
+  // Fresh store and a de-duplicated export, so plain CREATE is enough here (pasted lists use MERGE).
+  for (const c of chunks(snapshot.papers)) {
+    await run(`UNWIND $rows AS r CREATE (p:Paper {doi: r.doi}) SET p.title = r.title, p.journal = r.journal, p.date = r.date,
+      p.in_crossref = r.in_crossref, p.references_count = r.references_count, p.refs_with_doi = r.refs_with_doi`, { rows: c });
+  }
   await writeRetractions(snapshot.retractions);
   for (const b of snapshot.bibliographies) await writeBibliography(b);
-  await writeCites(snapshot.cites);
+  for (const c of chunks(snapshot.cites)) {
+    await run(`UNWIND $rows AS e MATCH (a:Paper {doi: e.a}), (c:Paper {doi: e.b})
+      CREATE (a)-[:CITES {source: 'Crossref reference list', intents: e.intents, influential: e.influential, context: e.context,
+        intent_found: e.intent_found, intent_source: e.intent_source}]->(c)`, { rows: c });
+  }
   const n = (await run('MATCH (p:Paper) RETURN count(p) AS n')).rows[0].n;
   const r = (await run('MATCH ()-[k:CITES]->() RETURN count(k) AS n')).rows[0].n;
   $('#engine').textContent = `Relate 1.1.0 (WebAssembly) · ${n.toLocaleString()} papers · ${r.toLocaleString()} citations · loaded in ${((performance.now() - t0) / 1000).toFixed(1)} s · Retraction Watch data as of ${snapshot.meta.rw_loaded}`;

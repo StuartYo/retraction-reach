@@ -6,7 +6,7 @@ Paste a reference list of DOIs. Retraction Reach tells you which references are 
 
 ## Why
 
-Reference managers such as Zotero flag a reference when that paper itself is retracted. They do not look at what your references rely on. The Retraction Watch database, which Crossref publishes under CC0, lists 62,431 retracted papers with a DOI in the copy used here (downloaded RW_DATE). Retracted papers also keep being cited after the notice: in the 16 evaluation lists below, POST_EDGES citations to a retracted paper were published after its retraction notice. If a review you cite took its main estimate from a retracted trial, a direct check says nothing.
+Reference managers such as Zotero flag a reference when that paper itself is retracted. They do not look at what your references rely on. The Retraction Watch database, which Crossref publishes under CC0, lists 62,431 retracted papers with a DOI in the copy used here (downloaded 2026-11-20). Retracted papers also keep being cited after the notice: in the 16 evaluation lists below, 335 of the 1,194 citations that point at a retracted paper (on a path from a listed reference) were published after the retraction notice. If a review you cite took its main estimate from a retracted trial, a direct check says nothing.
 
 Who this is for: authors checking a manuscript before submission, systematic-review teams, and journal editors or research-integrity staff screening submissions.
 
@@ -102,13 +102,22 @@ python scripts/mcp_smoke.py demo   # scripted session, prints what an agent rece
 
 Same model, no tools, on 16 frozen cases (`eval/cases.json`: 8 random Crossref journal articles from 2019-2024, 8 papers that cite a well-known retracted paper; 4 more held out). Each case is the real reference list of a published paper. The graph's answer is the reference; the model is asked for the same three findings with paths.
 
-RESULTS_TABLE
+| | Retracted references found | References citing a retracted paper (1 hop) | References 2 hops from one | Any 1- or 2-hop exposure |
+|---|---|---|---|---|
+| Model alone (no tools) | 93% | 16% | 0.7% | 5.8% |
+| Model + direct retraction lookup | 100% | 27% | 2.5% | 8.9% |
+| Graph (this project, Relate) | 100% | 100% | 100% | 100% |
+| Count in the 16 lists (graph) | 14 | 55 | 285 | 292 of 727 |
+
+The model knows which famous papers were retracted: every DOI it called retracted really is one. It does not know what your references cite. Of the layer-1 links it proposed, 9 of 21 (alone) and 14 of 28 (with the lookup) exist in the Crossref data. With the direct lookup it found 8.9% of the references that reach a retracted paper within two hops; the stop rule we froze before running (switch topic at 95%) was not triggered.
+
+292 of the 727 listed references (40%) reach some retracted paper within two hops, most of them two hops away as background. That is why the report ranks findings: under the fixed scoring rule, 65 references (9%) are marked Check or Retracted.
 
 The numbers come from `eval/results.json` (`python eval/score.py`). How the baseline was run is in `eval/README.md`.
 
 ## Limits
 
-- Coverage follows Crossref. Some publishers deposit no reference lists; those references are marked Not visible. In the evaluation cases, REFS_VISIBLE of listed references had a visible reference list.
+- Coverage follows Crossref. Some publishers deposit no reference lists; those references are marked Not visible. In the evaluation cases, 660 of 727 listed references (91%) had a visible reference list.
 - Two-hop edges are stored only when they reach a retracted paper; storing every reference of every reference would multiply the store size by about 40 for no change in the answer.
 - Citation intent comes from Semantic Scholar and is missing for many edges ("intent unknown"). Pasted lists in the browser skip the intent lookup.
 - Only Retraction Watch entries marked "Retraction" count; expressions of concern and corrections are ignored.

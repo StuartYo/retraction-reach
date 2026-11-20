@@ -1,0 +1,1459 @@
+{
+ "id": "B03",
+ "split": "eval",
+ "source_doi": "10.1007/s12672-024-01483-2",
+ "summary": {
+  "listed": 69,
+  "retracted": 1,
+  "check": 9,
+  "note": 42,
+  "clear": 15,
+  "unknown": 2,
+  "with_layer1": 9,
+  "with_layer2": 51,
+  "retracted_papers_reached": 177,
+  "paths": 289,
+  "references_visible": 67
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1001/jama.2020.12839",
+   "title": "Pathophysiology, Transmission, Diagnosis, and Treatment of Coronavirus Disease 2019 (COVID-19)",
+   "date": "2020-08-25"
+  },
+  {
+   "position": 2,
+   "doi": "10.1001/jamaoncol.2020.0980",
+   "title": "SARS-CoV-2 Transmission in Patients With Cancer at a Tertiary Care Hospital in Wuhan, China",
+   "date": "2020-07-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1002/bies.202000289",
+   "title": "SARS‐CoV‐2 infection and cancer",
+   "date": "2021-06-03"
+  },
+  {
+   "position": 4,
+   "doi": "10.1002/cac2.12115",
+   "title": "Molecular subtyping of hepatocellular carcinoma: A step toward precision medicine",
+   "date": "2020-12-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1002/cbf.3426",
+   "title": "IGSF1: A novel oncogene regulates the thyroid cancer progression",
+   "date": "2019-07-25"
+  },
+  {
+   "position": 6,
+   "doi": "10.1002/mco2.157",
+   "title": "COVID‐19 metabolism: Mechanisms and therapeutic targets",
+   "date": "2022-08-09"
+  },
+  {
+   "position": 7,
+   "doi": "10.1002/rmv.2289",
+   "title": "Long‐term side effects and lingering symptoms post COVID‐19 recovery",
+   "date": "2021-09-09"
+  },
+  {
+   "position": 8,
+   "doi": "10.1007/0-387-29362-0_23",
+   "title": "limma: Linear Models for Microarray Data",
+   "date": null
+  },
+  {
+   "position": 9,
+   "doi": "10.1007/978-94-007-4186-7_7",
+   "title": "Immunoglobulin Superfamily Receptors and Adherens Junctions",
+   "date": "2012-01-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1007/s13304-020-00804-8",
+   "title": "Clinical implications of COVID-19 in patients with chronic liver disease and liver tumor",
+   "date": "2020-06-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.bbadis.2021.166260",
+   "title": "SARS-CoV-2 spike promotes inflammation and apoptosis through autophagy by ROS-suppressed PI3K/AKT/mTOR signaling",
+   "date": "2021-12-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/j.bbcan.2018.04.003",
+   "title": "An epi(c)genetic war: Pathogens, cancer and human genome",
+   "date": "2018-04-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1016/j.bbi.2020.03.031",
+   "title": "Nervous system involvement after infection with COVID-19 and other coronaviruses",
+   "date": "2020-07-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1016/j.cell.2017.10.049",
+   "title": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1016/j.conb.2017.05.010",
+   "title": "Neural immunoglobulin superfamily interaction networks",
+   "date": "2017-08-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1016/j.gastrohep.2020.06.006",
+   "title": "Actualización en COVID-19 y enfermedad hepática",
+   "date": "2020-10-01"
+  },
+  {
+   "position": 17,
+   "doi": "10.1016/j.jhep.2022.07.008",
+   "title": "Impact of COVID-19 on the liver and on the care of patients with chronic liver disease, hepatobiliary cancer, and liver transplantation: An updated EASL position paper",
+   "date": "2022-10-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1016/j.jhep.2022.08.021",
+   "title": "Global burden of primary liver cancer in 2020 and predictions to 2040",
+   "date": "2022-12-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1016/j.jinf.2020.04.006",
+   "title": "Clinical characteristics and prognosis in cancer patients with COVID-19: A single center's retrospective study",
+   "date": "2020-08-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1016/j.mehy.2020.109882",
+   "title": "Persistent SARS-CoV-2 infection and the risk for cancer",
+   "date": "2020-10-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1016/j.plipres.2022.101166",
+   "title": "The constellation of cholesterol-dependent processes associated with SARS-CoV-2 infection",
+   "date": "2022-07-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1016/j.tins.2017.03.003",
+   "title": "Neural Cell Adhesion Molecules of the Immunoglobulin Superfamily Regulate Synapse Formation, Maintenance, and Function",
+   "date": "2017-05-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1016/j.virusres.2021.198464",
+   "title": "Immune characterization and profiles of SARS-CoV-2 infected patients reveals potential host therapeutic targets and SARS-CoV-2 oncogenesis mechanism",
+   "date": "2021-08-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.1016/s0140-6736(20)30183-5",
+   "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+   "date": "2020-02-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1016/s0140-6736(20)30211-7",
+   "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+   "date": "2020-02-01"
+  },
+  {
+   "position": 26,
+   "doi": "10.1016/s0140-6736(20)30558-4",
+   "title": "Comorbidities and multi-organ injuries in the treatment of COVID-19",
+   "date": "2020-03-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.1016/s2468-1253(20)30057-1",
+   "title": "Liver injury in COVID-19: management and challenges",
+   "date": "2020-05-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1021/acs.jproteome.0c00758",
+   "title": "Ubiquitin-Modified Proteome of SARS-CoV-2-Infected Host Cells Reveals Insights into Virus–Host Interaction and Pathogenesis",
+   "date": "2021-03-05"
+  },
+  {
+   "position": 29,
+   "doi": "10.1038/s12276-018-0191-1",
+   "title": "Immune checkpoint inhibitors: recent progress and potential biomarkers",
+   "date": "2018-12-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1038/s41392-020-00373-7",
+   "title": "COVID-19-associated gastrointestinal and liver injury: clinical features and potential mechanisms",
+   "date": "2020-11-02"
+  },
+  {
+   "position": 31,
+   "doi": "10.1038/s41569-020-0360-5",
+   "title": "COVID-19 and the cardiovascular system",
+   "date": "2020-03-05"
+  },
+  {
+   "position": 32,
+   "doi": "10.1038/s41577-020-0311-8",
+   "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+   "date": "2020-04-28"
+  },
+  {
+   "position": 33,
+   "doi": "10.1056/nejmoa2007621",
+   "title": "RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19",
+   "date": "2020-06-18"
+  },
+  {
+   "position": 34,
+   "doi": "10.1074/jbc.m212500200",
+   "title": "The Adhesion and Differentiation-inhibitory Activities of the Immunoglobulin Superfamily Member, Carcinoembryonic Antigen, Can Be Independently Blocked",
+   "date": "2003-04-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1080/21688370.2021.1937013",
+   "title": "The blood-gas barrier in COVID-19: an overview of the effects of SARS-CoV-2 infection on the alveolar epithelial and endothelial cells of the lung",
+   "date": "2021-07-07"
+  },
+  {
+   "position": 36,
+   "doi": "10.1093/bib/bbac558",
+   "title": "GSCA: an integrated platform for gene set cancer analysis at genomic, pharmacogenomic and immunogenomic levels",
+   "date": "2022-12-22"
+  },
+  {
+   "position": 37,
+   "doi": "10.1093/nar/30.1.207",
+   "title": "Gene Expression Omnibus: NCBI gene expression and hybridization array data repository",
+   "date": "2002-01-01"
+  },
+  {
+   "position": 38,
+   "doi": "10.1093/nar/gkz430",
+   "title": "GEPIA2: an enhanced web server for large-scale expression profiling and interactive analysis",
+   "date": "2019-05-22"
+  },
+  {
+   "position": 39,
+   "doi": "10.1101/2022.04.04.487020",
+   "title": "The network of SARS-CoV-2—cancer molecular interactions and pathways",
+   "date": "2022-04-05"
+  },
+  {
+   "position": 40,
+   "doi": "10.1111/jgh.15047",
+   "title": "Covid‐19 and the digestive system",
+   "date": "2020-04-19"
+  },
+  {
+   "position": 41,
+   "doi": "10.1111/liv.14435",
+   "title": "Liver injury during highly pathogenic human coronavirus infections",
+   "date": "2020-03-30"
+  },
+  {
+   "position": 42,
+   "doi": "10.1111/liv.14730",
+   "title": "Pathophysiological mechanisms of liver injury in COVID‐19",
+   "date": "2020-11-29"
+  },
+  {
+   "position": 43,
+   "doi": "10.1128/jvi.05410-11",
+   "title": "Emerging Theme: Cellular PDZ Proteins as Common Targets of Pathogenic Viruses",
+   "date": "2011-11-15"
+  },
+  {
+   "position": 44,
+   "doi": "10.1136/gutjnl-2021-326792",
+   "title": "COVID-19 and liver disease",
+   "date": "2022-06-14"
+  },
+  {
+   "position": 45,
+   "doi": "10.1152/japplphysiol.00321.2020",
+   "title": "The interaction between SARS-CoV-2 and ACE2 may have consequences for skeletal muscle viral susceptibility and myopathies",
+   "date": "2020-10-01"
+  },
+  {
+   "position": 46,
+   "doi": "10.1158/0008-5472.can-12-1370",
+   "title": "CellMiner: A Web-Based Suite of Genomic and Pharmacologic Tools to Explore Transcript and Drug Patterns in the NCI-60 Cell Line Set",
+   "date": "2012-07-15"
+  },
+  {
+   "position": 47,
+   "doi": "10.1158/2159-8290.cd-12-0095",
+   "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
+   "date": "2012-05-01"
+  },
+  {
+   "position": 48,
+   "doi": "10.1159/000510765",
+   "title": "Impacts of COVID-19 on Liver Cancers: During and after the Pandemic",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 49,
+   "doi": "10.1177/0963689721991477",
+   "title": "Estrogen and Androgen Receptor Inhibitors: Unexpected Allies in the Fight Against COVID-19",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 50,
+   "doi": "10.1186/1471-2105-9-559",
+   "title": "WGCNA: an R package for weighted correlation network analysis",
+   "date": "2008-12-01"
+  },
+  {
+   "position": 51,
+   "doi": "10.1186/s12859-023-05615-3",
+   "title": "TCGAplot: an R package for integrative pan-cancer analysis and visualization of TCGA multi-omics data",
+   "date": "2023-12-17"
+  },
+  {
+   "position": 52,
+   "doi": "10.1186/s12943-021-01316-8",
+   "title": "The cancer metabolic reprogramming and immune response",
+   "date": "2021-02-05"
+  },
+  {
+   "position": 53,
+   "doi": "10.1186/s13059-014-0550-8",
+   "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+   "date": "2014-12-05"
+  },
+  {
+   "position": 54,
+   "doi": "10.1371/journal.ppat.1004320",
+   "title": "The PDZ-Binding Motif of Severe Acute Respiratory Syndrome Coronavirus Envelope Protein Is a Determinant of Viral Pathogenesis",
+   "date": "2014-08-14"
+  },
+  {
+   "position": 55,
+   "doi": "10.15252/embj.2022110727",
+   "title": "Autophagy‐linked plasma and lysosomal membrane protein PLAC8 is a key host factor for SARS‐CoV‐2 entry into human cells",
+   "date": "2022-10-04"
+  },
+  {
+   "position": 56,
+   "doi": "10.18632/oncotarget.13683",
+   "title": "Immunoglobulin superfamily genes are novel prognostic biomarkers for breast cancer",
+   "date": "2016-11-29"
+  },
+  {
+   "position": 57,
+   "doi": "10.2106/jbjs.20.00847",
+   "title": "Musculoskeletal Consequences of COVID-19",
+   "date": "2020-05-21"
+  },
+  {
+   "position": 58,
+   "doi": "10.2217/fvl-2020-0365",
+   "title": "SARS-CoV-2 Likely Targets Cellular Pdz Proteins: A Common Tactic of Pathogenic Viruses",
+   "date": "2021-05-19"
+  },
+  {
+   "position": 59,
+   "doi": "10.3322/caac.21442",
+   "title": "Cancer statistics, 2018",
+   "date": "2018-01-01"
+  },
+  {
+   "position": 60,
+   "doi": "10.3322/caac.21660",
+   "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries",
+   "date": "2021-02-04"
+  },
+  {
+   "position": 61,
+   "doi": "10.3389/fcvm.2020.616527",
+   "title": "Investigating the Potential for Ultraviolet Light to Modulate Morbidity and Mortality From COVID-19: A Narrative Review and Update",
+   "date": "2020-12-23"
+  },
+  {
+   "position": 62,
+   "doi": "10.3389/fimmu.2021.687975",
+   "title": "IOBR: Multi-Omics Immuno-Oncology Biological Research to Decode Tumor Microenvironment and Signatures",
+   "date": "2021-07-02"
+  },
+  {
+   "position": 63,
+   "doi": "10.3389/fmed.2021.603374",
+   "title": "Single-Cell RNA-seq Reveals Angiotensin-Converting Enzyme 2 and Transmembrane Serine Protease 2 Expression in TROP2+ Liver Progenitor Cells: Implications in Coronavirus Disease 2019-Associated Liver Dysfunction",
+   "date": "2021-04-22"
+  },
+  {
+   "position": 64,
+   "doi": "10.3390/ijms241512525",
+   "title": "Molecular Mechanisms of Endothelialitis in SARS-CoV-2 Infection: Evidence for VE-Cadherin Cleavage by ACE2",
+   "date": "2023-08-07"
+  },
+  {
+   "position": 65,
+   "doi": "10.3390/jcm9051420",
+   "title": "COVID-19, MERS and SARS with Concomitant Liver Injury—Systematic Review of the Existing Literature",
+   "date": "2020-05-11"
+  },
+  {
+   "position": 66,
+   "doi": "10.3390/ph13070143",
+   "title": "Cancer Patients Have a Higher Risk Regarding COVID-19–and Vice Versa?",
+   "date": "2020-07-06"
+  },
+  {
+   "position": 67,
+   "doi": "10.3748/wjg.v27.i24.3516",
+   "title": "Neuropilin-1: A feasible link between liver pathologies and COVID-19",
+   "date": "2021-06-28"
+  },
+  {
+   "position": 68,
+   "doi": "10.3748/wjg.v28.i11.1102",
+   "title": "Impaired coagulation, liver dysfunction and COVID-19: Discovering an intriguing relationship",
+   "date": "2022-03-21"
+  },
+  {
+   "position": 69,
+   "doi": "10.3892/or.2016.4773",
+   "title": "The role of JAM-B in cancer and cancer metastasis (Review)",
+   "date": "2016-04-27"
+  }
+ ],
+ "direct": [
+  33
+ ],
+ "layer1": [
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1186/s13099-020-00361-w"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1128/jvi.79.15.9725-9734.2005"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.3390/ani10020326"
+  },
+  {
+   "position": 54,
+   "retracted_doi": "10.1158/0008-5472.can-06-3875"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1371/journal.pone.0239799"
+  },
+  {
+   "position": 68,
+   "retracted_doi": "10.1056/nejmoa2007621"
+  }
+ ],
+ "layer2_items": [
+  1,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  20,
+  21,
+  22,
+  23,
+  24,
+  28,
+  29,
+  30,
+  32,
+  35,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  51,
+  52,
+  54,
+  55,
+  56,
+  57,
+  58,
+  61,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68
+ ],
+ "layer2_pairs": [
+  {
+   "position": 1,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1016/j.eng.2020.03.007"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1084/jem.20031467"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1371/journal.pone.0082803"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.2217/fon-2020-0300"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.3181/0806-rm-197"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1111/j.1751-2980.2011.00571.x"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1371/journal.pone.0089097"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.3892/or.2017.5772"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.3892/or.2017.5810"
+  },
+  {
+   "position": 5,
+   "retracted_doi": "10.1038/sj.onc.1208263"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.celrep.2016.04.033"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.eng.2020.03.007"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.orcp.2020.07.002"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/s0140-6736(20)31180-6"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1038/nm.4153"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1038/s41586-020-2095-1"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1083/jcb.200212128"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1126/science.aaa7516"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1128/jvi.00125-07"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1155/2018/1837634"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1158/1535-7163.mct-14-0672"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1186/s13287-019-1492-6"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1196/annals.1391.019"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1371/journal.pone.0062669"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1371/journal.pone.0239799"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1371/journal.ppat.1003818"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.2174/1874120701509010326"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/j.bbi.2020.04.062"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/j.clinimag.2020.05.001"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/nature04695"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m100194200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1091/mbc.e03-07-0503"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.ejphar.2012.10.008"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.molcel.2012.04.017"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.neo.2016.04.003"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1074/jbc.m208247200"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1097/ccm.0b013e318236efde"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1152/ajpcell.00127.2010"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1242/jcs.144816"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1371/journal.pone.0009313"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1002/lt.22147"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1016/j.biocel.2007.05.023"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1016/j.ccr.2012.09.003"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1016/j.molcel.2004.06.043"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/nature07954"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/nature10167"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/nature12201"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/nature16193"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/sj.onc.1208263"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1038/sj.onc.1208866"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1073/pnas.92.7.2558"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1074/jbc.m007237200"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1074/jbc.m113.470724"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1074/jbc.m303248200"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1074/jbc.m705867200"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1084/jem.20031467"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1124/jpet.104.074195"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1126/science.1086870"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1128/jvi.79.3.1569-1580.2005"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1128/mcb.25.11.4727-4741.2005"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1128/mcb.25.2.751-766.2005"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1158/0008-5472.can-06-3996"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1158/1535-7163.mct-10-1108"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1182/blood-2004-03-0954"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1182/blood-2009-12-257261"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.4049/jimmunol.177.11.7950"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1002/ijc.24299"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1038/nm1491"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1016/s0092-8674(00)80804-1"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1038/sj.onc.1207036"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1080/14787210.2021.1950532"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1001/jama.299.14.1669"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1097/tp.0b013e31816b67e4"
+  },
+  {
+   "position": 20,
+   "retracted_doi": "10.1371/journal.pone.0082803"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1073/pnas.0400441101"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1128/jvi.02351-13"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1074/jbc.m401878200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1016/j.chom.2013.03.011"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1038/s41423-020-0424-9"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1128/jvi.03649-13"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1128/jvi.01121-10"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1038/srep08209"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1073/pnas.0501997102"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1093/emboj/19.15.3956"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1128/jvi.03649-13"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1371/journal.pone.0055008"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1172/jci73014"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1101/2020.02.10.20021675"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1101/2020.02.10.20021675"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1128/jvi.03649-13"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.3181/0806-rm-197"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1172/jci24813"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.3109/02713680903374208"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.18632/oncotarget.5476"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1074/jbc.m109.059675"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1084/jem.20031467"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1128/jvi.01121-10"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1128/jvi.02351-13"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1128/jvi.03649-13"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1002/hep.20424"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1152/ajpgi.00536.2007"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1002/hep.20424"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1074/jbc.m205838200"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1083/jcb.200702053"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1126/science.1123480"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1128/jvi.03649-13"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1152/ajpgi.00536.2007"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1210/me.2006-0224"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.3181/0806-rm-197"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1002/ijc.20711"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1016/j.virusres.2004.02.022"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1074/jbc.m305602200"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1083/jcb.200702053"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1172/jci32738"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/j.eng.2020.03.007"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/j.orcp.2020.07.002"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1016/j.ccr.2010.09.005"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1016/j.cell.2009.03.047"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1021/bi9616615"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1038/ng.317"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1073/pnas.92.7.2558"
+  },
+  {
+   "position": 47,
+   "retracted_doi": "10.1074/jbc.m305602200"
+  },
+  {
+   "position": 47,
+   "retracted_doi": "10.1200/jco.2006.06.3743"
+  },
+  {
+   "position": 48,
+   "retracted_doi": "10.1056/nejmoa2007621"
+  },
+  {
+   "position": 48,
+   "retracted_doi": "10.1097/tp.0b013e31816b67e4"
+  },
+  {
+   "position": 51,
+   "retracted_doi": "10.1172/jci81187"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1002/1878-0261.12703"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1002/jcb.26399"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1007/s10616-014-9763-7"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.celrep.2015.05.046"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.immuni.2013.11.005"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1073/pnas.0812801106"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1074/jbc.m206383200"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1074/jbc.m308197200"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1111/j.1600-079x.2008.00641.x"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1155/2014/943162"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1172/jci28423"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1172/jci78253"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1182/blood-2004-08-3262"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/s12944-015-0068-4"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/s13046-018-0677-7"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1371/journal.pone.0176599"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.3109/19401736.2013.796520"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.3892/or.2015.4175"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.4049/jimmunol.0903617"
+  },
+  {
+   "position": 54,
+   "retracted_doi": "10.1126/science.1117768"
+  },
+  {
+   "position": 54,
+   "retracted_doi": "10.1128/jcm.42.12.5885-5888.2004"
+  },
+  {
+   "position": 54,
+   "retracted_doi": "10.1158/0008-5472.can-06-3875"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1016/s1567-133x(02)00058-3"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1038/nature17950"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1038/nmicrobiol.2016.203"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1073/pnas.1113421108"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1111/jpi.12247"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1159/000491718"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.1242/jcs.144816"
+  },
+  {
+   "position": 55,
+   "retracted_doi": "10.7554/elife.34532"
+  },
+  {
+   "position": 56,
+   "retracted_doi": "10.1016/j.cell.2009.03.047"
+  },
+  {
+   "position": 56,
+   "retracted_doi": "10.1038/sj.onc.1210831"
+  },
+  {
+   "position": 56,
+   "retracted_doi": "10.1182/blood-2010-08-301945"
+  },
+  {
+   "position": 57,
+   "retracted_doi": "10.1136/annrheumdis-2015-208444"
+  },
+  {
+   "position": 57,
+   "retracted_doi": "10.1210/me.2011-1124"
+  },
+  {
+   "position": 58,
+   "retracted_doi": "10.1158/0008-5472.can-06-3875"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1016/j.canlet.2005.12.042"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1017/s0007114513002791"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1038/sj.onc.1207711"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1056/nejmoa2007621"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1074/jbc.m300215200"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1074/jbc.m309314200"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1074/jbc.m404421200"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1101/2020.05.01.20087114"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1111/acel.12951"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1371/journal.pone.0239799"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.2139/ssrn.3571484"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.2217/nnm.15.67"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.3899/jrheum.111594"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.3945/jn.116.242008"
+  },
+  {
+   "position": 63,
+   "retracted_doi": "10.3181/0806-rm-197"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1007/bf01720718"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1016/s0140-6736(20)32656-8"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1073/pnas.0909353106"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1172/jci58559"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1378/chest.107.3.787"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1002/hep.20424"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1007/bf01699231"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1093/bja/75.6.740"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1111/j.1741-6892.2004.00468.x"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1152/ajpgi.00536.2007"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1002/ijc.23091"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1016/j.lfs.2004.06.019"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1016/j.lfs.2013.02.001"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1084/jem.20031467"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1158/0008-5472.can-06-3875"
+  },
+  {
+   "position": 66,
+   "retracted_doi": "10.1371/journal.ppat.0020025"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1016/j.biocel.2006.02.003"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1073/pnas.1202081109"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1074/jbc.m500562200"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1101/2020.02.10.20021675"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1371/journal.pone.0098623"
+  },
+  {
+   "position": 68,
+   "retracted_doi": "10.1016/j.cardiores.2004.03.014"
+  },
+  {
+   "position": 68,
+   "retracted_doi": "10.1016/j.ijantimicag.2020.105949"
+  },
+  {
+   "position": 68,
+   "retracted_doi": "10.1074/jbc.m000464200"
+  },
+  {
+   "position": 68,
+   "retracted_doi": "10.1182/blood-2008-12-192385"
+  }
+ ],
+ "check": [
+  6,
+  7,
+  11,
+  12,
+  32,
+  33,
+  52,
+  54,
+  61,
+  68
+ ],
+ "seconds": 379.7
+}

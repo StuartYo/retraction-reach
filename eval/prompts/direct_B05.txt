@@ -1,0 +1,54 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1001/jamainternmed.2021.1807 | Trends and Characteristics of Retracted Articles in the Biomedical Literature, 1971 to 2020 | 2021
+[2] doi:10.1002/asi.23421 | Costly collaborations: The impact of scientific fraud on co‐authors' careers | 2015
+[3] doi:10.1007/s11192-013-0996-6 | Are academics who publish more also more cited? Individual determinants of publication and citation records | 2013
+[4] doi:10.1007/s42001-024-00278-3 | The ripple effect of retraction on an author’s collaboration network | 2024
+[5] doi:10.1016/j.annemergmed.2015.04.022 | The Altmetric Score: A New Measure for Article-Level Dissemination and Impact | 2015
+[6] doi:10.1016/j.jebo.2013.08.016 | Inventorship and authorship as attribution rights: An enquiry into the economics of scientific credit | 2013
+[7] doi:10.1016/j.joi.2012.07.001 | A further step forward in measuring journals’ scientific prestige: The SJR2 indicator | 2012
+[8] doi:10.1016/j.respol.2008.11.011 | Research collaboration and research output: A longitudinal study of 65 biomedical scientists in a New Zealand university | 2009
+[9] doi:10.1016/j.respol.2009.02.001 | Researchers’ perceptions of citations | 2009
+[10] doi:10.1016/j.respol.2017.07.003 | The career effects of scandal: Evidence from scientific retractions | 2017
+[11] doi:10.1016/j.respol.2018.01.012 | Guilt by association: How scientific misconduct harms prior collaborators | 2019
+[12] doi:10.1016/j.socnet.2015.02.006 | Weaving the fabric of science: Dynamic network models of science's unfolding structure | 2015
+[13] doi:10.1023/a:1014254214337 | Reflections on Scientific Collaboration (and its study): Past, Present, and Future | 2001
+[14] doi:10.1038/nature12968 | RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency | 2014 | RETRACTED
+[15] doi:10.1038/s41467-018-07634-8 | The preeminence of ethnic diversity in scientific collaboration | 2018
+[16] doi:10.1038/s41562-019-0677-4 | Homophily and minority-group size explain perception biases in social networks | 2019
+[17] doi:10.1038/s41562-022-01498-1 | Gender inequality and self-publication are common among academic editors | 2023
+[18] doi:10.1073/pnas.1323111111 | Reputation and impact in academic careers | 2014
+[19] doi:10.1073/pnas.2119086119 | Dynamics of cross-platform attention to retracted papers | 2022
+[20] doi:10.1080/00031305.1986.10475403 | Standard Distance in Univariate and Multivariate Analysis | 1986
+[21] doi:10.1080/08989621.2019.1612244 | Publication rates after the first retraction for biomedical researchers with multiple retracted publications | 2019
+[22] doi:10.1086/228943 | Social Capital in the Creation of Human Capital | 1988
+[23] doi:10.1086/603537 | A Sociological (De)Construction of the Relationship between Status and Quality | 2009
+[24] doi:10.1087/20130103 | Altmetric: enriching scholarly content with article‐level discussion and metrics | 2013
+[25] doi:10.1093/ije/dyv322 | Probabilistic record linkage | 2015
+[26] doi:10.1093/rfs/5.4.553 | Survivorship Bias in Performance Studies | 1992
+[27] doi:10.1111/j.2517-6161.1972.tb00899.x | Regression Models and Life-Tables | 1972
+[28] doi:10.1126/sciadv.abd0299 | Peer review and gender bias: A study on 145 scholarly journals | 2021
+[29] doi:10.1126/sciadv.abd1996 | The unequal impact of parenthood in academia | 2021
+[30] doi:10.1126/science.1136099 | The Increasing Dominance of Teams in Production of Knowledge | 2007
+[31] doi:10.1126/science.1256151 | When contact changes minds: An experiment on transmission of support for gay equality | 2014 | RETRACTED
+[32] doi:10.1126/science.362.6413.393 | One publisher, more than 7000 retractions | 2018
+[33] doi:10.1145/2740908.2742839 | An Overview of Microsoft Academic Service (MAS) and Applications | 2015
+[34] doi:10.11613/bm.2012.031 | Interrater reliability: the kappa statistic | 2012
+[35] doi:10.1162/qss_a_00021 | Microsoft Academic Graph: When experts are not enough | 2020
+[36] doi:10.1162/qss_a_00297 | Author mentions in science news reveal widespread disparities across name-inferred ethnicities | 2024
+[37] doi:10.1162/rest_a_00430 | Social Networks and Research Output | 2014
+[38] doi:10.1162/rest_a_00780 | The Reverse Matthew Effect: Consequences of Retraction in Scientific Teams | 2019
+[39] doi:10.1177/0001839217703935 | Interactions and Interests: Collaboration Outcomes, Competitive Concerns, and the Limits to Triadic Closure | 2017
+[40] doi:10.1177/0306312705052359 | The Impact of Research Collaboration on Scientific Productivity | 2005
+[41] doi:10.1177/2515245918776632 | Fallibility in Science: Responding to Errors in the Work of Oneself and Others | 2018
+[42] doi:10.12688/wellcomeopenres.15191.1 | Raincloud plots: a multi-platform tool for robust data visualization | 2019
+[43] doi:10.3389/fdata.2019.00045 | A Review of Microsoft Academic Services for Science of Science Studies | 2019
+[44] doi:10.6087/kcse.187 | Characteristics of retracted articles based on retraction data from online sources through February 2019 | 2020

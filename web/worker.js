@@ -3,7 +3,7 @@
 let db = null;
 const ready = (async () => {
   const relate = await import(new URL('./relate/relate.js', import.meta.url).href);
-  await relate.default(new URL('./relate/relate_bg.wasm', import.meta.url).href);
+  await relate.default({ module_or_path: new URL('./relate/relate_bg.wasm', import.meta.url).href });
   db = new relate.RelateDb();
   return relate;
 })();

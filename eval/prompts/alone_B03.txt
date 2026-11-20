@@ -1,0 +1,77 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1001/jama.2020.12839 | Pathophysiology, Transmission, Diagnosis, and Treatment of Coronavirus Disease 2019 (COVID-19) | 2020
+[2] doi:10.1001/jamaoncol.2020.0980 | SARS-CoV-2 Transmission in Patients With Cancer at a Tertiary Care Hospital in Wuhan, China | 2020
+[3] doi:10.1002/bies.202000289 | SARS‐CoV‐2 infection and cancer | 2021
+[4] doi:10.1002/cac2.12115 | Molecular subtyping of hepatocellular carcinoma: A step toward precision medicine | 2020
+[5] doi:10.1002/cbf.3426 | IGSF1: A novel oncogene regulates the thyroid cancer progression | 2019
+[6] doi:10.1002/mco2.157 | COVID‐19 metabolism: Mechanisms and therapeutic targets | 2022
+[7] doi:10.1002/rmv.2289 | Long‐term side effects and lingering symptoms post COVID‐19 recovery | 2021
+[8] doi:10.1007/0-387-29362-0_23 | limma: Linear Models for Microarray Data | 
+[9] doi:10.1007/978-94-007-4186-7_7 | Immunoglobulin Superfamily Receptors and Adherens Junctions | 2012
+[10] doi:10.1007/s13304-020-00804-8 | Clinical implications of COVID-19 in patients with chronic liver disease and liver tumor | 2020
+[11] doi:10.1016/j.bbadis.2021.166260 | SARS-CoV-2 spike promotes inflammation and apoptosis through autophagy by ROS-suppressed PI3K/AKT/mTOR signaling | 2021
+[12] doi:10.1016/j.bbcan.2018.04.003 | An epi(c)genetic war: Pathogens, cancer and human genome | 2018
+[13] doi:10.1016/j.bbi.2020.03.031 | Nervous system involvement after infection with COVID-19 and other coronaviruses | 2020
+[14] doi:10.1016/j.cell.2017.10.049 | A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles | 2017
+[15] doi:10.1016/j.conb.2017.05.010 | Neural immunoglobulin superfamily interaction networks | 2017
+[16] doi:10.1016/j.gastrohep.2020.06.006 | Actualización en COVID-19 y enfermedad hepática | 2020
+[17] doi:10.1016/j.jhep.2022.07.008 | Impact of COVID-19 on the liver and on the care of patients with chronic liver disease, hepatobiliary cancer, and liver transplantation: An updated EASL position paper | 2022
+[18] doi:10.1016/j.jhep.2022.08.021 | Global burden of primary liver cancer in 2020 and predictions to 2040 | 2022
+[19] doi:10.1016/j.jinf.2020.04.006 | Clinical characteristics and prognosis in cancer patients with COVID-19: A single center's retrospective study | 2020
+[20] doi:10.1016/j.mehy.2020.109882 | Persistent SARS-CoV-2 infection and the risk for cancer | 2020
+[21] doi:10.1016/j.plipres.2022.101166 | The constellation of cholesterol-dependent processes associated with SARS-CoV-2 infection | 2022
+[22] doi:10.1016/j.tins.2017.03.003 | Neural Cell Adhesion Molecules of the Immunoglobulin Superfamily Regulate Synapse Formation, Maintenance, and Function | 2017
+[23] doi:10.1016/j.virusres.2021.198464 | Immune characterization and profiles of SARS-CoV-2 infected patients reveals potential host therapeutic targets and SARS-CoV-2 oncogenesis mechanism | 2021
+[24] doi:10.1016/s0140-6736(20)30183-5 | Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China | 2020
+[25] doi:10.1016/s0140-6736(20)30211-7 | Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study | 2020
+[26] doi:10.1016/s0140-6736(20)30558-4 | Comorbidities and multi-organ injuries in the treatment of COVID-19 | 2020
+[27] doi:10.1016/s2468-1253(20)30057-1 | Liver injury in COVID-19: management and challenges | 2020
+[28] doi:10.1021/acs.jproteome.0c00758 | Ubiquitin-Modified Proteome of SARS-CoV-2-Infected Host Cells Reveals Insights into Virus–Host Interaction and Pathogenesis | 2021
+[29] doi:10.1038/s12276-018-0191-1 | Immune checkpoint inhibitors: recent progress and potential biomarkers | 2018
+[30] doi:10.1038/s41392-020-00373-7 | COVID-19-associated gastrointestinal and liver injury: clinical features and potential mechanisms | 2020
+[31] doi:10.1038/s41569-020-0360-5 | COVID-19 and the cardiovascular system | 2020
+[32] doi:10.1038/s41577-020-0311-8 | The trinity of COVID-19: immunity, inflammation and intervention | 2020
+[33] doi:10.1056/nejmoa2007621 | RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19 | 2020
+[34] doi:10.1074/jbc.m212500200 | The Adhesion and Differentiation-inhibitory Activities of the Immunoglobulin Superfamily Member, Carcinoembryonic Antigen, Can Be Independently Blocked | 2003
+[35] doi:10.1080/21688370.2021.1937013 | The blood-gas barrier in COVID-19: an overview of the effects of SARS-CoV-2 infection on the alveolar epithelial and endothelial cells of the lung | 2021
+[36] doi:10.1093/bib/bbac558 | GSCA: an integrated platform for gene set cancer analysis at genomic, pharmacogenomic and immunogenomic levels | 2022
+[37] doi:10.1093/nar/30.1.207 | Gene Expression Omnibus: NCBI gene expression and hybridization array data repository | 2002
+[38] doi:10.1093/nar/gkz430 | GEPIA2: an enhanced web server for large-scale expression profiling and interactive analysis | 2019
+[39] doi:10.1101/2022.04.04.487020 | The network of SARS-CoV-2—cancer molecular interactions and pathways | 2022
+[40] doi:10.1111/jgh.15047 | Covid‐19 and the digestive system | 2020
+[41] doi:10.1111/liv.14435 | Liver injury during highly pathogenic human coronavirus infections | 2020
+[42] doi:10.1111/liv.14730 | Pathophysiological mechanisms of liver injury in COVID‐19 | 2020
+[43] doi:10.1128/jvi.05410-11 | Emerging Theme: Cellular PDZ Proteins as Common Targets of Pathogenic Viruses | 2011
+[44] doi:10.1136/gutjnl-2021-326792 | COVID-19 and liver disease | 2022
+[45] doi:10.1152/japplphysiol.00321.2020 | The interaction between SARS-CoV-2 and ACE2 may have consequences for skeletal muscle viral susceptibility and myopathies | 2020
+[46] doi:10.1158/0008-5472.can-12-1370 | CellMiner: A Web-Based Suite of Genomic and Pharmacologic Tools to Explore Transcript and Drug Patterns in the NCI-60 Cell Line Set | 2012
+[47] doi:10.1158/2159-8290.cd-12-0095 | The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data | 2012
+[48] doi:10.1159/000510765 | Impacts of COVID-19 on Liver Cancers: During and after the Pandemic | 2020
+[49] doi:10.1177/0963689721991477 | Estrogen and Androgen Receptor Inhibitors: Unexpected Allies in the Fight Against COVID-19 | 2021
+[50] doi:10.1186/1471-2105-9-559 | WGCNA: an R package for weighted correlation network analysis | 2008
+[51] doi:10.1186/s12859-023-05615-3 | TCGAplot: an R package for integrative pan-cancer analysis and visualization of TCGA multi-omics data | 2023
+[52] doi:10.1186/s12943-021-01316-8 | The cancer metabolic reprogramming and immune response | 2021
+[53] doi:10.1186/s13059-014-0550-8 | Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2 | 2014
+[54] doi:10.1371/journal.ppat.1004320 | The PDZ-Binding Motif of Severe Acute Respiratory Syndrome Coronavirus Envelope Protein Is a Determinant of Viral Pathogenesis | 2014
+[55] doi:10.15252/embj.2022110727 | Autophagy‐linked plasma and lysosomal membrane protein PLAC8 is a key host factor for SARS‐CoV‐2 entry into human cells | 2022
+[56] doi:10.18632/oncotarget.13683 | Immunoglobulin superfamily genes are novel prognostic biomarkers for breast cancer | 2016
+[57] doi:10.2106/jbjs.20.00847 | Musculoskeletal Consequences of COVID-19 | 2020
+[58] doi:10.2217/fvl-2020-0365 | SARS-CoV-2 Likely Targets Cellular Pdz Proteins: A Common Tactic of Pathogenic Viruses | 2021
+[59] doi:10.3322/caac.21442 | Cancer statistics, 2018 | 2018
+[60] doi:10.3322/caac.21660 | Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries | 2021
+[61] doi:10.3389/fcvm.2020.616527 | Investigating the Potential for Ultraviolet Light to Modulate Morbidity and Mortality From COVID-19: A Narrative Review and Update | 2020
+[62] doi:10.3389/fimmu.2021.687975 | IOBR: Multi-Omics Immuno-Oncology Biological Research to Decode Tumor Microenvironment and Signatures | 2021
+[63] doi:10.3389/fmed.2021.603374 | Single-Cell RNA-seq Reveals Angiotensin-Converting Enzyme 2 and Transmembrane Serine Protease 2 Expression in TROP2+ Liver Progenitor Cells: Implications in Coronavirus Disease 2019-Associated Liver Dysfunction | 2021
+[64] doi:10.3390/ijms241512525 | Molecular Mechanisms of Endothelialitis in SARS-CoV-2 Infection: Evidence for VE-Cadherin Cleavage by ACE2 | 2023
+[65] doi:10.3390/jcm9051420 | COVID-19, MERS and SARS with Concomitant Liver Injury—Systematic Review of the Existing Literature | 2020
+[66] doi:10.3390/ph13070143 | Cancer Patients Have a Higher Risk Regarding COVID-19–and Vice Versa? | 2020
+[67] doi:10.3748/wjg.v27.i24.3516 | Neuropilin-1: A feasible link between liver pathologies and COVID-19 | 2021
+[68] doi:10.3748/wjg.v28.i11.1102 | Impaired coagulation, liver dysfunction and COVID-19: Discovering an intriguing relationship | 2022
+[69] doi:10.3892/or.2016.4773 | The role of JAM-B in cancer and cancer metastasis (Review) | 2016

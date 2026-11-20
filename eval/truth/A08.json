@@ -1,0 +1,210 @@
+{
+ "id": "A08",
+ "split": "eval",
+ "source_doi": "10.1016/j.jacceco.2020.101340",
+ "summary": {
+  "listed": 27,
+  "retracted": 0,
+  "check": 0,
+  "note": 4,
+  "clear": 22,
+  "unknown": 1,
+  "with_layer1": 0,
+  "with_layer2": 4,
+  "retracted_papers_reached": 1,
+  "paths": 5,
+  "references_visible": 26
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1007/s11142-012-9220-9",
+   "title": "The role of accounting disaggregation in detecting and mitigating earnings management",
+   "date": "2013-03-07"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s11142-017-9422-2",
+   "title": "Capital market effects of media synthesis and dissemination: evidence from robo-journalism",
+   "date": "2017-10-02"
+  },
+  {
+   "position": 3,
+   "doi": "10.1016/0165-4101(89)90004-9",
+   "title": "An analysis of intertemporal and cross-sectional determinants of earnings response coefficients",
+   "date": "1989-07-01"
+  },
+  {
+   "position": 4,
+   "doi": "10.1016/0165-4101(95)00399-4",
+   "title": "Price and return models",
+   "date": "1995-09-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/j.jacceco.2018.08.001",
+   "title": "Uncertainty about managers’ reporting objectives and investors’ response to earnings reports: Evidence from the 2006 executive compensation disclosures",
+   "date": "2018-11-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/j.jfineco.2004.12.003",
+   "title": "The impact of performance-based compensation on misreporting",
+   "date": "2006-01-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.jfineco.2006.05.009",
+   "title": "Why do corporate managers misstate financial statements? The role of option compensation and other factors",
+   "date": "2007-09-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.jfineco.2007.05.008",
+   "title": "Analyst coverage and earnings management",
+   "date": "2008-05-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.jfineco.2013.02.019",
+   "title": "The relation between equity incentives and misreporting: The role of risk-taking incentives",
+   "date": "2013-08-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1086/701604",
+   "title": "Muddled Information",
+   "date": "2019-08-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1093/rfs/hhw055",
+   "title": "Capital-Market Effects of Securities Regulation: Prior Conditions, Implementation, and Enforcement",
+   "date": "2016-07-17"
+  },
+  {
+   "position": 12,
+   "doi": "10.1111/1475-679x.12075",
+   "title": "The Evolving Disclosure Landscape: How Changes in Technology, the Media, and Capital Markets Are Affecting Disclosure",
+   "date": "2015-04-02"
+  },
+  {
+   "position": 13,
+   "doi": "10.1111/1475-679x.12170",
+   "title": "Imperfect Accounting and Reporting Bias",
+   "date": "2017-04-19"
+  },
+  {
+   "position": 14,
+   "doi": "10.1111/j.1475-679x.2004.00136.x",
+   "title": "What Determines Corporate Transparency?",
+   "date": "2004-04-15"
+  },
+  {
+   "position": 15,
+   "doi": "10.1111/j.1475-679x.2004.00158.x",
+   "title": "Effect of Investor Speculation on Earnings Management",
+   "date": "2004-11-04"
+  },
+  {
+   "position": 16,
+   "doi": "10.1111/j.1475-679x.2006.00224.x",
+   "title": "The Press as a Watchdog for Accounting Fraud",
+   "date": "2006-10-24"
+  },
+  {
+   "position": 17,
+   "doi": "10.1111/j.1475-679x.2007.00238.x",
+   "title": "Accounting Information, Disclosure, and the Cost of Capital",
+   "date": "2007-03-16"
+  },
+  {
+   "position": 18,
+   "doi": "10.1111/j.1540-6261.2010.01614.x",
+   "title": "Who Blows the Whistle on Corporate Fraud?",
+   "date": "2010-11-09"
+  },
+  {
+   "position": 19,
+   "doi": "10.1111/j.1540-6288.1998.tb01386.x",
+   "title": "Stock Prices and the Secondary Dissemination of Information: The Wall Street Journal's “Insider Trading Spotlight”Column",
+   "date": "1998-08-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1506/car.25.2.3",
+   "title": "Accounting Discretion, Corporate Governance, and Firm Performance*",
+   "date": "2008-06-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1561/1400000044",
+   "title": "From Casual to Causal Inference in Accounting Research: The Need for Theoretical Foundations",
+   "date": "2016-08-17"
+  },
+  {
+   "position": 22,
+   "doi": "10.2307/1913210",
+   "title": "Continuous Auctions and Insider Trading",
+   "date": "1985-11-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.2308/accr-51766",
+   "title": "Proxies and Databases in Financial Misconduct Research",
+   "date": "2017-04-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.2308/accr.2000.75.2.229",
+   "title": "Reporting Bias",
+   "date": "2000-04-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.2308/accr.2004.79.4.1119",
+   "title": "The Influence of Analysts, Institutional Investors, and Insiders on the Incorporation of Market, Industry, and Firm-Specific Information into Stock Prices",
+   "date": "2004-10-01"
+  },
+  {
+   "position": 26,
+   "doi": "10.2308/accr.2008.83.6.1487",
+   "title": "The Importance of Distinguishing Errors from Irregularities in Restatement Research: The Case of Restatements and CEO/CFO Turnover",
+   "date": "2008-11-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.2308/accr.2010.85.2.447",
+   "title": "Reporting Bias with an Audit Committee",
+   "date": "2010-03-01"
+  }
+ ],
+ "direct": [],
+ "layer1": [],
+ "layer2_items": [
+  5,
+  12,
+  13,
+  23
+ ],
+ "layer2_pairs": [
+  {
+   "position": 5,
+   "retracted_doi": "10.1111/j.1475-679x.2007.00265.x"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1111/j.1475-679x.2007.00265.x"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1111/j.1475-679x.2007.00265.x"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1111/j.1475-679x.2007.00265.x"
+  }
+ ],
+ "check": [],
+ "seconds": 88.1
+}

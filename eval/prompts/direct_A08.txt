@@ -1,0 +1,37 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1007/s11142-012-9220-9 | The role of accounting disaggregation in detecting and mitigating earnings management | 2013
+[2] doi:10.1007/s11142-017-9422-2 | Capital market effects of media synthesis and dissemination: evidence from robo-journalism | 2017
+[3] doi:10.1016/0165-4101(89)90004-9 | An analysis of intertemporal and cross-sectional determinants of earnings response coefficients | 1989
+[4] doi:10.1016/0165-4101(95)00399-4 | Price and return models | 1995
+[5] doi:10.1016/j.jacceco.2018.08.001 | Uncertainty about managers’ reporting objectives and investors’ response to earnings reports: Evidence from the 2006 executive compensation disclosures | 2018
+[6] doi:10.1016/j.jfineco.2004.12.003 | The impact of performance-based compensation on misreporting | 2006
+[7] doi:10.1016/j.jfineco.2006.05.009 | Why do corporate managers misstate financial statements? The role of option compensation and other factors | 2007
+[8] doi:10.1016/j.jfineco.2007.05.008 | Analyst coverage and earnings management | 2008
+[9] doi:10.1016/j.jfineco.2013.02.019 | The relation between equity incentives and misreporting: The role of risk-taking incentives | 2013
+[10] doi:10.1086/701604 | Muddled Information | 2019
+[11] doi:10.1093/rfs/hhw055 | Capital-Market Effects of Securities Regulation: Prior Conditions, Implementation, and Enforcement | 2016
+[12] doi:10.1111/1475-679x.12075 | The Evolving Disclosure Landscape: How Changes in Technology, the Media, and Capital Markets Are Affecting Disclosure | 2015
+[13] doi:10.1111/1475-679x.12170 | Imperfect Accounting and Reporting Bias | 2017
+[14] doi:10.1111/j.1475-679x.2004.00136.x | What Determines Corporate Transparency? | 2004
+[15] doi:10.1111/j.1475-679x.2004.00158.x | Effect of Investor Speculation on Earnings Management | 2004
+[16] doi:10.1111/j.1475-679x.2006.00224.x | The Press as a Watchdog for Accounting Fraud | 2006
+[17] doi:10.1111/j.1475-679x.2007.00238.x | Accounting Information, Disclosure, and the Cost of Capital | 2007
+[18] doi:10.1111/j.1540-6261.2010.01614.x | Who Blows the Whistle on Corporate Fraud? | 2010
+[19] doi:10.1111/j.1540-6288.1998.tb01386.x | Stock Prices and the Secondary Dissemination of Information: The Wall Street Journal's “Insider Trading Spotlight”Column | 1998
+[20] doi:10.1506/car.25.2.3 | Accounting Discretion, Corporate Governance, and Firm Performance* | 2008
+[21] doi:10.1561/1400000044 | From Casual to Causal Inference in Accounting Research: The Need for Theoretical Foundations | 2016
+[22] doi:10.2307/1913210 | Continuous Auctions and Insider Trading | 1985
+[23] doi:10.2308/accr-51766 | Proxies and Databases in Financial Misconduct Research | 2017
+[24] doi:10.2308/accr.2000.75.2.229 | Reporting Bias | 2000
+[25] doi:10.2308/accr.2004.79.4.1119 | The Influence of Analysts, Institutional Investors, and Insiders on the Incorporation of Market, Industry, and Firm-Specific Information into Stock Prices | 2004
+[26] doi:10.2308/accr.2008.83.6.1487 | The Importance of Distinguishing Errors from Irregularities in Restatement Research: The Case of Restatements and CEO/CFO Turnover | 2008
+[27] doi:10.2308/accr.2010.85.2.447 | Reporting Bias with an Audit Committee | 2010

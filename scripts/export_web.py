@@ -47,11 +47,12 @@ def main():
     for b in bibs:
         for r in rows(conn, graph.q("path_edges"), {"bib": b["id"]}):
             on_path.update((r["citing"], r["cited"]))
+    # The browser copy keeps only what the report can reach: listed papers and every paper on a path to a
+    # retraction. The .rl file keeps the full two-hop neighbourhood.
     listed = {d for b in bibs for d in b["listed"]}
-    for p in papers:
-        if p["doi"] not in on_path and p["doi"] not in listed and not p["retracted"]:
-            p["title"] = None
-            p["journal"] = None
+    keep = listed | on_path
+    papers = [p for p in papers if p["doi"] in keep]
+    cites = [c for c in cites if c["a"] in keep and c["b"] in keep]
     retractions = rows(conn, """
         MATCH (p:Retracted)-[:RETRACTED_BY]->(x:Retraction)
         RETURN p.doi AS doi, p.title AS title, p.journal AS journal, p.date AS original_date,

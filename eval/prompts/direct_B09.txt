@@ -1,0 +1,82 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1007/s00125-012-2562-9 | Cell signalling in insulin secretion: the molecular targets of ATP, cAMP and sulfonylurea | 2012
+[2] doi:10.1007/s001250050960 | Extra-insular beta cells associated with ductules are frequent in adult human pancreas | 1998
+[3] doi:10.1007/s13346-012-0063-5 | Development of quercetin nanoformulation and in vivo evaluation using streptozotocin induced diabetic rat model | 2012
+[4] doi:10.1016/b978-0-08-100262-9.00002-1 | Natural polymers | 2017
+[5] doi:10.1016/b978-0-323-46144-3.00023-4 | Mesoporous silica nanoparticles: a promising multifunctional drug delivery system | 2017
+[6] doi:10.1016/j.ajps.2018.05.011 | Phyto-phospholipid complexes (phytosomes): A novel strategy to improve the bioavailability of active constituents | 2019
+[7] doi:10.1016/j.cca.2014.01.006 | Determination of acetone in saliva by reversed-phase liquid chromatography with fluorescence detection and the monitoring of diabetes mellitus patients with ketoacidosis | 2014
+[8] doi:10.1016/j.colsurfb.2017.07.038 | Recent applications of PLGA based nanostructures in drug delivery | 2017
+[9] doi:10.1016/j.colsurfb.2019.06.006 | Nanoemulsion improves hypoglycemic efficacy of berberine by overcoming its gastrointestinal challenge | 2019
+[10] doi:10.1016/j.drudis.2012.03.019 | An overview of natural polymers for oral insulin delivery | 2012
+[11] doi:10.1016/j.etap.2016.02.010 | Nanopharmaceutical approach using pelargonidin towards enhancement of efficacy for prevention of alloxan-induced DNA damage in L6 cells via activation of PARP and p53 | 2016
+[12] doi:10.1016/j.lfs.2018.10.027 | Chitosan encapsulated nanocurcumin induces GLUT-4 translocation and exhibits enhanced anti-hyperglycemic function | 2018
+[13] doi:10.1016/j.molliq.2021.116115 | Nanocochleates: A potential drug delivery system | 2021
+[14] doi:10.1016/j.scr.2011.10.002 | Small molecules induce efficient differentiation into insulin-producing cells from human induced pluripotent stem cells | 2012
+[15] doi:10.1016/j.stem.2007.12.001 | c-Myc Is Dispensable for Direct Reprogramming of Mouse Fibroblasts | 2008
+[16] doi:10.1016/j.stem.2009.01.014 | Small Molecules Efficiently Direct Endodermal Differentiation of Mouse and Human Embryonic Stem Cells | 2009
+[17] doi:10.1016/j.trac.2014.09.005 | Emerging trends in optical sensing of glycemic markers for diabetes monitoring | 2015
+[18] doi:10.1016/s0378-5173(00)00364-1 | Ex vivo and in situ PLGA microspheres uptake by pig ileal Peyer’s patch segment | 2000
+[19] doi:10.1016/s0964-3397(02)00010-1 | The glitazones: a new treatment for type 2 diabetes mellitus | 2002
+[20] doi:10.1038/cr.2009.28 | Highly efficient differentiation of human ES cells and iPS cells into mature pancreatic insulin-producing cells | 2009
+[21] doi:10.1038/gt.2010.145 | Indolactam V/GLP-1-mediated differentiation of human iPS cells into glucose-responsive insulin-secreting progeny | 2010
+[22] doi:10.1038/nature12969 | RETRACTED ARTICLE: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency | 2014 | RETRACTED
+[23] doi:10.1038/nchembio.154 | A small molecule that directs differentiation of human ESCs into the pancreatic lineage | 2009
+[24] doi:10.1038/nmeth.f.283 | Induced pluripotent stem cell technology for the study of human disease | 2009
+[25] doi:10.1039/c0em00547a | The release of engineered nanomaterials to the environment | 2011
+[26] doi:10.1056/nejmoa022287 | Circulating Endothelial Progenitor Cells, Vascular Function, and Cardiovascular Risk | 2003
+[27] doi:10.1073/pnas.0906894106 | Generation of pluripotent stem cells from patients with type 1 diabetes | 2009
+[28] doi:10.1073/pnas.1007884107 | Reversal of hyperglycemia in diabetic mouse models using induced-pluripotent stem (iPS)-derived pancreatic β-like cells | 2010
+[29] doi:10.1074/jbc.m806597200 | Generation of Insulin-secreting Islet-like Clusters from Human Skin Fibroblasts | 2008
+[30] doi:10.1080/03639045.2016.1185438 | Anti prostate cancer using PEGylated bombesin containing, cabazitaxel loading nano-sized drug delivery system | 2016
+[31] doi:10.1080/15583724.2014.995806 | Natural and Synthetic Polymers as Drug Carriers for Delivery of Therapeutic Proteins | 2015
+[32] doi:10.1089/scd.2011.0665 | Differentiation and Transplantation of Functional Pancreatic Beta Cells Generated from Induced Pluripotent Stem Cells Derived from a Type 1 Diabetes Mouse Model | 2012
+[33] doi:10.1093/humrep/dei345 | Derivation of human embryonic stem cell lines from embryos obtained after IVF and after PGD for monogenic disorders | 2005
+[34] doi:10.1096/fj.02-0974bkt | New Weapons to Combat an Ancient Disease: Treating Diabetes | 2002
+[35] doi:10.1111/j.1471-0528.1978.tb15835.x | A MORPHOLOGICAL STUDY OF THE ENDOCRINE PANCREAS IN HUMAN PREGNANCY | 1978
+[36] doi:10.1111/j.1523-1755.2004.09211.x | Microalbuminuria is associated with impaired brachial artery, flow-mediated vasodilation in elderly individuals without and with diabetes: Further evidence for a link between microalbuminuria and endothelial dysfunction—The Hoorn Study | 2004
+[37] doi:10.1111/jam.14290 | Polylactic acid: synthesis and biomedical applications | 2019
+[38] doi:10.1126/science.1174497 | Dynamic Signaling Network for the Specification of Embryonic Pancreas and Liver Progenitors | 2009
+[39] doi:10.1152/physrev.00025.2004 | Regulation of Pancreatic Beta-Cell Mass | 2005
+[40] doi:10.1155/2015/128653 | <i>α</i>
+                    -2-Macroglobulin in Saliva Is Associated with Glycemic Control in Patients with Type 2 Diabetes Mellitus | 2015
+[41] doi:10.1166/jnn.2018.15247 | Nanoliposomal Resveratrol as a Novel Approach to Treatment of Diabetes Mellitus | 2018
+[42] doi:10.1172/jci117064 | Insulin secretory abnormalities in subjects with hyperglycemia due to glucokinase mutations. | 1994
+[43] doi:10.1177/1932296814552673 | Comparison of Salivary and Serum Glucose Levels in Diabetic Patients | 2014
+[44] doi:10.1186/1556-276x-8-102 | Liposome: classification, preparation, and applications | 2013
+[45] doi:10.1186/1758-5996-2-3 | Buccal alterations in diabetes mellitus | 2010
+[46] doi:10.1186/s11671-019-3042-7 | Oral Administration of Resveratrol-Loaded Solid Lipid Nanoparticle Improves Insulin Resistance Through Targeting Expression of SNARE Proteins in Adipose and Muscle Tissue in Rats with Type 2 Diabetes | 2019
+[47] doi:10.1515/rjim-2015-0032 | Glucose Level Estimation in Diabetes Mellitus By Saliva: A Bloodless Revolution | 2015
+[48] doi:10.15744/2348-9782.4.103 | Anti-Diabetic Activity of Lycopene Niosomes: Experimental Observation | 2017
+[49] doi:10.1620/tjem.192.219 | Evaluation of Salivary Sialic Acid Level and Cu-Zn Superoxide Dismutase Activity in Type 1 Diabetes Mellitus | 2000
+[50] doi:10.1634/stemcells.2008-0310 | Biphasic Induction of Pdx1 in Mouse and Human Embryonic Stem Cells Can Mimic Development of Pancreatic β-Cells | 2009
+[51] doi:10.2147/ijn.s205319 | &lt;p&gt;Antidiabetic activity enhancement in streptozotocin + nicotinamide–induced diabetic rats through combinational polymeric nanoformulation&lt;/p&gt; | 2019
+[52] doi:10.2147/ijn.s285134 | &lt;p&gt;Oral Nano Drug Delivery Systems for the Treatment of Type 2 Diabetes Mellitus: An Available Administration Strategy for Antidiabetic Phytocompounds&lt;/p&gt; | 2020
+[53] doi:10.2174/1573399812666151016101622 | Chronic Complications of Diabetes Mellitus: A Mini Review | 2016
+[54] doi:10.22159/ajpcr.2021.v14i7.41677 | DRUG PRESCRIBING PATTERN AND COST-EFFECTIVENESS ANALYSIS OF ORAL ANTIDIABETIC DRUGS IN PATIENTS WITH TYPE-2 DIABETES MELLITUS: REAL-WORLD DATA FROM INDIAN POPULATION. | 2021
+[55] doi:10.22159/ajpcr.2022.v15i3.42117 | DEVELOPMENT AND VALIDATION OF A STABILITY-INDICATING RP-HPLC METHOD FOR THE ESTIMATION OF METFORMIN, SAXAGLIPTIN, AND DAPAGLIFLOZIN | 2022
+[56] doi:10.22159/ijap.2021v13i5.41339 | FORMULATION AND EVALUATION OF METFORMIN HYDROCHLORIDE AND GLICLAZIDE SUSTAINED RELEASE BILAYER TABLETS: A COMBINATION THERAPY IN MANAGEMENT OF DIABETES | 2021
+[57] doi:10.22270/jddt.v2i5.274 | A NOVEL DRUG DELIVERY SYSTEM: NIOSOMES REVIEW | 2012
+[58] doi:10.2337/db11-1711 | Maturation of Human Embryonic Stem Cell–Derived Pancreatic Progenitors Into Functional Islets Capable of Treating Pre-existing Diabetes in Mice | 2012
+[59] doi:10.2337/dc07-1707 | Longitudinal Association of Glucose Metabolism With Retinopathy | 2008
+[60] doi:10.2337/dc08-1265 | Lower Serum Creatinine Is a New Risk Factor of Type 2 Diabetes | 2009
+[61] doi:10.2337/dc09-s013 | Standards of Medical Care in Diabetes—2009 | 2009
+[62] doi:10.2337/diabetes.44.3.249 | Dynamics of beta-cell mass in the growing rat pancreas. Estimation with a simple mathematical model | 1995
+[63] doi:10.2337/diabetes.54.9.2557 | Very Slow Turnover of β-Cells in Aged Adult Mice | 2005
+[64] doi:10.3238/arztebl.m2021.0016 | Gliflozins for the Treatment of Congestive Heart Failure and Renal Failure in Type 2 Diabetes | 2021
+[65] doi:10.3390/molecules25163731 | Polymeric Nanoparticles: Production, Characterization, Toxicology and Ecotoxicology | 2020
+[66] doi:10.3390/nano7050112 | Encapsulation of 16-Hydroxycleroda-3,13-Dine-16,15-Olide in Mesoporous Silica Nanoparticles as a Natural Dipeptidyl Peptidase-4 Inhibitor Potentiated Hypoglycemia in Diabetic Mice | 2017
+[67] doi:10.4103/2230-8210.85583 | Choosing a Gliptin | 2011
+[68] doi:10.4317/medoral.14.e510 | Determination of salivary glucose in healthy adults | 2009
+[69] doi:10.5114/aoms.2012.31621 | Mini-Special Issue paper Management of diabetic patients with hypoglycemic agents α-Glucosidase inhibitors and their use in clinical practice | 2012
+[70] doi:10.5966/sctm.2011-0044 | Transgene-Free Disease-Specific Induced Pluripotent Stem Cells from Patients with Type 1 and Type 2 Diabetes | 2012
+[71] doi:10.7860/jcdr/2015/11633.5971 | Estimation of Salivary Glucose and Glycogen Content in Exfoliated Buccal Mucosal Cells of Patients with Type II Diabetes Mellitus | 2015

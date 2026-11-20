@@ -1,0 +1,39 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1001/journalofethics.2015.17.4.msoc1-1504 | The Myth of the Normal Brain: Embracing Neurodiversity | 2015
+[2] doi:10.1007/s10803-014-2095-9 | Relationships Between Feeding Problems, Behavioral Characteristics and Nutritional Quality in Children with ASD | 2014
+[3] doi:10.1016/s0140-6736(97)11096-0 | RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children | 1998
+[4] doi:10.1037/a0028353 | Deficit, difference, or both? Autism and neurodiversity. | 2013
+[5] doi:10.1038/479033a | The power of autism | 2011
+[6] doi:10.1038/nature13772 | Synaptic, transcriptional and chromatin genes disrupted in autism | 2014
+[7] doi:10.1038/nrn3992 | From the genetic architecture to synaptic plasticity in autism spectrum disorder | 2015
+[8] doi:10.1038/s41398-023-02317-5 | Excitatory/inhibitory imbalance in autism: the role of glutamate and GABA gene-sets in symptoms and cortical brain structure | 2023
+[9] doi:10.1073/pnas.1319030111 | Active learning increases student performance in science, engineering, and mathematics | 2014
+[10] doi:10.1080/00219266.2021.2006270 | Interactive socio-scientific inquiry for promoting scientific literacy, enhancing biological knowledge, and developing critical thinking | 2021
+[11] doi:10.1080/03057260802681839 | Situated learning in science education: socio‐scientific issues as contexts for practice | 2009
+[12] doi:10.1080/09500693.2012.667582 | Contextualizing Nature of Science Instruction in Socioscientific Issues | 2012
+[13] doi:10.1080/23752696.2020.1750306 | Fostering student engagement through a real-world, collaborative project across disciplines and institutions | 2020
+[14] doi:10.1097/wco.0000000000000301 | Brain connectivity in autism spectrum disorder | 2016
+[15] doi:10.1098/rstb.2013.0433 | The contribution of vaccination to global health: past, present and future | 2014
+[16] doi:10.1126/science.1240487 | Increasing Persistence of College Students in STEM | 2013
+[17] doi:10.1126/science.adk3451 | Quantifying the impact of misinformation and vaccine-skeptical content on Facebook | 2024
+[18] doi:10.1136/bmj.c5258 | How the vaccine crisis was meant to make money | 2011
+[19] doi:10.1136/bmj.c5347 | How the case against the MMR vaccine was fixed | 2011
+[20] doi:10.1177/1362361314529627 | What should autism research focus upon? Community views and priorities from the United Kingdom | 2014
+[21] doi:10.1177/1469787408095849 | The importance of establishing relevance in motivating student learning | 2008
+[22] doi:10.1187/cbe.22-06-0108 | Biology Instructors See Value in Discussing Controversial Topics but Fear Personal and Professional Consequences | 2023
+[23] doi:10.1371/journal.pone.0256395 | Quantifying the effect of Wakefield et al. (1998) on skepticism about MMR vaccine safety in the U.S. | 2021
+[24] doi:10.1503/cmaj.109-3179 | Lancet retracts 12-year-old article linking autism to MMR vaccines | 2010
+[25] doi:10.1523/jneurosci.1712-06.2006 | The Developmental Neurobiology of Autism Spectrum Disorder | 2006
+[26] doi:10.15585/mmwr.ss7202a1 | Prevalence and Characteristics of Autism Spectrum Disorder Among Children Aged 8 Years — Autism and Developmental Disabilities Monitoring Network, 11 Sites, United States, 2020 | 2023
+[27] doi:10.3102/00346543069001021 | Effects of Small-Group Learning on Undergraduates in Science, Mathematics, Engineering, and Technology: A Meta-Analysis | 1999
+[28] doi:10.3389/fnmol.2013.00019 | Autism spectrum disorder causes, mechanisms, and treatments: focus on neuronal synapses | 2013
+[29] doi:10.3389/fpsyg.2023.1184804 | “Why is this relevant for me?”: increasing content relevance enhances student motivation and vitality | 2023
+[30] doi:10.4103/0019-5545.82529 | The MMR vaccine and autism: Sensation, refutation, retraction, and fraud | 2011
+[31] doi:10.4161/hv.7.4.14120 | Development of a survey to identify vaccine-hesitant parents | 2011

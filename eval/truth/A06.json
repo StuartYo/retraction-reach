@@ -1,0 +1,1180 @@
+{
+ "id": "A06",
+ "split": "eval",
+ "source_doi": "10.1016/j.cellsig.2022.110397",
+ "summary": {
+  "listed": 45,
+  "retracted": 0,
+  "check": 5,
+  "note": 27,
+  "clear": 9,
+  "unknown": 4,
+  "with_layer1": 5,
+  "with_layer2": 31,
+  "retracted_papers_reached": 149,
+  "paths": 276,
+  "references_visible": 41
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/2211-5463.12408",
+   "title": "Poly(<scp>rC</scp>) binding protein 2 (<scp>PCBP</scp>2) promotes the viability of human gastric cancer cells by regulating CDK2",
+   "date": "2018-03-22"
+  },
+  {
+   "position": 2,
+   "doi": "10.1002/j.1460-2075.1995.tb00110.x",
+   "title": "Identification of two KH domain proteins in the alpha‐globin mRNP stability complex.",
+   "date": "1995-09-01"
+  },
+  {
+   "position": 3,
+   "doi": "10.1002/mc.20265",
+   "title": "HnRNP E2 is downregulated in human oral cancer cells and the overexpression of <i>hnRNP E2</i> induces apoptosis",
+   "date": "2007-01-11"
+  },
+  {
+   "position": 4,
+   "doi": "10.1002/mc.22406",
+   "title": "Autophagy levels are elevated in barrett's esophagus and promote cell survival from acid and oxidative stress",
+   "date": "2015-09-16"
+  },
+  {
+   "position": 5,
+   "doi": "10.1006/abbi.1995.9962",
+   "title": "The Expression of an Intestinal Form of Glutathione Peroxidase (GSHPx-GI) in Rat Intestinal Epithelium",
+   "date": "1995-11-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1007/s00270-011-0146-6",
+   "title": "Intraluminal Radioactive Stent Compared with Covered Stent Alone for the Treatment of Malignant Esophageal Stricture",
+   "date": "2011-03-24"
+  },
+  {
+   "position": 7,
+   "doi": "10.1007/s11010-011-0752-2",
+   "title": "miR-27b*, an oxidative stress-responsive microRNA modulates nuclear factor-kB pathway in RAW 264.7 cells",
+   "date": "2011-02-25"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.freeradbiomed.2010.08.029",
+   "title": "Loss of GPx2 increases apoptosis, mitosis, and GPx1 expression in the intestine of mice",
+   "date": "2010-12-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.redox.2018.09.025",
+   "title": "New insights into oxidative stress and inflammation during diabetes mellitus-accelerated atherosclerosis",
+   "date": "2019-01-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.redox.2019.101388",
+   "title": "Distinct and overlapping functions of glutathione peroxidases 1 and 2 in limiting NF-κB-driven inflammation through redox-active mechanisms",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/s0140-6736(12)60643-6",
+   "title": "Oesophageal carcinoma",
+   "date": "2013-02-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/s0304-4165(98)00032-4",
+   "title": "Selenium-dependent glutathione peroxidase-GI is a major glutathione peroxidase activity in the mucosal epithelium of rodent intestine1Portions of this work were presented in the Selenium II minisymposia at Experimental Biology '96. Preliminary accounts of this work appear in the proceedings volumes ",
+   "date": "1998-07-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1016/s1051-0443(07)61288-3",
+   "title": "Balloon Dilation and Endobronchial Stent Placement for Bronchial Strictures after Lung Transplantation",
+   "date": "2000-01-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1016/s1053-2498(99)00117-5",
+   "title": "High dose rate brachytherapy to prevent recurrent benign hyperplasia in lung transplant bronchi: theoretical and clinical considerations",
+   "date": "2000-02-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1038/cdd.2011.42",
+   "title": "miR-200c is upregulated by oxidative stress and induces endothelial cell apoptosis and senescence via ZEB1 inhibition",
+   "date": "2011-04-29"
+  },
+  {
+   "position": 16,
+   "doi": "10.1038/nrc.2017.53",
+   "title": "Targeting autophagy in cancer",
+   "date": "2017-07-28"
+  },
+  {
+   "position": 17,
+   "doi": "10.1038/nrdp.2017.48",
+   "title": "Oesophageal cancer",
+   "date": "2017-07-27"
+  },
+  {
+   "position": 18,
+   "doi": "10.1073/pnas.0906048106",
+   "title": "Adipose-specific deletion of\n                    <i>autophagy-related gene 7</i>\n                    (\n                    <i>atg7</i>\n                    ) in mice reveals a role in adipogenesis",
+   "date": "2009-11-24"
+  },
+  {
+   "position": 19,
+   "doi": "10.1074/jbc.m115.712125",
+   "title": "RNA-binding Protein PCBP2 Regulates p73 Expression and p73-dependent Antioxidant Defense",
+   "date": "2016-04-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1074/jbc.m512655200",
+   "title": "GPX2, a Direct Target of p63, Inhibits Oxidative Stress-induced Apoptosis in a p53-dependent Manner",
+   "date": "2006-03-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1074/jbc.ra119.011870",
+   "title": "PCBP1 and PCBP2 both bind heavily oxidized RNA but cause opposing outcomes, suppressing or increasing apoptosis under oxidative conditions",
+   "date": "2020-08-01"
+  },
+  {
+   "position": 22,
+   "doi": "10.1080/10715762.2019.1635251",
+   "title": "p62/SQSTM1 protects against cisplatin-induced oxidative stress in kidneys by mediating the cross talk between autophagy and the Keap1-Nrf2 signalling pathway",
+   "date": "2019-07-03"
+  },
+  {
+   "position": 23,
+   "doi": "10.1089/ars.2019.7905",
+   "title": "Regulatory Phenomena in the Glutathione Peroxidase Superfamily",
+   "date": "2020-07-29"
+  },
+  {
+   "position": 24,
+   "doi": "10.1093/carcin/bgr288",
+   "title": "Glutathione peroxidase-2 and selenium decreased inflammation and tumors in a mouse model of inflammation-associated carcinogenesis whereas sulforaphane effects differed with selenium supply",
+   "date": "2011-12-17"
+  },
+  {
+   "position": 25,
+   "doi": "10.1093/carcin/bgu048",
+   "title": "GPX2 overexpression is involved in cell proliferation and prognosis of castration-resistant prostate cancer",
+   "date": "2014-02-22"
+  },
+  {
+   "position": 26,
+   "doi": "10.1093/jn/135.4.740",
+   "title": "Epithelium-Specific Glutathione Peroxidase, Gpx2, Is Involved in the Prevention of Intestinal Inflammation in Selenium-Deficient Mice",
+   "date": "2005-04-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.1097/00000478-200109000-00009",
+   "title": "Hyperplastic Polyps of the Esophagus and Esophagogastric Junction",
+   "date": "2001-09-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1097/mib.0000000000000464",
+   "title": "GPx2 Induction Is Mediated Through STAT Transcription Factors During Acute Colitis",
+   "date": "2015-09-01"
+  },
+  {
+   "position": 29,
+   "doi": "10.1101/gad.2016211",
+   "title": "Autophagy-deficient mice develop multiple liver tumors",
+   "date": "2011-04-15"
+  },
+  {
+   "position": 30,
+   "doi": "10.1148/radiol.2472070999",
+   "title": "Self-expandable Esophageal Stent Loaded with<sup>125</sup>I Seeds: Initial Experience in Patients with Advanced Esophageal Cancer",
+   "date": "2008-05-01"
+  },
+  {
+   "position": 31,
+   "doi": "10.1148/radiology.217.2.r00nv03551",
+   "title": "Covered Retrievable Expandable Nitinol Stents in Patients with Benign Esophageal Strictures: Initial Experience",
+   "date": "2000-11-01"
+  },
+  {
+   "position": 32,
+   "doi": "10.1152/ajpgi.2001.281.3.g848",
+   "title": "Mice with combined disruption of\n                    <i>Gpx1</i>\n                    and\n                    <i>Gpx2</i>\n                    genes have colitis",
+   "date": "2001-09-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.1155/2020/7136049",
+   "title": "Identification of Tumorigenic and Prognostic Biomarkers in Colorectal Cancer Based on microRNA Expression Profiles",
+   "date": "2020-01-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1158/0008-5472.can-14-1645",
+   "title": "GPx2 Suppression of H2O2 Stress Links the Formation of Differentiated Tumor Mass to Metastatic Capacity in Colorectal Cancer",
+   "date": "2014-11-13"
+  },
+  {
+   "position": 35,
+   "doi": "10.1158/1541-7786.mcr-20-0390",
+   "title": "<i>PCBP2</i>\n                    Posttranscriptional Modifications Induce Breast Cancer Progression via Upregulation of UFD1 and NT5E",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1172/jci61820",
+   "title": "RNA-binding protein PCBP2 modulates glioma growth by regulating FHL3",
+   "date": "2013-04-15"
+  },
+  {
+   "position": 37,
+   "doi": "10.1371/journal.pone.0072055",
+   "title": "Deletion of Glutathione Peroxidase-2 Inhibits Azoxymethane-Induced Colon Cancer Development",
+   "date": "2013-08-19"
+  },
+  {
+   "position": 38,
+   "doi": "10.18632/oncotarget.24627",
+   "title": "GPX2 promotes development of bladder cancer with squamous cell differentiation through the control of apoptosis",
+   "date": "2018-03-23"
+  },
+  {
+   "position": 39,
+   "doi": "10.3389/fonc.2017.00128",
+   "title": "Autophagy in Cancer Therapy",
+   "date": "2017-06-15"
+  },
+  {
+   "position": 40,
+   "doi": "10.3390/biomedicines9080974",
+   "title": "Lipopolysaccharides Enhance Epithelial Hyperplasia and Tubular Adenoma in Intestine-Specific Expression of krasV12 in Transgenic Zebrafish",
+   "date": "2021-08-07"
+  },
+  {
+   "position": 41,
+   "doi": "10.3390/ijms21093289",
+   "title": "Roles of Autophagy in Oxidative Stress",
+   "date": "2020-05-06"
+  },
+  {
+   "position": 42,
+   "doi": "10.3748/wjg.v21.i26.7933",
+   "title": "Esophageal cancer: Risk factors, screening and endoscopic treatment in Western and Eastern countries",
+   "date": "2015-01-01"
+  },
+  {
+   "position": 43,
+   "doi": "10.3892/ol.2013.1466",
+   "title": "Clinical application of iodine-eluting stent in patients with advanced esophageal cancer",
+   "date": "2013-07-15"
+  },
+  {
+   "position": 44,
+   "doi": "10.3892/or.2016.5167",
+   "title": "Overexpression of PCBP2 contributes to poor prognosis and enhanced cell growth in human hepatocellular carcinoma",
+   "date": "2016-10-13"
+  },
+  {
+   "position": 45,
+   "doi": "10.4049/jimmunol.1700091",
+   "title": "The NF-κB–Responsive Long Noncoding RNA FIRRE Regulates Posttranscriptional Regulation of Inflammatory Gene Expression through Interacting with hnRNPU",
+   "date": "2017-11-01"
+  }
+ ],
+ "direct": [],
+ "layer1": [
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/db09-1637"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1002/14651858.cd004063.pub2"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1242/jcs.010728"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1016/j.neo.2016.04.003"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  }
+ ],
+ "layer2_items": [
+  1,
+  4,
+  7,
+  8,
+  9,
+  10,
+  15,
+  16,
+  17,
+  18,
+  19,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  28,
+  29,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  44,
+  45
+ ],
+ "layer2_pairs": [
+  {
+   "position": 1,
+   "retracted_doi": "10.1038/sj.leu.2403868"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1186/s12943-017-0586-y"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.18632/oncotarget.8987"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.3892/or.2016.5290"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/j.molcel.2009.09.031"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1038/cdd.2008.151"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1073/pnas.1113421108"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1006/exer.1997.0449"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1074/jbc.m601496200"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1007/s00125-011-2125-5"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1016/j.neulet.2010.03.007"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1021/jm901773d"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/ijo.2011.153"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/ijo.2013.20"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1042/cs20100226"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1056/nejmoa1200303"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.c700015200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m110.102491"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m112.442384"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m300215200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m404421200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m608310200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m610949200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m701050200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1074/jbc.m803020200"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1093/cvr/cvt113"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1096/fasebj.11.2.9039961"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1126/science.277.5332.1681"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1161/circresaha.111.250423"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1161/circulationaha.106.684795"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1172/jci113889"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1172/jci23187"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1172/jci42315"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1530/jme-14-0213"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/db06-1595"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/db08-0610"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/db08-1287"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/db09-1637"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2337/diabetes.54.11.3089"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1038/tp.2011.27"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1074/jbc.m502083200"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1074/jbc.m511198200"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1074/jbc.m709854200"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1096/fj.04-2258fje"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1128/jvi.79.15.9725-9734.2005"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1152/ajpheart.00777.2008"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1161/atvbaha.108.177113"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1242/jcs.058537"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1002/jcp.21030"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1016/s0140-6736(05)67488-0"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1038/20208"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1083/jcb.200507083"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1038/bjc.2015.17"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1038/nm.2577"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1038/onc.2011.321"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1073/pnas.1113421108"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1073/pnas.1322913111"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1097/jto.0b013e3181753b24"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1124/mol.107.034827"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1124/mol.107.044396"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1128/mcb.00799-13"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1242/jcs.144816"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1371/journal.pone.0128648"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1002/14651858.cd002092.pub2"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1038/ng.317"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1371/journal.pgen.1000680"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1016/j.cell.2005.09.032"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1038/nature13429"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1074/jbc.m110.109298"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1182/blood-2005-06-2302"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1186/s13000-015-0377-y"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1007/s11033-012-2029-6"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1038/cdd.2008.151"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1073/pnas.1322913111"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1016/j.molcel.2009.09.031"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1038/nature10167"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1074/jbc.m502083200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1074/jbc.m511198200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1074/jbc.m709854200"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1182/blood-2006-04-015206"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1242/jcs.058537"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.3892/ijo.2013.1850"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1074/jbc.m008096200"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1074/jbc.m502083200"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1093/carcin/bgi185"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1038/20208"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1016/s0014-2999(97)01417-9"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1046/j.1365-2567.1998.00409.x"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1161/01.atv.0000133192.39901.be"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1038/nature01730"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1038/srep13677"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1093/carcin/bgs140"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1186/s13045-020-00857-7"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1371/journal.pone.0078700"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1371/journal.pone.0170860"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.18632/oncotarget.12190"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.2147/ott.s239258"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.3892/mmr.2016.4901"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1073/pnas.0806674105"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1074/jbc.m308197200"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1074/jbc.m702938200"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1242/jcs.01612"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1002/2211-5463.12142"
+  },
+  {
+   "position": 35,
+   "retracted_doi": "10.1038/nature04585"
+  },
+  {
+   "position": 36,
+   "retracted_doi": "10.1016/j.cell.2005.09.032"
+  },
+  {
+   "position": 36,
+   "retracted_doi": "10.1038/sj.leu.2403868"
+  },
+  {
+   "position": 36,
+   "retracted_doi": "10.1371/journal.ppat.0020025"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1074/jbc.m312972200"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1056/nejm199810153391601"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1128/iai.06295-11"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1161/01.res.0000046227.65158.f8"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1016/j.molcel.2009.09.031"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1038/cdd.2008.151"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1038/nature17950"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1074/jbc.m208247200"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1111/jpi.12247"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1186/1476-4598-4-13"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1007/s11739-010-0451-0"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1074/jbc.m100194200"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1074/jbc.m205838200"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1074/jbc.m302674200"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1158/0008-5472.can-07-6655"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.18632/oncotarget.20357"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.3892/mmr.2016.4788"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.cell.2009.01.054"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.cmet.2012.10.005"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.freeradbiomed.2012.07.084"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.nbd.2008.02.009"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.neo.2016.04.003"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1021/jm300015m"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/cdd.2008.151"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/nature11700"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/nature17950"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/ncb3192"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/s41586-018-0448-9"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/s41598-017-10087-6"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1038/sj.cdd.4401420"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1056/nejmoa1200303"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1073/pnas.1113421108"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1073/pnas.1322913111"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.273.29.18019"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m111.275073"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m114.595496"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m208247200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m412994200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m502190200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m511198200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m603393200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m701194200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1074/jbc.m800102200"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1083/jcb.200212128"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1083/jcb.200702053"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1096/fj.01-0338fje"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1161/circresaha.108.175190"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1172/jci40927"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1242/jcs.061846"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1371/journal.pone.0083914"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1371/journal.pone.0087254"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.2119/molmed.2011.00389"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.2337/db07-1062"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.2337/db08-0610"
+  },
+  {
+   "position": 42,
+   "retracted_doi": "10.1002/14651858.cd004063.pub2"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1111/cas.12351"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1371/journal.ppat.0020025"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1016/s0092-8674(00)00194-x"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1038/nature16193"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1038/nrc2539"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1074/jbc.m110.110312"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1126/science.1117705"
+  }
+ ],
+ "check": [
+  9,
+  11,
+  15,
+  16,
+  26
+ ],
+ "seconds": 330.1
+}

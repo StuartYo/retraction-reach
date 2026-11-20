@@ -1,0 +1,53 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1002/aja.1002010103 | Abnormal development of embryonic and extraembryonic cell lineages in parthenogenetic mouse embryos | 1994
+[2] doi:10.1002/mrd.20728 | In vitro development and cell allocation of porcine blastocysts derived by aggregation of in vitro fertilized embryos | 2007
+[3] doi:10.1007/s11626-014-9863-x | Derivation of embryonic stem cells from Kunming mice IVF blastocyst in feeder- and serum-free condition | 2015
+[4] doi:10.1016/0092-8674(84)90313-1 | Completion of mouse embryogenesis requires both the maternal and paternal genomes | 1984
+[5] doi:10.1016/0925-4773(94)90037-x | The non-viability of uniparental mouse conceptuses correlates with the loss of the products of imprinted genes | 1994
+[6] doi:10.1016/j.bbrc.2005.11.164 | Significant improvement of mouse cloning technique by treatment with trichostatin A after somatic nuclear transfer | 2006
+[7] doi:10.1016/j.bbrc.2014.11.051 | PXD101 significantly improves nuclear reprogramming and the in vitro developmental competence of porcine SCNT embryos | 2015
+[8] doi:10.1016/j.fertnstert.2006.11.203 | Establishment of stem cell lines from nuclear transferred and parthenogenetically activated mouse oocytes for therapeutic cloning | 2008
+[9] doi:10.1016/j.pnpbp.2016.09.002 | Histone deacetylases inhibitors (HDACis) as novel therapeutic application in various clinical diseases | 2017
+[10] doi:10.1016/j.theriogenology.2013.07.013 | Treatment of donor cells with trichostatin A improves in vitro development and reprogramming of buffalo (Bubalus bubalis) nucleus transfer embryos | 2013
+[11] doi:10.1016/j.theriogenology.2013.09.032 | The histone deacetylase inhibitor Scriptaid improves in vitro developmental competence of ovine somatic cell nuclear transferred embryos | 2014
+[12] doi:10.1016/s0960-9822(03)00419-6 | Epigenetic Marking Correlates with Developmental Potential in Cloned Bovine Preimplantation Embryos | 2003
+[13] doi:10.1038/308548a0 | Development of reconstituted mouse eggs suggests imprinting of the genome during gametogenesis | 1984
+[14] doi:10.1071/an17621 | Strategies for improvement of cloning by somatic cell nuclear transfer | 2018
+[15] doi:10.1071/rd12243 | Production of viable cloned miniature pigs by aggregation of handmade cloned embryos at the 4-cell stage | 2013
+[16] doi:10.1071/rdv26n1ab24 | 24 IMPROVEMENT OF PORCINE CLONED EMBRYONIC STEM-LIKE CELLS DERIVATION BY ZONA-MEDIATED EMBRYO AGGREGATION | 2013
+[17] doi:10.1074/jbc.m511340200 | Inheritable Histone H4 Acetylation of Somatic Chromatins in Cloned Embryos | 2006
+[18] doi:10.1089/cell.2009.0108 | Comparison between the Effects of Valproic Acid and Trichostatin A on the
+                    <i>In Vitro</i>
+                    Development, Blastocyst Quality, and Full-Term Development of Mouse Somatic Cell Nuclear Transfer Embryos | 2010
+[19] doi:10.1089/cell.2011.0084 | Valproic Acid Improves the
+                    <i>In Vitro</i>
+                    Development Competence of Bovine Somatic Cell Nuclear Transfer Embryos | 2012
+[20] doi:10.1089/cell.2013.0027 | Effects of Histone Deacetylase Inhibitors on the Early Development of Bovine Androgenetic Embryos | 2014
+[21] doi:10.1089/cell.2014.0041 | Effects of Histone Acetylation Status on the Early Development of
+                    <i>In Vitro</i>
+                    Porcine Transgenic Cloned Embryos | 2015
+[22] doi:10.1089/cell.2016.0030 | Effects of Trichostatin A and PXD101 on the
+                    <i>In Vitro</i>
+                    Development of Mouse Somatic Cell Nuclear Transfer Embryos | 2017
+[23] doi:10.1089/cell.2017.0027 | Effects of Embryo Aggregation and PXD101 on the
+                    <i>In Vitro</i>
+                    Development of Mouse Somatic Cell Nuclear Transfer Embryos | 2017
+[24] doi:10.1095/biolreprod.110.085282 | Inhibition of Class IIb Histone Deacetylase Significantly Improves Cloning Efficiency in Mice1 | 2010
+[25] doi:10.1111/asj.12059 | Effects of trichostatin<scp>A</scp>on histone acetylation and methylation characteristics in early porcine embryos after somatic cell nuclear transfer | 2013
+[26] doi:10.1111/dgd.12215 | Blastomeres aggregation as an efficient alternative for trophoblast culture from porcine parthenogenetic embryos | 2015
+[27] doi:10.1111/j.1439-0531.2010.01614.x | Improving the Quality of Miniature Pig Somatic Cell Nuclear Transfer Blastocysts: Aggregation of SCNT Embryos at the Four‐cell Stage | 2011
+[28] doi:10.1126/science.1065637 | Parthenogenetic Stem Cells in Nonhuman Primates | 2002
+[29] doi:10.1126/science.1112286 | Patient-Specific Embryonic Stem Cells Derived from Human SCNT Blastocysts | 2005 | RETRACTED
+[30] doi:10.1262/jrd.18098 | Successful Mouse Cloning of an Outbred Strain by Trichostatin A Treatment after Somatic Nuclear Transfer | 2007
+[31] doi:10.1530/rep-15-0180 | Epigenetic dynamics during preimplantation development | 2015
+[32] doi:10.3906/biy-1612-30 | Aggregation of a parthenogenetic diploid embryo and a male embryo improves the blastocyst development and parthenogenetic embryonic stem cell derivation | 2017
+[33] doi:10.3923/javaa.2012.1812.1818 | Trichostatin A Treatment on Two Types of Donor Cells for Somatic Cell Nuclear Transfer | 2012

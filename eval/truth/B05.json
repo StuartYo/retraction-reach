@@ -1,0 +1,862 @@
+{
+ "id": "B05",
+ "split": "eval",
+ "source_doi": "10.1038/s41562-025-02154-0",
+ "summary": {
+  "listed": 44,
+  "retracted": 2,
+  "check": 2,
+  "note": 10,
+  "clear": 25,
+  "unknown": 5,
+  "with_layer1": 3,
+  "with_layer2": 13,
+  "retracted_papers_reached": 92,
+  "paths": 145,
+  "references_visible": 39
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1001/jamainternmed.2021.1807",
+   "title": "Trends and Characteristics of Retracted Articles in the Biomedical Literature, 1971 to 2020",
+   "date": "2021-08-01"
+  },
+  {
+   "position": 2,
+   "doi": "10.1002/asi.23421",
+   "title": "Costly collaborations: The impact of scientific fraud on co‐authors' careers",
+   "date": "2015-01-30"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/s11192-013-0996-6",
+   "title": "Are academics who publish more also more cited? Individual determinants of publication and citation records",
+   "date": "2013-03-14"
+  },
+  {
+   "position": 4,
+   "doi": "10.1007/s42001-024-00278-3",
+   "title": "The ripple effect of retraction on an author’s collaboration network",
+   "date": "2024-05-22"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/j.annemergmed.2015.04.022",
+   "title": "The Altmetric Score: A New Measure for Article-Level Dissemination and Impact",
+   "date": "2015-11-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/j.jebo.2013.08.016",
+   "title": "Inventorship and authorship as attribution rights: An enquiry into the economics of scientific credit",
+   "date": "2013-11-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.joi.2012.07.001",
+   "title": "A further step forward in measuring journals’ scientific prestige: The SJR2 indicator",
+   "date": "2012-10-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.respol.2008.11.011",
+   "title": "Research collaboration and research output: A longitudinal study of 65 biomedical scientists in a New Zealand university",
+   "date": "2009-03-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.respol.2009.02.001",
+   "title": "Researchers’ perceptions of citations",
+   "date": "2009-07-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.respol.2017.07.003",
+   "title": "The career effects of scandal: Evidence from scientific retractions",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.respol.2018.01.012",
+   "title": "Guilt by association: How scientific misconduct harms prior collaborators",
+   "date": "2019-03-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/j.socnet.2015.02.006",
+   "title": "Weaving the fabric of science: Dynamic network models of science's unfolding structure",
+   "date": "2015-10-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1023/a:1014254214337",
+   "title": "Reflections on Scientific Collaboration (and its study): Past, Present, and Future",
+   "date": "2001-11-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1038/nature12968",
+   "title": "RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+   "date": "2014-01-29"
+  },
+  {
+   "position": 15,
+   "doi": "10.1038/s41467-018-07634-8",
+   "title": "The preeminence of ethnic diversity in scientific collaboration",
+   "date": "2018-12-04"
+  },
+  {
+   "position": 16,
+   "doi": "10.1038/s41562-019-0677-4",
+   "title": "Homophily and minority-group size explain perception biases in social networks",
+   "date": "2019-08-12"
+  },
+  {
+   "position": 17,
+   "doi": "10.1038/s41562-022-01498-1",
+   "title": "Gender inequality and self-publication are common among academic editors",
+   "date": "2023-01-16"
+  },
+  {
+   "position": 18,
+   "doi": "10.1073/pnas.1323111111",
+   "title": "Reputation and impact in academic careers",
+   "date": "2014-10-06"
+  },
+  {
+   "position": 19,
+   "doi": "10.1073/pnas.2119086119",
+   "title": "Dynamics of cross-platform attention to retracted papers",
+   "date": "2022-06-14"
+  },
+  {
+   "position": 20,
+   "doi": "10.1080/00031305.1986.10475403",
+   "title": "Standard Distance in Univariate and Multivariate Analysis",
+   "date": "1986-08-01"
+  },
+  {
+   "position": 21,
+   "doi": "10.1080/08989621.2019.1612244",
+   "title": "Publication rates after the first retraction for biomedical researchers with multiple retracted publications",
+   "date": "2019-05-14"
+  },
+  {
+   "position": 22,
+   "doi": "10.1086/228943",
+   "title": "Social Capital in the Creation of Human Capital",
+   "date": "1988-01-01"
+  },
+  {
+   "position": 23,
+   "doi": "10.1086/603537",
+   "title": "A Sociological (De)Construction of the Relationship between Status and Quality",
+   "date": "2009-11-01"
+  },
+  {
+   "position": 24,
+   "doi": "10.1087/20130103",
+   "title": "Altmetric: enriching scholarly content with article‐level discussion and metrics",
+   "date": "2013-01-01"
+  },
+  {
+   "position": 25,
+   "doi": "10.1093/ije/dyv322",
+   "title": "Probabilistic record linkage",
+   "date": "2015-12-20"
+  },
+  {
+   "position": 26,
+   "doi": "10.1093/rfs/5.4.553",
+   "title": "Survivorship Bias in Performance Studies",
+   "date": "1992-10-01"
+  },
+  {
+   "position": 27,
+   "doi": "10.1111/j.2517-6161.1972.tb00899.x",
+   "title": "Regression Models and Life-Tables",
+   "date": "1972-01-01"
+  },
+  {
+   "position": 28,
+   "doi": "10.1126/sciadv.abd0299",
+   "title": "Peer review and gender bias: A study on 145 scholarly journals",
+   "date": "2021-01-08"
+  },
+  {
+   "position": 29,
+   "doi": "10.1126/sciadv.abd1996",
+   "title": "The unequal impact of parenthood in academia",
+   "date": "2021-02-26"
+  },
+  {
+   "position": 30,
+   "doi": "10.1126/science.1136099",
+   "title": "The Increasing Dominance of Teams in Production of Knowledge",
+   "date": "2007-05-18"
+  },
+  {
+   "position": 31,
+   "doi": "10.1126/science.1256151",
+   "title": "When contact changes minds: An experiment on transmission of support for gay equality",
+   "date": "2014-12-12"
+  },
+  {
+   "position": 32,
+   "doi": "10.1126/science.362.6413.393",
+   "title": "One publisher, more than 7000 retractions",
+   "date": "2018-10-26"
+  },
+  {
+   "position": 33,
+   "doi": "10.1145/2740908.2742839",
+   "title": "An Overview of Microsoft Academic Service (MAS) and Applications",
+   "date": "2015-05-18"
+  },
+  {
+   "position": 34,
+   "doi": "10.11613/bm.2012.031",
+   "title": "Interrater reliability: the kappa statistic",
+   "date": "2012-01-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1162/qss_a_00021",
+   "title": "Microsoft Academic Graph: When experts are not enough",
+   "date": "2020-02-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1162/qss_a_00297",
+   "title": "Author mentions in science news reveal widespread disparities across name-inferred ethnicities",
+   "date": "2024-01-01"
+  },
+  {
+   "position": 37,
+   "doi": "10.1162/rest_a_00430",
+   "title": "Social Networks and Research Output",
+   "date": "2014-12-01"
+  },
+  {
+   "position": 38,
+   "doi": "10.1162/rest_a_00780",
+   "title": "The Reverse Matthew Effect: Consequences of Retraction in Scientific Teams",
+   "date": "2019-07-01"
+  },
+  {
+   "position": 39,
+   "doi": "10.1177/0001839217703935",
+   "title": "Interactions and Interests: Collaboration Outcomes, Competitive Concerns, and the Limits to Triadic Closure",
+   "date": "2017-03-31"
+  },
+  {
+   "position": 40,
+   "doi": "10.1177/0306312705052359",
+   "title": "The Impact of Research Collaboration on Scientific Productivity",
+   "date": "2005-10-01"
+  },
+  {
+   "position": 41,
+   "doi": "10.1177/2515245918776632",
+   "title": "Fallibility in Science: Responding to Errors in the Work of Oneself and Others",
+   "date": "2018-07-03"
+  },
+  {
+   "position": 42,
+   "doi": "10.12688/wellcomeopenres.15191.1",
+   "title": "Raincloud plots: a multi-platform tool for robust data visualization",
+   "date": "2019-04-01"
+  },
+  {
+   "position": 43,
+   "doi": "10.3389/fdata.2019.00045",
+   "title": "A Review of Microsoft Academic Services for Science of Science Studies",
+   "date": "2019-12-03"
+  },
+  {
+   "position": 44,
+   "doi": "10.6087/kcse.187",
+   "title": "Characteristics of retracted articles based on retraction data from online sources through February 2019",
+   "date": "2020-02-20"
+  }
+ ],
+ "direct": [
+  14,
+  31
+ ],
+ "layer1": [
+  {
+   "position": 4,
+   "retracted_doi": "10.1038/s41467-020-19723-8"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1089/ten.tea.2010.0385"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/j.compind.2018.12.017"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/j.compind.2019.02.013"
+  }
+ ],
+ "layer2_items": [
+  2,
+  4,
+  10,
+  11,
+  14,
+  15,
+  17,
+  19,
+  21,
+  36,
+  38,
+  41,
+  44
+ ],
+ "layer2_pairs": [
+  {
+   "position": 2,
+   "retracted_doi": "10.1016/0140-6736(90)92206-w"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1021/la200377b"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1021/nn202932z"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1111/j.1582-4934.2008.00370.x"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1126/science.272.5267.1489"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1126/science.283.5400.357"
+  },
+  {
+   "position": 2,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/j.jesp.2010.12.013"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/s0092-8674(00)80827-2"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1038/s41586-020-2801-z"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1038/s41586-023-05742-0"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1103/physrevlett.127.016401"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1104/pp.103.037770"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1095678"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1197258"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1182/blood-2005-07-2669"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1126/science.272.5267.1489"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1126/science.283.5400.357"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.jesp.2010.12.013"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1038/nature12968"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1038/nature12969"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1182/blood.v98.9.2615"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1037/a0024167"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/j.future.2018.06.024"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1016/j.measurement.2018.04.001"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.3233/jifs-161631"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1001/archinte.165.15.1737"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1001/archinte.165.15.1743"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1001/archpediatrics.2012.999"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1001/jama.293.9.1082"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1002/mds.20825"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1007/s11192-013-1130-5"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1007/s11192-015-1698-z"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1007/s12351-011-0117-3"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/j.bone.2004.09.018"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/j.jstrokecerebrovasdis.2014.06.022"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/j.tele.2015.03.002"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/s0140-6736(20)31180-6"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/s8756-3282(02)00783-4"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1016/s8756-3282(98)00108-2"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1017/s1461145711000629"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1021/la200377b"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1021/nn202932z"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1038/s41423-020-0424-9"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1080/1097198x.2014.978624"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1104/pp.103.037770"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1111/j.1582-4934.2008.00370.x"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1111/jcc4.12119"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.1256151"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.272.5267.1489"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1126/science.283.5400.357"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1136/jnnp.2011.244574"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1136/jnnp.66.1.64"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1161/01.str.28.4.736"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1212/01.wnl.0000152871.65027.76"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1212/01.wnl.0000257089.50476.92"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.1212/wnl.65.9.1513"
+  },
+  {
+   "position": 19,
+   "retracted_doi": "10.7326/m20-1342"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1016/s0092-8674(00)80827-2"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1038/35099527"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1074/jbc.m611728200"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1182/blood-2005-07-2669"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1182/blood-2009-08-240044"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1182/blood.v98.9.2615"
+  },
+  {
+   "position": 36,
+   "retracted_doi": "10.1038/s41467-020-19723-8"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1126/science.272.5267.1489"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1126/science.283.5400.357"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.jesp.2010.12.013"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1016/j.jesp.2011.02.010"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1037/1089-2699.7.1.26"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1086/662139"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1111/j.1467-9280.2009.02458.x"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1126/science.1173438"
+  },
+  {
+   "position": 41,
+   "retracted_doi": "10.1371/journal.pone.0029192"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1001/jama.289.12.1533"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1016/s0140-6736(97)11096-0"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1038/nature02356"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1056/nejmoa060467"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.1058812"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.1064773"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.1066171"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.287.5455.1022"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.288.5466.656"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.288.5475.2338"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.289.5479.599"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1126/science.290.5493.963"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.00731-07"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.01083-08"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.01456-08"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.59.6.1888-1892.1991"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.61.1.338-342.1993"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.62.2.657-664.1994"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.65.7.2759-2764.1997"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.67.8.3872-3878.1999"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.68.4.1806-1814.2000"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.69.3.1280-1286.2001"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.69.8.4858-4869.2001"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.69.8.5107-5114.2001"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.70.3.1279-1286.2002"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.71.7.3748-3756.2003"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1128/iai.72.4.2280-2287.2004"
+  }
+ ],
+ "check": [
+  4,
+  14,
+  17,
+  31
+ ],
+ "seconds": 81.5
+}

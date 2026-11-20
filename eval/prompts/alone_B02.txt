@@ -1,0 +1,51 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1007/s11192-023-04707-4 | Retracted Covid-19 articles: significantly more cited than other articles within their journal of origin | 2023
+[2] doi:10.1016/bs.pmbts.2021.11.001 | Vax attacks: How conspiracy theory belief undermines vaccine support | 2022
+[3] doi:10.1016/j.cobeha.2020.02.015 | Conspiracy theories and the conspiracy mindset: implications for political ideology | 2020
+[4] doi:10.1016/j.cpcardiol.2021.101011 | WITHDRAWN: A Report on Myocarditis Adverse Events in the U.S. Vaccine Adverse Events Reporting System (VAERS) in Association with COVID-19 Injectable Biological Products | 2021
+[5] doi:10.1016/j.socscimed.2020.113356 | Conspiracy theories as barriers to controlling the spread of COVID-19 in the U.S. | 2020
+[6] doi:10.1016/j.socscimed.2022.114859 | Vaccine discourse in white nationalist online communication: A mixed-methods computational approach | 2022
+[7] doi:10.1016/s0140-6736(20)31180-6 | RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis | 2020
+[8] doi:10.1016/s0140-6736(97)11096-0 | RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children | 1998
+[9] doi:10.1017/s0008423920000396 | How Right-Leaning Media Coverage of COVID-19 Facilitated the Spread of Misinformation in the Early Stages of the Pandemic in the U.S. | 2020
+[10] doi:10.1038/s41558-018-0360-1 | The evidence for motivated reasoning in climate change preference formation | 2019
+[11] doi:10.1038/s41562-021-01217-2 | How conspiracists exploited COVID-19 science | 2021
+[12] doi:10.1038/s41591-022-01728-z | An epidemic of uncertainty: rumors, conspiracy theories and vaccine hesitancy | 2022
+[13] doi:10.1073/pnas.2119086119 | Dynamics of cross-platform attention to retracted papers | 2022
+[14] doi:10.1080/00028533.1982.11951221 | The Personal, Technical, and Public Spheres of Argument: A Speculative Inquiry into the Art of Public Deliberation | 1982
+[15] doi:10.1080/1041794x.2017.1423106 | Paranoid Style and Subtextual Form in Modern Conspiracy Rhetoric | 2018
+[16] doi:10.1080/10584609.2023.2187496 | The Effects of Partisan Media in the Face of Global Pandemic: How News Shaped COVID-19 Vaccine Hesitancy | 2023
+[17] doi:10.1086/286513 | Science and the Social Order | 1938
+[18] doi:10.1093/acrefore/9780190201098.013.71 | Censorship | 2016
+[19] doi:10.1093/pnasnexus/pgae007 | Perceived experts are prevalent and influential within an antivaccine community on Twitter | 2024
+[20] doi:10.1101/2021.09.13.21262182 | mRNA COVID-19 Vaccination and Development of CMR-confirmed Myopericarditis | 2021
+[21] doi:10.1111/jcom.12171 | Counteracting the Politicization of Science | 2015
+[22] doi:10.1126/sciadv.adh1933 | Selective and deceptive citation in the construction of dueling consensuses | 2023
+[23] doi:10.1145/3411764.3445211 | Viral Visualizations: How Coronavirus Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online | 2021
+[24] doi:10.1177/0002716214555505 | The Content and Effect of Politicized Health                     Controversies | 2015
+[25] doi:10.1177/00027162221084709 | Defining and Measuring Scientific Misinformation | 2022
+[26] doi:10.1177/030631282012004006 | On Interests and their Transformation: Enrolment and Counter-Enrolment | 1982
+[27] doi:10.1177/0741088386003003001 | Accommodating Science | 1986
+[28] doi:10.1177/0963662509359988 | To tell the truth: on scientific counterpublics | 2010
+[29] doi:10.1177/0963662514559891 | Contesting epistemic authority: Conspiracy theories on the boundaries of science | 2014
+[30] doi:10.1177/0963662518817187 | ‘Globalist war against humanity shifts into high gear’: Online anti-vaccination websites and ‘anti-public’ discourse | 2018
+[31] doi:10.1177/0963662520924259 | Science-related populism: Conceptualizing populist demands toward science | 2020
+[32] doi:10.1177/0963721417718261 | The Psychology of Conspiracy Theories | 2017
+[33] doi:10.1177/1368430220985912 | The role of race, religion, and partisanship in misperceptions about COVID-19 | 2021
+[34] doi:10.1177/20563051211024977 | Shouting Into the Wind: Medical Science versus “B.S.” in the Twitter Maelstrom of Politics and Misinformation About Hydroxychloroquine | 2021
+[35] doi:10.1215/08992363-14-1-49 | Publics and Counterpublics | 2002
+[36] doi:10.1371/journal.pone.0075637 | The Role of Conspiracist Ideation and Worldviews in Predicting Rejection of Science | 2013
+[37] doi:10.1371/journal.pone.0248625 | Media and social media attention to retracted articles according to Altmetric | 2021
+[38] doi:10.14423/smj.0000000000001397 | Continued Visibility of COVID-19 Article Removals | 2022
+[39] doi:10.2307/2095325 | Boundary-Work and the Demarcation of Science from Non-Science: Strains and Interests in Professional Ideologies of Scientists | 1983
+[40] doi:10.3109/a036877 | (title not in Crossref) | 
+[41] doi:10.3200/envt.51.2.12-23 | Communicating Climate Change: Why Frames Matter for Public Engagement | 2009
+[42] doi:10.3390/v13112154 | RETRACTED: Samaha et al. Effects of a Single Dose of Ivermectin on Viral and Clinical Outcomes in Asymptomatic SARS-CoV-2 Infected Subjects: A Pilot Clinical Trial in Lebanon. Viruses 2021, 13, 989 | 2021
+[43] doi:10.7326/m20-1342 | Effectiveness of Surgical and Cotton Masks in Blocking SARS–CoV-2: A Controlled Comparison in 4 Patients | 2020

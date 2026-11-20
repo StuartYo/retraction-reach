@@ -35,7 +35,7 @@ def main(split=None, only=None):
         t = time.time()
         src = c["source_doi"]
         dois = sources.crossref_works([src])[src]["refs"]
-        add_bibliography(conn, c["id"], f"References of {c['title']}", dois, src, retracted)
+        add_bibliography(conn, c["id"], f"References of {c['title']}", dois, src, retracted, intents=False)
         rep = report.build_report(conn, c["id"])
         truth = {
             "id": c["id"], "split": c["split"], "source_doi": src,

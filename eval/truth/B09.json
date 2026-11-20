@@ -1,0 +1,997 @@
+{
+ "id": "B09",
+ "split": "eval",
+ "source_doi": "10.22159/ijap.2023v15i2.46792",
+ "summary": {
+  "listed": 71,
+  "retracted": 1,
+  "check": 4,
+  "note": 33,
+  "clear": 19,
+  "unknown": 14,
+  "with_layer1": 5,
+  "with_layer2": 38,
+  "retracted_papers_reached": 97,
+  "paths": 140,
+  "references_visible": 57
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1007/s00125-012-2562-9",
+   "title": "Cell signalling in insulin secretion: the molecular targets of ATP, cAMP and sulfonylurea",
+   "date": "2012-05-04"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s001250050960",
+   "title": "Extra-insular beta cells associated with ductules are frequent in adult human pancreas",
+   "date": "1998-05-27"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/s13346-012-0063-5",
+   "title": "Development of quercetin nanoformulation and in vivo evaluation using streptozotocin induced diabetic rat model",
+   "date": "2012-02-18"
+  },
+  {
+   "position": 4,
+   "doi": "10.1016/b978-0-08-100262-9.00002-1",
+   "title": "Natural polymers",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1016/b978-0-323-46144-3.00023-4",
+   "title": "Mesoporous silica nanoparticles: a promising multifunctional drug delivery system",
+   "date": "2017-01-01"
+  },
+  {
+   "position": 6,
+   "doi": "10.1016/j.ajps.2018.05.011",
+   "title": "Phyto-phospholipid complexes (phytosomes): A novel strategy to improve the bioavailability of active constituents",
+   "date": "2019-05-01"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.cca.2014.01.006",
+   "title": "Determination of acetone in saliva by reversed-phase liquid chromatography with fluorescence detection and the monitoring of diabetes mellitus patients with ketoacidosis",
+   "date": "2014-03-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.colsurfb.2017.07.038",
+   "title": "Recent applications of PLGA based nanostructures in drug delivery",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.colsurfb.2019.06.006",
+   "title": "Nanoemulsion improves hypoglycemic efficacy of berberine by overcoming its gastrointestinal challenge",
+   "date": "2019-09-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.drudis.2012.03.019",
+   "title": "An overview of natural polymers for oral insulin delivery",
+   "date": "2012-07-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.etap.2016.02.010",
+   "title": "Nanopharmaceutical approach using pelargonidin towards enhancement of efficacy for prevention of alloxan-induced DNA damage in L6 cells via activation of PARP and p53",
+   "date": "2016-04-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/j.lfs.2018.10.027",
+   "title": "Chitosan encapsulated nanocurcumin induces GLUT-4 translocation and exhibits enhanced anti-hyperglycemic function",
+   "date": "2018-11-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1016/j.molliq.2021.116115",
+   "title": "Nanocochleates: A potential drug delivery system",
+   "date": "2021-07-01"
+  },
+  {
+   "position": 14,
+   "doi": "10.1016/j.scr.2011.10.002",
+   "title": "Small molecules induce efficient differentiation into insulin-producing cells from human induced pluripotent stem cells",
+   "date": "2012-03-01"
+  },
+  {
+   "position": 15,
+   "doi": "10.1016/j.stem.2007.12.001",
+   "title": "c-Myc Is Dispensable for Direct Reprogramming of Mouse Fibroblasts",
+   "date": "2008-01-01"
+  },
+  {
+   "position": 16,
+   "doi": "10.1016/j.stem.2009.01.014",
+   "title": "Small Molecules Efficiently Direct Endodermal Differentiation of Mouse and Human Embryonic Stem Cells",
+   "date": "2009-04-01"
+  },
+  {
+   "position": 17,
+   "doi": "10.1016/j.trac.2014.09.005",
+   "title": "Emerging trends in optical sensing of glycemic markers for diabetes monitoring",
+   "date": "2015-01-01"
+  },
+  {
+   "position": 18,
+   "doi": "10.1016/s0378-5173(00)00364-1",
+   "title": "Ex vivo and in situ PLGA microspheres uptake by pig ileal Peyer’s patch segment",
+   "date": "2000-05-01"
+  },
+  {
+   "position": 19,
+   "doi": "10.1016/s0964-3397(02)00010-1",
+   "title": "The glitazones: a new treatment for type 2 diabetes mellitus",
+   "date": "2002-06-01"
+  },
+  {
+   "position": 20,
+   "doi": "10.1038/cr.2009.28",
+   "title": "Highly efficient differentiation of human ES cells and iPS cells into mature pancreatic insulin-producing cells",
+   "date": "2009-03-03"
+  },
+  {
+   "position": 21,
+   "doi": "10.1038/gt.2010.145",
+   "title": "Indolactam V/GLP-1-mediated differentiation of human iPS cells into glucose-responsive insulin-secreting progeny",
+   "date": "2010-11-04"
+  },
+  {
+   "position": 22,
+   "doi": "10.1038/nature12969",
+   "title": "RETRACTED ARTICLE: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+   "date": "2014-01-29"
+  },
+  {
+   "position": 23,
+   "doi": "10.1038/nchembio.154",
+   "title": "A small molecule that directs differentiation of human ESCs into the pancreatic lineage",
+   "date": "2009-03-15"
+  },
+  {
+   "position": 24,
+   "doi": "10.1038/nmeth.f.283",
+   "title": "Induced pluripotent stem cell technology for the study of human disease",
+   "date": "2009-12-21"
+  },
+  {
+   "position": 25,
+   "doi": "10.1039/c0em00547a",
+   "title": "The release of engineered nanomaterials to the environment",
+   "date": "2011-01-01"
+  },
+  {
+   "position": 26,
+   "doi": "10.1056/nejmoa022287",
+   "title": "Circulating Endothelial Progenitor Cells, Vascular Function, and Cardiovascular Risk",
+   "date": "2003-02-13"
+  },
+  {
+   "position": 27,
+   "doi": "10.1073/pnas.0906894106",
+   "title": "Generation of pluripotent stem cells from patients with type 1 diabetes",
+   "date": "2009-09-15"
+  },
+  {
+   "position": 28,
+   "doi": "10.1073/pnas.1007884107",
+   "title": "Reversal of hyperglycemia in diabetic mouse models using induced-pluripotent stem (iPS)-derived pancreatic β-like cells",
+   "date": "2010-07-07"
+  },
+  {
+   "position": 29,
+   "doi": "10.1074/jbc.m806597200",
+   "title": "Generation of Insulin-secreting Islet-like Clusters from Human Skin Fibroblasts",
+   "date": "2008-11-01"
+  },
+  {
+   "position": 30,
+   "doi": "10.1080/03639045.2016.1185438",
+   "title": "Anti prostate cancer using PEGylated bombesin containing, cabazitaxel loading nano-sized drug delivery system",
+   "date": "2016-05-20"
+  },
+  {
+   "position": 31,
+   "doi": "10.1080/15583724.2014.995806",
+   "title": "Natural and Synthetic Polymers as Drug Carriers for Delivery of Therapeutic Proteins",
+   "date": "2015-06-24"
+  },
+  {
+   "position": 32,
+   "doi": "10.1089/scd.2011.0665",
+   "title": "Differentiation and Transplantation of Functional Pancreatic Beta Cells Generated from Induced Pluripotent Stem Cells Derived from a Type 1 Diabetes Mouse Model",
+   "date": "2012-04-19"
+  },
+  {
+   "position": 33,
+   "doi": "10.1093/humrep/dei345",
+   "title": "Derivation of human embryonic stem cell lines from embryos obtained after IVF and after PGD for monogenic disorders",
+   "date": "2005-11-10"
+  },
+  {
+   "position": 34,
+   "doi": "10.1096/fj.02-0974bkt",
+   "title": "New Weapons to Combat an Ancient Disease: Treating Diabetes",
+   "date": "2002-12-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1111/j.1471-0528.1978.tb15835.x",
+   "title": "A MORPHOLOGICAL STUDY OF THE ENDOCRINE PANCREAS IN HUMAN PREGNANCY",
+   "date": "1978-11-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1111/j.1523-1755.2004.09211.x",
+   "title": "Microalbuminuria is associated with impaired brachial artery, flow-mediated vasodilation in elderly individuals without and with diabetes: Further evidence for a link between microalbuminuria and endothelial dysfunction—The Hoorn Study",
+   "date": "2004-11-01"
+  },
+  {
+   "position": 37,
+   "doi": "10.1111/jam.14290",
+   "title": "Polylactic acid: synthesis and biomedical applications",
+   "date": "2019-06-17"
+  },
+  {
+   "position": 38,
+   "doi": "10.1126/science.1174497",
+   "title": "Dynamic Signaling Network for the Specification of Embryonic Pancreas and Liver Progenitors",
+   "date": "2009-06-26"
+  },
+  {
+   "position": 39,
+   "doi": "10.1152/physrev.00025.2004",
+   "title": "Regulation of Pancreatic Beta-Cell Mass",
+   "date": "2005-10-01"
+  },
+  {
+   "position": 40,
+   "doi": "10.1155/2015/128653",
+   "title": "<i>α</i>\n                    -2-Macroglobulin in Saliva Is Associated with Glycemic Control in Patients with Type 2 Diabetes Mellitus",
+   "date": "2015-01-01"
+  },
+  {
+   "position": 41,
+   "doi": "10.1166/jnn.2018.15247",
+   "title": "Nanoliposomal Resveratrol as a Novel Approach to Treatment of Diabetes Mellitus",
+   "date": "2018-06-01"
+  },
+  {
+   "position": 42,
+   "doi": "10.1172/jci117064",
+   "title": "Insulin secretory abnormalities in subjects with hyperglycemia due to glucokinase mutations.",
+   "date": "1994-03-01"
+  },
+  {
+   "position": 43,
+   "doi": "10.1177/1932296814552673",
+   "title": "Comparison of Salivary and Serum Glucose Levels in Diabetic Patients",
+   "date": "2014-10-07"
+  },
+  {
+   "position": 44,
+   "doi": "10.1186/1556-276x-8-102",
+   "title": "Liposome: classification, preparation, and applications",
+   "date": "2013-02-22"
+  },
+  {
+   "position": 45,
+   "doi": "10.1186/1758-5996-2-3",
+   "title": "Buccal alterations in diabetes mellitus",
+   "date": "2010-01-15"
+  },
+  {
+   "position": 46,
+   "doi": "10.1186/s11671-019-3042-7",
+   "title": "Oral Administration of Resveratrol-Loaded Solid Lipid Nanoparticle Improves Insulin Resistance Through Targeting Expression of SNARE Proteins in Adipose and Muscle Tissue in Rats with Type 2 Diabetes",
+   "date": "2019-07-09"
+  },
+  {
+   "position": 47,
+   "doi": "10.1515/rjim-2015-0032",
+   "title": "Glucose Level Estimation in Diabetes Mellitus By Saliva: A Bloodless Revolution",
+   "date": "2015-09-01"
+  },
+  {
+   "position": 48,
+   "doi": "10.15744/2348-9782.4.103",
+   "title": "Anti-Diabetic Activity of Lycopene Niosomes: Experimental Observation",
+   "date": "2017-11-01"
+  },
+  {
+   "position": 49,
+   "doi": "10.1620/tjem.192.219",
+   "title": "Evaluation of Salivary Sialic Acid Level and Cu-Zn Superoxide Dismutase Activity in Type 1 Diabetes Mellitus",
+   "date": "2000-01-01"
+  },
+  {
+   "position": 50,
+   "doi": "10.1634/stemcells.2008-0310",
+   "title": "Biphasic Induction of Pdx1 in Mouse and Human Embryonic Stem Cells Can Mimic Development of Pancreatic β-Cells",
+   "date": "2009-02-01"
+  },
+  {
+   "position": 51,
+   "doi": "10.2147/ijn.s205319",
+   "title": "&lt;p&gt;Antidiabetic activity enhancement in streptozotocin + nicotinamide–induced diabetic rats through combinational polymeric nanoformulation&lt;/p&gt;",
+   "date": "2019-06-01"
+  },
+  {
+   "position": 52,
+   "doi": "10.2147/ijn.s285134",
+   "title": "&lt;p&gt;Oral Nano Drug Delivery Systems for the Treatment of Type 2 Diabetes Mellitus: An Available Administration Strategy for Antidiabetic Phytocompounds&lt;/p&gt;",
+   "date": "2020-12-01"
+  },
+  {
+   "position": 53,
+   "doi": "10.2174/1573399812666151016101622",
+   "title": "Chronic Complications of Diabetes Mellitus: A Mini Review",
+   "date": "2016-12-14"
+  },
+  {
+   "position": 54,
+   "doi": "10.22159/ajpcr.2021.v14i7.41677",
+   "title": "DRUG PRESCRIBING PATTERN AND COST-EFFECTIVENESS ANALYSIS OF ORAL ANTIDIABETIC DRUGS IN PATIENTS WITH TYPE-2 DIABETES MELLITUS: REAL-WORLD DATA FROM INDIAN POPULATION.",
+   "date": "2021-05-14"
+  },
+  {
+   "position": 55,
+   "doi": "10.22159/ajpcr.2022.v15i3.42117",
+   "title": "DEVELOPMENT AND VALIDATION OF A STABILITY-INDICATING RP-HPLC METHOD FOR THE ESTIMATION OF METFORMIN, SAXAGLIPTIN, AND DAPAGLIFLOZIN",
+   "date": "2022-02-04"
+  },
+  {
+   "position": 56,
+   "doi": "10.22159/ijap.2021v13i5.41339",
+   "title": "FORMULATION AND EVALUATION OF METFORMIN HYDROCHLORIDE AND GLICLAZIDE SUSTAINED RELEASE BILAYER TABLETS: A COMBINATION THERAPY IN MANAGEMENT OF DIABETES",
+   "date": "2021-09-07"
+  },
+  {
+   "position": 57,
+   "doi": "10.22270/jddt.v2i5.274",
+   "title": "A NOVEL DRUG DELIVERY SYSTEM: NIOSOMES REVIEW",
+   "date": "2012-09-15"
+  },
+  {
+   "position": 58,
+   "doi": "10.2337/db11-1711",
+   "title": "Maturation of Human Embryonic Stem Cell–Derived Pancreatic Progenitors Into Functional Islets Capable of Treating Pre-existing Diabetes in Mice",
+   "date": "2012-07-17"
+  },
+  {
+   "position": 59,
+   "doi": "10.2337/dc07-1707",
+   "title": "Longitudinal Association of Glucose Metabolism With Retinopathy",
+   "date": "2008-07-01"
+  },
+  {
+   "position": 60,
+   "doi": "10.2337/dc08-1265",
+   "title": "Lower Serum Creatinine Is a New Risk Factor of Type 2 Diabetes",
+   "date": "2009-03-01"
+  },
+  {
+   "position": 61,
+   "doi": "10.2337/dc09-s013",
+   "title": "Standards of Medical Care in Diabetes—2009",
+   "date": "2009-01-01"
+  },
+  {
+   "position": 62,
+   "doi": "10.2337/diabetes.44.3.249",
+   "title": "Dynamics of beta-cell mass in the growing rat pancreas. Estimation with a simple mathematical model",
+   "date": "1995-03-01"
+  },
+  {
+   "position": 63,
+   "doi": "10.2337/diabetes.54.9.2557",
+   "title": "Very Slow Turnover of β-Cells in Aged Adult Mice",
+   "date": "2005-09-01"
+  },
+  {
+   "position": 64,
+   "doi": "10.3238/arztebl.m2021.0016",
+   "title": "Gliflozins for the Treatment of Congestive Heart Failure and Renal Failure in Type 2 Diabetes",
+   "date": "2021-02-26"
+  },
+  {
+   "position": 65,
+   "doi": "10.3390/molecules25163731",
+   "title": "Polymeric Nanoparticles: Production, Characterization, Toxicology and Ecotoxicology",
+   "date": "2020-08-15"
+  },
+  {
+   "position": 66,
+   "doi": "10.3390/nano7050112",
+   "title": "Encapsulation of 16-Hydroxycleroda-3,13-Dine-16,15-Olide in Mesoporous Silica Nanoparticles as a Natural Dipeptidyl Peptidase-4 Inhibitor Potentiated Hypoglycemia in Diabetic Mice",
+   "date": "2017-05-12"
+  },
+  {
+   "position": 67,
+   "doi": "10.4103/2230-8210.85583",
+   "title": "Choosing a Gliptin",
+   "date": "2011-10-01"
+  },
+  {
+   "position": 68,
+   "doi": "10.4317/medoral.14.e510",
+   "title": "Determination of salivary glucose in healthy adults",
+   "date": "2009-01-01"
+  },
+  {
+   "position": 69,
+   "doi": "10.5114/aoms.2012.31621",
+   "title": "Mini-Special Issue paper Management of diabetic patients with hypoglycemic agents α-Glucosidase inhibitors and their use in clinical practice",
+   "date": "2012-01-01"
+  },
+  {
+   "position": 70,
+   "doi": "10.5966/sctm.2011-0044",
+   "title": "Transgene-Free Disease-Specific Induced Pluripotent Stem Cells from Patients with Type 1 and Type 2 Diabetes",
+   "date": "2012-05-30"
+  },
+  {
+   "position": 71,
+   "doi": "10.7860/jcdr/2015/11633.5971",
+   "title": "Estimation of Salivary Glucose and Glycogen Content in Exfoliated Buccal Mucosal Cells of Patients with Type II Diabetes Mellitus",
+   "date": "2015-01-01"
+  }
+ ],
+ "direct": [
+  22
+ ],
+ "layer1": [
+  {
+   "position": 4,
+   "retracted_doi": "10.3390/jfb6010104"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.3109/21691401.2014.944646"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1038/nature12968"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1186/1477-3155-10-46"
+  }
+ ],
+ "layer2_items": [
+  1,
+  3,
+  4,
+  6,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  21,
+  22,
+  23,
+  24,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  37,
+  38,
+  39,
+  40,
+  44,
+  46,
+  52,
+  54,
+  61,
+  63,
+  64,
+  65,
+  67,
+  70
+ ],
+ "layer2_pairs": [
+  {
+   "position": 1,
+   "retracted_doi": "10.1038/370456a0"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1073/pnas.262787199"
+  },
+  {
+   "position": 1,
+   "retracted_doi": "10.1126/science.293.5536.1793"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1002/ijc.22332"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1016/j.arcmed.2004.10.004"
+  },
+  {
+   "position": 3,
+   "retracted_doi": "10.1158/0008-5472.can-06-2333"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/j.jbiotec.2003.07.006"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1016/s0140-6736(08)61598-6"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1021/am300292v"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1021/nn103585f"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1208/aapsj070359"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.3390/md203123"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.bcp.2009.09.003"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1016/j.fitote.2015.09.018"
+  },
+  {
+   "position": 6,
+   "retracted_doi": "10.1093/carcin/bgh095"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1016/j.bcp.2009.09.003"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1016/j.nano.2009.05.005"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1016/j.npep.2008.08.004"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1021/am101196v"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1074/jbc.m806041200"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1111/cbdd.12318"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1111/j.1471-4159.2011.07458.x"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1158/1535-7163.mct-05-0445"
+  },
+  {
+   "position": 8,
+   "retracted_doi": "10.1186/1477-3155-10-46"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1371/journal.pone.0018467"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.2147/dddt.s156123"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1080/10611860500471906"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1093/ecam/nep084"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.1002/mnfr.200700259"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.2337/db06-1595"
+  },
+  {
+   "position": 12,
+   "retracted_doi": "10.2337/db07-1062"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1080/21691401.2017.1324466"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1155/2014/651593"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1038/35044106"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 15,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1038/35044106"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1089/ten.tea.2010.0385"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1002/ijc.2910430519"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1016/s1074-7613(00)80103-x"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 23,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1038/ncb955"
+  },
+  {
+   "position": 24,
+   "retracted_doi": "10.1126/science.1112286"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.1056/nejm199508033330503"
+  },
+  {
+   "position": 26,
+   "retracted_doi": "10.1182/blood.v98.9.2615"
+  },
+  {
+   "position": 27,
+   "retracted_doi": "10.1016/s1074-7613(00)80103-x"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1016/s1074-7613(00)80103-x"
+  },
+  {
+   "position": 28,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1016/s1074-7613(00)80103-x"
+  },
+  {
+   "position": 29,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 30,
+   "retracted_doi": "10.1007/s13277-015-3592-y"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1002/ijc.22962"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1016/j.jconrel.2007.07.009"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1016/s0168-3659(02)00412-1"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.1021/nn103585f"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.2147/ijn.s27621"
+  },
+  {
+   "position": 31,
+   "retracted_doi": "10.2337/db05-1430"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1016/s0092-8674(00)80827-2"
+  },
+  {
+   "position": 33,
+   "retracted_doi": "10.1126/science.1094515"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1002/app.35372"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1016/j.biortech.2003.09.016"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1039/c2cp41789h"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1039/c7py01218g"
+  },
+  {
+   "position": 38,
+   "retracted_doi": "10.1016/s0925-4773(02)00292-7"
+  },
+  {
+   "position": 39,
+   "retracted_doi": "10.1038/nature00870"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1002/14651858.cd003417.pub2"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1002/j.1460-2075.1994.tb06787.x"
+  },
+  {
+   "position": 44,
+   "retracted_doi": "10.1021/jp809956w"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1074/jbc.m608310200"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.1126/science.1097243"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.2337/db09-1503"
+  },
+  {
+   "position": 46,
+   "retracted_doi": "10.2337/db13-1526"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1007/s00280-009-1074-x"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1007/s11064-015-1525-1"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.abb.2010.07.012"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.actbio.2012.03.048"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.bcp.2009.09.003"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.cell.2013.04.008"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.clnu.2013.05.015"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1016/j.ijpharm.2012.05.025"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1080/15376516.2018.1471636"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1093/ecam/nem178"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1111/1753-0407.12554"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1111/cbdd.12318"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1155/2014/651593"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1155/2014/943162"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1155/2015/532984"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1158/0008-5472.can-06-0218"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/1472-6882-13-222"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/1472-6882-14-243"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/1472-6882-14-76"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.1186/s11671-017-1826-1"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.2147/ijn.s79489"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.3109/21691401.2014.944646"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.3390/pharmaceutics11010026"
+  },
+  {
+   "position": 52,
+   "retracted_doi": "10.4162/nrp.2016.10.5.507"
+  },
+  {
+   "position": 54,
+   "retracted_doi": "10.1111/j.1751-7176.2008.07572.x"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1002/14651858.cd003417.pub2"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1111/j.1464-5491.2004.01194.x"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1136/bmj.321.7263.730"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1161/01.cir.0000162483.51132.25"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.1210/jcem-50-3-495"
+  },
+  {
+   "position": 61,
+   "retracted_doi": "10.2337/diabetes.51.9.2817"
+  },
+  {
+   "position": 63,
+   "retracted_doi": "10.1074/jbc.m312044200"
+  },
+  {
+   "position": 64,
+   "retracted_doi": "10.1056/nejmoa1200303"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1002/cncr.21904"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1016/j.bcp.2009.09.003"
+  },
+  {
+   "position": 65,
+   "retracted_doi": "10.1155/2014/651593"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1172/jci109108"
+  },
+  {
+   "position": 67,
+   "retracted_doi": "10.1172/jci109394"
+  },
+  {
+   "position": 70,
+   "retracted_doi": "10.1016/s1074-7613(00)80103-x"
+  },
+  {
+   "position": 70,
+   "retracted_doi": "10.1126/science.1179052"
+  },
+  {
+   "position": 70,
+   "retracted_doi": "10.1371/journal.ppat.0020025"
+  }
+ ],
+ "check": [
+  4,
+  8,
+  22,
+  33,
+  44
+ ],
+ "seconds": 193.9
+}

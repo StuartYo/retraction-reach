@@ -1,0 +1,64 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+A retraction database lookup was run on the listed papers only. Listed papers marked RETRACTED are retracted; the others are not.
+
+[1] doi:10.1002/2211-5463.12408 | Poly(<scp>rC</scp>) binding protein 2 (<scp>PCBP</scp>2) promotes the viability of human gastric cancer cells by regulating CDK2 | 2018
+[2] doi:10.1002/j.1460-2075.1995.tb00110.x | Identification of two KH domain proteins in the alpha‐globin mRNP stability complex. | 1995
+[3] doi:10.1002/mc.20265 | HnRNP E2 is downregulated in human oral cancer cells and the overexpression of <i>hnRNP E2</i> induces apoptosis | 2007
+[4] doi:10.1002/mc.22406 | Autophagy levels are elevated in barrett's esophagus and promote cell survival from acid and oxidative stress | 2015
+[5] doi:10.1006/abbi.1995.9962 | The Expression of an Intestinal Form of Glutathione Peroxidase (GSHPx-GI) in Rat Intestinal Epithelium | 1995
+[6] doi:10.1007/s00270-011-0146-6 | Intraluminal Radioactive Stent Compared with Covered Stent Alone for the Treatment of Malignant Esophageal Stricture | 2011
+[7] doi:10.1007/s11010-011-0752-2 | miR-27b*, an oxidative stress-responsive microRNA modulates nuclear factor-kB pathway in RAW 264.7 cells | 2011
+[8] doi:10.1016/j.freeradbiomed.2010.08.029 | Loss of GPx2 increases apoptosis, mitosis, and GPx1 expression in the intestine of mice | 2010
+[9] doi:10.1016/j.redox.2018.09.025 | New insights into oxidative stress and inflammation during diabetes mellitus-accelerated atherosclerosis | 2019
+[10] doi:10.1016/j.redox.2019.101388 | Distinct and overlapping functions of glutathione peroxidases 1 and 2 in limiting NF-κB-driven inflammation through redox-active mechanisms | 2020
+[11] doi:10.1016/s0140-6736(12)60643-6 | Oesophageal carcinoma | 2013
+[12] doi:10.1016/s0304-4165(98)00032-4 | Selenium-dependent glutathione peroxidase-GI is a major glutathione peroxidase activity in the mucosal epithelium of rodent intestine1Portions of this work were presented in the Selenium II minisymposia at Experimental Biology '96. Preliminary accounts of this work appear in the proceedings volumes  | 1998
+[13] doi:10.1016/s1051-0443(07)61288-3 | Balloon Dilation and Endobronchial Stent Placement for Bronchial Strictures after Lung Transplantation | 2000
+[14] doi:10.1016/s1053-2498(99)00117-5 | High dose rate brachytherapy to prevent recurrent benign hyperplasia in lung transplant bronchi: theoretical and clinical considerations | 2000
+[15] doi:10.1038/cdd.2011.42 | miR-200c is upregulated by oxidative stress and induces endothelial cell apoptosis and senescence via ZEB1 inhibition | 2011
+[16] doi:10.1038/nrc.2017.53 | Targeting autophagy in cancer | 2017
+[17] doi:10.1038/nrdp.2017.48 | Oesophageal cancer | 2017
+[18] doi:10.1073/pnas.0906048106 | Adipose-specific deletion of
+                    <i>autophagy-related gene 7</i>
+                    (
+                    <i>atg7</i>
+                    ) in mice reveals a role in adipogenesis | 2009
+[19] doi:10.1074/jbc.m115.712125 | RNA-binding Protein PCBP2 Regulates p73 Expression and p73-dependent Antioxidant Defense | 2016
+[20] doi:10.1074/jbc.m512655200 | GPX2, a Direct Target of p63, Inhibits Oxidative Stress-induced Apoptosis in a p53-dependent Manner | 2006
+[21] doi:10.1074/jbc.ra119.011870 | PCBP1 and PCBP2 both bind heavily oxidized RNA but cause opposing outcomes, suppressing or increasing apoptosis under oxidative conditions | 2020
+[22] doi:10.1080/10715762.2019.1635251 | p62/SQSTM1 protects against cisplatin-induced oxidative stress in kidneys by mediating the cross talk between autophagy and the Keap1-Nrf2 signalling pathway | 2019
+[23] doi:10.1089/ars.2019.7905 | Regulatory Phenomena in the Glutathione Peroxidase Superfamily | 2020
+[24] doi:10.1093/carcin/bgr288 | Glutathione peroxidase-2 and selenium decreased inflammation and tumors in a mouse model of inflammation-associated carcinogenesis whereas sulforaphane effects differed with selenium supply | 2011
+[25] doi:10.1093/carcin/bgu048 | GPX2 overexpression is involved in cell proliferation and prognosis of castration-resistant prostate cancer | 2014
+[26] doi:10.1093/jn/135.4.740 | Epithelium-Specific Glutathione Peroxidase, Gpx2, Is Involved in the Prevention of Intestinal Inflammation in Selenium-Deficient Mice | 2005
+[27] doi:10.1097/00000478-200109000-00009 | Hyperplastic Polyps of the Esophagus and Esophagogastric Junction | 2001
+[28] doi:10.1097/mib.0000000000000464 | GPx2 Induction Is Mediated Through STAT Transcription Factors During Acute Colitis | 2015
+[29] doi:10.1101/gad.2016211 | Autophagy-deficient mice develop multiple liver tumors | 2011
+[30] doi:10.1148/radiol.2472070999 | Self-expandable Esophageal Stent Loaded with<sup>125</sup>I Seeds: Initial Experience in Patients with Advanced Esophageal Cancer | 2008
+[31] doi:10.1148/radiology.217.2.r00nv03551 | Covered Retrievable Expandable Nitinol Stents in Patients with Benign Esophageal Strictures: Initial Experience | 2000
+[32] doi:10.1152/ajpgi.2001.281.3.g848 | Mice with combined disruption of
+                    <i>Gpx1</i>
+                    and
+                    <i>Gpx2</i>
+                    genes have colitis | 2001
+[33] doi:10.1155/2020/7136049 | Identification of Tumorigenic and Prognostic Biomarkers in Colorectal Cancer Based on microRNA Expression Profiles | 2020
+[34] doi:10.1158/0008-5472.can-14-1645 | GPx2 Suppression of H2O2 Stress Links the Formation of Differentiated Tumor Mass to Metastatic Capacity in Colorectal Cancer | 2014
+[35] doi:10.1158/1541-7786.mcr-20-0390 | <i>PCBP2</i>
+                    Posttranscriptional Modifications Induce Breast Cancer Progression via Upregulation of UFD1 and NT5E | 2021
+[36] doi:10.1172/jci61820 | RNA-binding protein PCBP2 modulates glioma growth by regulating FHL3 | 2013
+[37] doi:10.1371/journal.pone.0072055 | Deletion of Glutathione Peroxidase-2 Inhibits Azoxymethane-Induced Colon Cancer Development | 2013
+[38] doi:10.18632/oncotarget.24627 | GPX2 promotes development of bladder cancer with squamous cell differentiation through the control of apoptosis | 2018
+[39] doi:10.3389/fonc.2017.00128 | Autophagy in Cancer Therapy | 2017
+[40] doi:10.3390/biomedicines9080974 | Lipopolysaccharides Enhance Epithelial Hyperplasia and Tubular Adenoma in Intestine-Specific Expression of krasV12 in Transgenic Zebrafish | 2021
+[41] doi:10.3390/ijms21093289 | Roles of Autophagy in Oxidative Stress | 2020
+[42] doi:10.3748/wjg.v21.i26.7933 | Esophageal cancer: Risk factors, screening and endoscopic treatment in Western and Eastern countries | 2015
+[43] doi:10.3892/ol.2013.1466 | Clinical application of iodine-eluting stent in patients with advanced esophageal cancer | 2013
+[44] doi:10.3892/or.2016.5167 | Overexpression of PCBP2 contributes to poor prognosis and enhanced cell growth in human hepatocellular carcinoma | 2016
+[45] doi:10.4049/jimmunol.1700091 | The NF-κB–Responsive Long Noncoding RNA FIRRE Regulates Posttranscriptional Regulation of Inflammatory Gene Expression through Interacting with hnRNPU | 2017

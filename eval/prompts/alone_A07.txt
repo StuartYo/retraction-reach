@@ -1,0 +1,63 @@
+Below is the reference list of a published paper, as numbered DOIs with titles.
+Using only what you already know (no tools, no browsing), report:
+1. "direct": positions of listed papers that have been formally retracted.
+2. "layer1": listed papers that themselves cite a retracted paper. Give the position and the retracted paper's DOI.
+3. "layer2": listed papers that cite some paper X which in turn cites a retracted paper. Give position, X's DOI (via_doi) and the retracted paper's DOI.
+Only list what you are reasonably confident about. Reply with exactly one JSON object and nothing else:
+{"direct": [int], "layer1": [{"position": int, "retracted_doi": str}], "layer2": [{"position": int, "via_doi": str, "retracted_doi": str}]}
+
+[1] doi:10.1002/adom.201600399 | Plasmonic Black Absorbers for Enhanced Photocurrent of Visible‐Light Photocatalysis | 2016
+[2] doi:10.1007/s00216-019-01897-w | An ultrasensitive electrochemiluminescence immunosensor for alpha-fetoprotein based on a poly(aniline-luminol)/graphene oxide nanocomposite | 2019
+[3] doi:10.1007/s00339-016-0539-0 | Properties of TiO2/Au nanocomposite produced by pulsed laser irradiation of mixture of individual colloids | 2016
+[4] doi:10.1007/s00604-022-05344-z | Electrochemical α-fetoprotein immunosensor based on Fe3O4NPs@covalent organic framework decorated gold nanoparticles and magnetic nanoparticles including SiO2@TiO2 | 2022
+[5] doi:10.1007/s00604-023-05824-w | Au/TiO2-based molecularly imprinted photoelectrochemical sensor for dibutyl phthalate detection | 2023
+[6] doi:10.1007/s11468-014-9740-1 | Plasmonic Perfect Absorbers for Biosensing Applications | 2014
+[7] doi:10.1016/j.bios.2017.07.029 | Visible-light driven label-free photoelectrochemical immunosensor based on TiO2/S-BiVO4@Ag2S nanocomposites for sensitive detection OTA | 2018
+[8] doi:10.1016/j.bios.2018.11.020 | Ultrasensitive label- and amplification-free photoelectric protocols based on sandwiched layer-by-layer plasmonic nanocomposite films for the detection of alpha-fetoprotein | 2019
+[9] doi:10.1016/j.gendis.2020.01.014 | Advances in the early diagnosis of hepatocellular carcinoma | 2020
+[10] doi:10.1016/j.jelechem.2015.03.027 | Facile synthesis of flexible gold film electrodes for highly selective photoelectrochemical sensing of ascorbic acid | 2015
+[11] doi:10.1016/j.solmat.2019.110053 | Evidence for plasmonic hot electron injection induced superior visible light photocatalysis by g-C3N4 nanosheets decorated with Ag–TiO2(B) and Au–TiO2(B) nanorods | 2019
+[12] doi:10.1016/s0925-4005(97)80113-x | Electrochemical luminescence immunosensor for α-fetoprotein | 1996
+[13] doi:10.1021/acs.jpcc.9b02769 | Dewetted Au Nanoparticles on TiO<sub>2</sub> Surfaces: Evidence of a Size-Independent Plasmonic Photoelectrochemical Response | 2019
+[14] doi:10.1021/acs.jpcc.9b05096 | Capturing the Long-Lived Photogenerated Electrons in Au/TiO
+                    <sub>2</sub>
+                    upon UV or Visible Irradiation by Time-Resolved Infrared Spectroscopy | 2019
+[15] doi:10.1021/acsaem.0c00857 | Site-Selective
+Deposition of a Cobalt Cocatalyst onto
+a Plasmonic Au/TiO2 Photoanode for Improved Water Oxidation | 2020
+[16] doi:10.1021/acsaem.1c01485 | Enhanced Visible-Light Absorption and Photocurrent Generation of Three-Dimensional Metal–Dielectric Hybrid-Structured Films | 2021
+[17] doi:10.1021/acsami.2c09135 | Simultaneous Homogeneous Fluorescence Detection of AFP and GPC3 in Hepatocellular Carcinoma Clinical Samples Assisted by Enzyme-Free Catalytic Hairpin Assembly | 2022
+[18] doi:10.1021/acsami.9b10856 | Electrical Tuning of the SERS Enhancement by Precise Defect Density Control | 2019
+[19] doi:10.1021/acsnano.6b01108 | Hot Carrier Extraction with Plasmonic Broadband Absorbers | 2016
+[20] doi:10.1021/acssensors.7b00251 | Periodically Patterned Au-TiO<sub>2</sub> Heterostructures for Photoelectrochemical Sensor | 2017
+[21] doi:10.1021/acssensors.8b00307 | Metal-Free All-Carbon Nanohybrid for Ultrasensitive Photoelectrochemical Immunosensing of alpha-Fetoprotein | 2018
+[22] doi:10.1021/jacs.8b03537 | High-Efficiency “Working-in-Tandem” Nitrogen Photofixation Achieved by Assembling Plasmonic Gold Nanocrystals on Ultrathin Titania Nanosheets | 2018
+[23] doi:10.1021/nl4018385 | Au Nanostructure-Decorated TiO<sub>2</sub> Nanowires Exhibiting Photoactivity Across Entire UV-visible Region for Photoelectrochemical Water Splitting | 2013
+[24] doi:10.1021/nn300787r | Hydrothermally Processed TiO<sub>2</sub> Nanowire Electrodes with Antireflective and Electrochromic Properties | 2012
+[25] doi:10.1038/s41467-020-15484-6 | Irreversible accumulated SERS behavior of the molecule-linked silver and silver-doped titanium dioxide hybrid system | 2020
+[26] doi:10.1038/s41467-020-17632-4 | Structural order in plasmonic superlattices | 2020
+[27] doi:10.1038/s41563-020-00858-4 | Flow and extraction of energy and charge carriers in hybrid plasmonic nanostructures | 2021
+[28] doi:10.1038/s41565-018-0208-x | Enhanced water splitting under modal strong coupling conditions | 2018
+[29] doi:10.1038/s43246-021-00220-4 | Plasmon-induced hot-hole generation and extraction at nano-heterointerfaces for photocatalysis | 2021
+[30] doi:10.1038/srep30650 | Gap-plasmon based broadband absorbers for enhanced hot-electron and photocurrent generation | 2016
+[31] doi:10.1038/srep33049 | Rough gold films as broadband absorbers for plasmonic enhancement of TiO2 photocurrent over 400–800 nm | 2016
+[32] doi:10.1039/c9tc01890e | A SERS-based immunoassay for the detection of α-fetoprotein using AuNS@Ag@SiO
+                    <sub>2</sub>
+                    core–shell nanostars | 2019
+[33] doi:10.1039/d1ce00886b | Spacing prior to decorating TiO
+                    <sub>2</sub>
+                    nanowires with dewetted Au nanoparticles for boosting photoelectrochemical water oxidation | 2021
+[34] doi:10.1039/d2an00691j | Ratiometric fluorescence enzyme-linked immunosorbent assay based on carbon dots@SiO
+                    <sub>2</sub>
+                    @CdTe quantum dots with dual functionalities for alpha-fetoprotein | 2022
+[35] doi:10.1039/d2cc03757b | High-porosity hybrid bilayer-enabled portable LED plasmonic biosensing | 2022
+[36] doi:10.1088/2043-6254/aaabb0 | Broadband plasmonic perfect light absorber in the visible spectrum for solar cell applications | 2018
+[37] doi:10.1116/1.4978435 | Orientation and characterization of immobilized antibodies for improved immunoassays (Review) | 2017
+[38] doi:10.1146/annurev.physchem.58.032806.104607 | Localized Surface Plasmon Resonance Spectroscopy and Sensing | 2007
+[39] doi:10.1515/nanoph-2020-0097 | Two‐dimensional Au &amp; Ag hybrid plasmonic nanoparticle network: broadband nonlinear optical response and applications for pulsed laser generation | 2020
+[40] doi:10.3390/catal12050564 | Visible Light-Induced Photocatalyst with Au/TiO2 Nanocomposites Fabricated through Pulsed Laser-Induced Photolysis | 2022
+[41] doi:10.3390/ma14020472 | Assembling Surface Linker Chemistry with Minimization of Non-Specific Adsorption on Biosensor Materials | 2021
+[42] doi:10.3390/mi13050673 | Electrochemical Detection of Alpha-Fetoprotein Based on Black Phosphorus Nanosheets Modification with Iron Ions | 2022
+[43] doi:10.3390/nano12122058 | Surface Plasmon-Enhanced Photoelectrochemical Sensor Based on Au Modified TiO2 Nanotubes | 2022
+[44] doi:10.3390/s18114032 | Detection of Alpha-Fetoprotein in Hepatocellular Carcinoma Patient Plasma with Graphene Field-Effect Transistor | 2018
+[45] doi:10.3748/wjg.v21.i37.10573 | Biomarkers for the early diagnosis of hepatocellular carcinoma | 2015

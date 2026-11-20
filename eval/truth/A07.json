@@ -1,0 +1,531 @@
+{
+ "id": "A07",
+ "split": "eval",
+ "source_doi": "10.1002/admi.202300415",
+ "summary": {
+  "listed": 45,
+  "retracted": 0,
+  "check": 2,
+  "note": 19,
+  "clear": 24,
+  "unknown": 0,
+  "with_layer1": 2,
+  "with_layer2": 21,
+  "retracted_papers_reached": 42,
+  "paths": 59,
+  "references_visible": 45
+ },
+ "listed": [
+  {
+   "position": 1,
+   "doi": "10.1002/adom.201600399",
+   "title": "Plasmonic Black Absorbers for Enhanced Photocurrent of Visible‐Light Photocatalysis",
+   "date": "2016-10-10"
+  },
+  {
+   "position": 2,
+   "doi": "10.1007/s00216-019-01897-w",
+   "title": "An ultrasensitive electrochemiluminescence immunosensor for alpha-fetoprotein based on a poly(aniline-luminol)/graphene oxide nanocomposite",
+   "date": "2019-06-11"
+  },
+  {
+   "position": 3,
+   "doi": "10.1007/s00339-016-0539-0",
+   "title": "Properties of TiO2/Au nanocomposite produced by pulsed laser irradiation of mixture of individual colloids",
+   "date": "2016-11-15"
+  },
+  {
+   "position": 4,
+   "doi": "10.1007/s00604-022-05344-z",
+   "title": "Electrochemical α-fetoprotein immunosensor based on Fe3O4NPs@covalent organic framework decorated gold nanoparticles and magnetic nanoparticles including SiO2@TiO2",
+   "date": "2022-06-01"
+  },
+  {
+   "position": 5,
+   "doi": "10.1007/s00604-023-05824-w",
+   "title": "Au/TiO2-based molecularly imprinted photoelectrochemical sensor for dibutyl phthalate detection",
+   "date": "2023-05-29"
+  },
+  {
+   "position": 6,
+   "doi": "10.1007/s11468-014-9740-1",
+   "title": "Plasmonic Perfect Absorbers for Biosensing Applications",
+   "date": "2014-05-30"
+  },
+  {
+   "position": 7,
+   "doi": "10.1016/j.bios.2017.07.029",
+   "title": "Visible-light driven label-free photoelectrochemical immunosensor based on TiO2/S-BiVO4@Ag2S nanocomposites for sensitive detection OTA",
+   "date": "2018-01-01"
+  },
+  {
+   "position": 8,
+   "doi": "10.1016/j.bios.2018.11.020",
+   "title": "Ultrasensitive label- and amplification-free photoelectric protocols based on sandwiched layer-by-layer plasmonic nanocomposite films for the detection of alpha-fetoprotein",
+   "date": "2019-02-01"
+  },
+  {
+   "position": 9,
+   "doi": "10.1016/j.gendis.2020.01.014",
+   "title": "Advances in the early diagnosis of hepatocellular carcinoma",
+   "date": "2020-09-01"
+  },
+  {
+   "position": 10,
+   "doi": "10.1016/j.jelechem.2015.03.027",
+   "title": "Facile synthesis of flexible gold film electrodes for highly selective photoelectrochemical sensing of ascorbic acid",
+   "date": "2015-12-01"
+  },
+  {
+   "position": 11,
+   "doi": "10.1016/j.solmat.2019.110053",
+   "title": "Evidence for plasmonic hot electron injection induced superior visible light photocatalysis by g-C3N4 nanosheets decorated with Ag–TiO2(B) and Au–TiO2(B) nanorods",
+   "date": "2019-10-01"
+  },
+  {
+   "position": 12,
+   "doi": "10.1016/s0925-4005(97)80113-x",
+   "title": "Electrochemical luminescence immunosensor for α-fetoprotein",
+   "date": "1996-10-01"
+  },
+  {
+   "position": 13,
+   "doi": "10.1021/acs.jpcc.9b02769",
+   "title": "Dewetted Au Nanoparticles on TiO<sub>2</sub> Surfaces: Evidence of a Size-Independent Plasmonic Photoelectrochemical Response",
+   "date": "2019-06-17"
+  },
+  {
+   "position": 14,
+   "doi": "10.1021/acs.jpcc.9b05096",
+   "title": "Capturing the Long-Lived Photogenerated Electrons in Au/TiO\n                    <sub>2</sub>\n                    upon UV or Visible Irradiation by Time-Resolved Infrared Spectroscopy",
+   "date": "2019-07-27"
+  },
+  {
+   "position": 15,
+   "doi": "10.1021/acsaem.0c00857",
+   "title": "Site-Selective\nDeposition of a Cobalt Cocatalyst onto\na Plasmonic Au/TiO2 Photoanode for Improved Water Oxidation",
+   "date": "2020-05-27"
+  },
+  {
+   "position": 16,
+   "doi": "10.1021/acsaem.1c01485",
+   "title": "Enhanced Visible-Light Absorption and Photocurrent Generation of Three-Dimensional Metal–Dielectric Hybrid-Structured Films",
+   "date": "2021-10-13"
+  },
+  {
+   "position": 17,
+   "doi": "10.1021/acsami.2c09135",
+   "title": "Simultaneous Homogeneous Fluorescence Detection of AFP and GPC3 in Hepatocellular Carcinoma Clinical Samples Assisted by Enzyme-Free Catalytic Hairpin Assembly",
+   "date": "2022-06-14"
+  },
+  {
+   "position": 18,
+   "doi": "10.1021/acsami.9b10856",
+   "title": "Electrical Tuning of the SERS Enhancement by Precise Defect Density Control",
+   "date": "2019-08-21"
+  },
+  {
+   "position": 19,
+   "doi": "10.1021/acsnano.6b01108",
+   "title": "Hot Carrier Extraction with Plasmonic Broadband Absorbers",
+   "date": "2016-03-21"
+  },
+  {
+   "position": 20,
+   "doi": "10.1021/acssensors.7b00251",
+   "title": "Periodically Patterned Au-TiO<sub>2</sub> Heterostructures for Photoelectrochemical Sensor",
+   "date": "2017-05-17"
+  },
+  {
+   "position": 21,
+   "doi": "10.1021/acssensors.8b00307",
+   "title": "Metal-Free All-Carbon Nanohybrid for Ultrasensitive Photoelectrochemical Immunosensing of alpha-Fetoprotein",
+   "date": "2018-07-04"
+  },
+  {
+   "position": 22,
+   "doi": "10.1021/jacs.8b03537",
+   "title": "High-Efficiency “Working-in-Tandem” Nitrogen Photofixation Achieved by Assembling Plasmonic Gold Nanocrystals on Ultrathin Titania Nanosheets",
+   "date": "2018-06-15"
+  },
+  {
+   "position": 23,
+   "doi": "10.1021/nl4018385",
+   "title": "Au Nanostructure-Decorated TiO<sub>2</sub> Nanowires Exhibiting Photoactivity Across Entire UV-visible Region for Photoelectrochemical Water Splitting",
+   "date": "2013-08-02"
+  },
+  {
+   "position": 24,
+   "doi": "10.1021/nn300787r",
+   "title": "Hydrothermally Processed TiO<sub>2</sub> Nanowire Electrodes with Antireflective and Electrochromic Properties",
+   "date": "2012-07-05"
+  },
+  {
+   "position": 25,
+   "doi": "10.1038/s41467-020-15484-6",
+   "title": "Irreversible accumulated SERS behavior of the molecule-linked silver and silver-doped titanium dioxide hybrid system",
+   "date": "2020-04-14"
+  },
+  {
+   "position": 26,
+   "doi": "10.1038/s41467-020-17632-4",
+   "title": "Structural order in plasmonic superlattices",
+   "date": "2020-07-30"
+  },
+  {
+   "position": 27,
+   "doi": "10.1038/s41563-020-00858-4",
+   "title": "Flow and extraction of energy and charge carriers in hybrid plasmonic nanostructures",
+   "date": "2021-01-04"
+  },
+  {
+   "position": 28,
+   "doi": "10.1038/s41565-018-0208-x",
+   "title": "Enhanced water splitting under modal strong coupling conditions",
+   "date": "2018-07-30"
+  },
+  {
+   "position": 29,
+   "doi": "10.1038/s43246-021-00220-4",
+   "title": "Plasmon-induced hot-hole generation and extraction at nano-heterointerfaces for photocatalysis",
+   "date": "2021-11-17"
+  },
+  {
+   "position": 30,
+   "doi": "10.1038/srep30650",
+   "title": "Gap-plasmon based broadband absorbers for enhanced hot-electron and photocurrent generation",
+   "date": "2016-07-29"
+  },
+  {
+   "position": 31,
+   "doi": "10.1038/srep33049",
+   "title": "Rough gold films as broadband absorbers for plasmonic enhancement of TiO2 photocurrent over 400–800 nm",
+   "date": "2016-09-09"
+  },
+  {
+   "position": 32,
+   "doi": "10.1039/c9tc01890e",
+   "title": "A SERS-based immunoassay for the detection of α-fetoprotein using AuNS@Ag@SiO\n                    <sub>2</sub>\n                    core–shell nanostars",
+   "date": "2019-01-01"
+  },
+  {
+   "position": 33,
+   "doi": "10.1039/d1ce00886b",
+   "title": "Spacing prior to decorating TiO\n                    <sub>2</sub>\n                    nanowires with dewetted Au nanoparticles for boosting photoelectrochemical water oxidation",
+   "date": "2021-01-01"
+  },
+  {
+   "position": 34,
+   "doi": "10.1039/d2an00691j",
+   "title": "Ratiometric fluorescence enzyme-linked immunosorbent assay based on carbon dots@SiO\n                    <sub>2</sub>\n                    @CdTe quantum dots with dual functionalities for alpha-fetoprotein",
+   "date": "2022-01-01"
+  },
+  {
+   "position": 35,
+   "doi": "10.1039/d2cc03757b",
+   "title": "High-porosity hybrid bilayer-enabled portable LED plasmonic biosensing",
+   "date": "2022-01-01"
+  },
+  {
+   "position": 36,
+   "doi": "10.1088/2043-6254/aaabb0",
+   "title": "Broadband plasmonic perfect light absorber in the visible spectrum for solar cell applications",
+   "date": "2018-02-19"
+  },
+  {
+   "position": 37,
+   "doi": "10.1116/1.4978435",
+   "title": "Orientation and characterization of immobilized antibodies for improved immunoassays (Review)",
+   "date": "2017-03-16"
+  },
+  {
+   "position": 38,
+   "doi": "10.1146/annurev.physchem.58.032806.104607",
+   "title": "Localized Surface Plasmon Resonance Spectroscopy and Sensing",
+   "date": "2007-05-01"
+  },
+  {
+   "position": 39,
+   "doi": "10.1515/nanoph-2020-0097",
+   "title": "Two‐dimensional Au &amp; Ag hybrid plasmonic nanoparticle network: broadband nonlinear optical response and applications for pulsed laser generation",
+   "date": "2020-02-01"
+  },
+  {
+   "position": 40,
+   "doi": "10.3390/catal12050564",
+   "title": "Visible Light-Induced Photocatalyst with Au/TiO2 Nanocomposites Fabricated through Pulsed Laser-Induced Photolysis",
+   "date": "2022-05-20"
+  },
+  {
+   "position": 41,
+   "doi": "10.3390/ma14020472",
+   "title": "Assembling Surface Linker Chemistry with Minimization of Non-Specific Adsorption on Biosensor Materials",
+   "date": "2021-01-19"
+  },
+  {
+   "position": 42,
+   "doi": "10.3390/mi13050673",
+   "title": "Electrochemical Detection of Alpha-Fetoprotein Based on Black Phosphorus Nanosheets Modification with Iron Ions",
+   "date": "2022-04-26"
+  },
+  {
+   "position": 43,
+   "doi": "10.3390/nano12122058",
+   "title": "Surface Plasmon-Enhanced Photoelectrochemical Sensor Based on Au Modified TiO2 Nanotubes",
+   "date": "2022-06-15"
+  },
+  {
+   "position": 44,
+   "doi": "10.3390/s18114032",
+   "title": "Detection of Alpha-Fetoprotein in Hepatocellular Carcinoma Patient Plasma with Graphene Field-Effect Transistor",
+   "date": "2018-11-19"
+  },
+  {
+   "position": 45,
+   "doi": "10.3748/wjg.v21.i37.10573",
+   "title": "Biomarkers for the early diagnosis of hepatocellular carcinoma",
+   "date": "2015-01-01"
+  }
+ ],
+ "direct": [],
+ "layer1": [
+  {
+   "position": 9,
+   "retracted_doi": "10.1007/s13277-014-2506-8"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1007/s13277-014-2506-8"
+  }
+ ],
+ "layer2_items": [
+  2,
+  4,
+  5,
+  7,
+  9,
+  10,
+  11,
+  13,
+  14,
+  16,
+  17,
+  18,
+  21,
+  22,
+  25,
+  32,
+  34,
+  37,
+  40,
+  43,
+  45
+ ],
+ "layer2_pairs": [
+  {
+   "position": 2,
+   "retracted_doi": "10.1016/j.bios.2015.11.092"
+  },
+  {
+   "position": 4,
+   "retracted_doi": "10.1021/am402415g"
+  },
+  {
+   "position": 5,
+   "retracted_doi": "10.1039/c7ta02116j"
+  },
+  {
+   "position": 5,
+   "retracted_doi": "10.1039/c7tc03449k"
+  },
+  {
+   "position": 5,
+   "retracted_doi": "10.1371/journal.pone.0091817"
+  },
+  {
+   "position": 7,
+   "retracted_doi": "10.1016/s0006-291x(02)00422-9"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1001/jama.299.14.1669"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1007/s13277-014-2506-8"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1016/j.ccr.2010.09.005"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1016/j.molcel.2004.06.043"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1016/j.molcel.2011.08.019"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1016/j.ygyno.2008.04.033"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/ng.317"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/onc.2015.223"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1038/s41388-018-0619-z"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1089/dna.2016.3553"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1159/000320379"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.12659/msm.898574"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1371/journal.pone.0079655"
+  },
+  {
+   "position": 9,
+   "retracted_doi": "10.1371/journal.pone.0091661"
+  },
+  {
+   "position": 10,
+   "retracted_doi": "10.1021/ac200096b"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1016/j.molcata.2006.10.051"
+  },
+  {
+   "position": 11,
+   "retracted_doi": "10.1364/oe.21.011448"
+  },
+  {
+   "position": 13,
+   "retracted_doi": "10.1155/2012/921412"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1039/c5ta08400h"
+  },
+  {
+   "position": 14,
+   "retracted_doi": "10.1155/2012/921412"
+  },
+  {
+   "position": 16,
+   "retracted_doi": "10.1155/2012/921412"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1001/jama.299.14.1669"
+  },
+  {
+   "position": 17,
+   "retracted_doi": "10.1007/s13277-014-2506-8"
+  },
+  {
+   "position": 18,
+   "retracted_doi": "10.1186/1477-3155-10-31"
+  },
+  {
+   "position": 21,
+   "retracted_doi": "10.1021/ja903873n"
+  },
+  {
+   "position": 22,
+   "retracted_doi": "10.1126/science.1254234"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1016/j.chemphys.2005.05.012"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1016/j.jcis.2007.06.064"
+  },
+  {
+   "position": 25,
+   "retracted_doi": "10.1088/0957-4484/18/22/225103"
+  },
+  {
+   "position": 32,
+   "retracted_doi": "10.1016/j.jcis.2007.06.064"
+  },
+  {
+   "position": 34,
+   "retracted_doi": "10.1039/c6tb01306f"
+  },
+  {
+   "position": 37,
+   "retracted_doi": "10.1126/science.1112869"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1021/acsomega.9b03610"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1039/c5dt00257e"
+  },
+  {
+   "position": 40,
+   "retracted_doi": "10.1039/c5ta08400h"
+  },
+  {
+   "position": 43,
+   "retracted_doi": "10.1149/1945-7111/ab6cf3"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1016/j.cellsig.2005.03.022"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1016/j.ygyno.2008.04.033"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1074/jbc.m414204200"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1074/jbc.m707465200"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1097/tp.0b013e31816b67e4"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1128/mcb.25.21.9324-9339.2005"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1159/000320379"
+  },
+  {
+   "position": 45,
+   "retracted_doi": "10.1371/journal.pone.0001908"
+  }
+ ],
+ "check": [
+  9,
+  45
+ ],
+ "seconds": 198.1
+}
